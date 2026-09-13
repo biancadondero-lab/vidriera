@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-tinta: #14171a;
+  --color-papel: #faf9f6;
+  --color-acento: #d94f30;
+  --color-linea: #e4e1db;
+  --font-display: "Playfair Display", serif;
+  --font-texto: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-papel);
+  color: var(--color-tinta);
+}

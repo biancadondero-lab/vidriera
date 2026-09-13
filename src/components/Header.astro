@@ -1,0 +1,15 @@
+---
+import { CATEGORIAS } from '../lib/categorias';
+---
+<header class="border-b border-linea">
+  <div class="max-w-5xl mx-auto px-4 py-6 flex flex-col gap-4">
+    <a href="/" class="font-display text-3xl font-bold tracking-tight">Vidriera</a>
+    <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
+      {CATEGORIAS.map((c) => (
+        <a href={`/categoria/${c.slug}`} class="hover:text-acento transition-colors">
+          {c.nombre}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
