@@ -480,6 +480,7 @@ const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
+  timeZone: 'UTC',
 }).format(articulo.fecha);
 ---
 <a href={`/articulo/${articulo.id}`} class="group block border-b border-linea py-6 first:pt-0">
@@ -634,6 +635,7 @@ const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
+  timeZone: 'UTC',
 }).format(entrada.data.fecha);
 ---
 <BaseLayout titulo={entrada.data.titulo} descripcion={entrada.data.resumen}>
