@@ -3,7 +3,17 @@ import { CATEGORIAS } from '../lib/categorias';
 ---
 <header class="border-b border-borde">
   <div class="max-w-5xl mx-auto px-4 py-6 flex flex-col gap-4">
-    <a href="/" class="font-display text-3xl font-bold tracking-tight">Vidriera</a>
+    <a href="/" class="flex items-center gap-2 font-display text-3xl font-bold tracking-tight">
+      <span class="text-acento" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="9" height="9" rx="1.5" fill="currentColor" opacity="0.4" />
+          <rect x="12" y="1" width="9" height="9" rx="1.5" fill="currentColor" />
+          <rect x="1" y="12" width="9" height="9" rx="1.5" fill="currentColor" />
+          <rect x="12" y="12" width="9" height="9" rx="1.5" fill="currentColor" opacity="0.4" />
+        </svg>
+      </span>
+      Vidriera
+    </a>
     <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
       {CATEGORIAS.map((c) => (
         <a href={`/categoria/${c.slug}`} class="hover:text-acento transition-colors">
