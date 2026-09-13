@@ -10,13 +10,41 @@ interface Props {
 const { articulo } = Astro.props;
 const fechaFormateada = formatearFecha(articulo.fecha);
 ---
-<a href={`/articulo/${articulo.id}`} class="group block border-b border-borde py-6">
-  <span class="inline-block text-xs font-semibold uppercase tracking-wide text-acento mb-2">
-    {nombreCategoria(articulo.categoria)}
-  </span>
-  <h3 class="font-display text-xl font-semibold leading-snug group-hover:text-acento transition-colors">
-    {articulo.titulo}
-  </h3>
-  <p class="mt-2 text-sm text-marfil/70">{articulo.resumen}</p>
-  <time datetime={articulo.fecha.toISOString()} class="mt-3 block text-xs text-marfil/50">{fechaFormateada}</time>
+<a
+  href={`/articulo/${articulo.id}`}
+  class="tarjeta group flex h-full flex-col overflow-hidden rounded-xl border border-borde bg-tarjeta transition-transform duration-300 hover:-translate-y-1 hover:border-acento"
+>
+  <div class="grafico-abstracto aspect-[16/9] w-full"></div>
+  <div class="flex flex-1 flex-col p-4">
+    <span class="mb-2 inline-block text-xs font-semibold uppercase tracking-wide text-acento">
+      {nombreCategoria(articulo.categoria)}
+    </span>
+    <h3 class="font-display text-lg font-semibold leading-snug transition-colors group-hover:text-acento">
+      {articulo.titulo}
+    </h3>
+    <p class="mt-2 text-sm text-marfil/70">{articulo.resumen}</p>
+    <time datetime={articulo.fecha.toISOString()} class="mt-auto block pt-3 text-xs text-marfil/50">{fechaFormateada}</time>
+  </div>
 </a>
+
+<style>
+  .tarjeta {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: entrada 0.6s ease-out forwards;
+  }
+
+  .grafico-abstracto {
+    background:
+      radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--color-acento) 35%, transparent), transparent 60%),
+      radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--color-acento) 20%, transparent), transparent 55%),
+      var(--color-fondo);
+  }
+
+  @keyframes entrada {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
