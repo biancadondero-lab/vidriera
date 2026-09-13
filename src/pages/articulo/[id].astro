@@ -22,12 +22,12 @@ const fechaFormateada = formatearFecha(entrada.data.fecha);
       {nombreCategoria(entrada.data.categoria)}
     </span>
     <h1 class="font-display text-3xl font-bold leading-tight mb-3">{entrada.data.titulo}</h1>
-    <time datetime={entrada.data.fecha.toISOString()} class="block text-sm text-tinta/50 mb-8">{fechaFormateada}</time>
+    <time datetime={entrada.data.fecha.toISOString()} class="block text-sm text-marfil/50 mb-8">{fechaFormateada}</time>
     <div class="contenido">
       <Content />
     </div>
     {entrada.data.fuente && (
-      <p class="mt-10 text-sm text-tinta/50">Fuente: {entrada.data.fuente}</p>
+      <p class="mt-10 text-sm text-marfil/50">Fuente: {entrada.data.fuente}</p>
     )}
   </article>
 </BaseLayout>

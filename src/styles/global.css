@@ -1,15 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-  --color-tinta: #14171a;
-  --color-papel: #faf9f6;
-  --color-acento: #d94f30;
-  --color-linea: #e4e1db;
+  --color-fondo: #0f1115;
+  --color-marfil: #ededed;
+  --color-acento: #c9a24b;
+  --color-borde: #23262d;
+  --color-tarjeta: #171a20;
   --font-display: "Playfair Display", serif;
   --font-texto: "Inter", sans-serif;
 }
 
 body {
-  background-color: var(--color-papel);
-  color: var(--color-tinta);
+  background-color: var(--color-fondo);
+  color: var(--color-marfil);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

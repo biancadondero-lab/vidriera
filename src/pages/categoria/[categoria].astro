@@ -16,7 +16,7 @@ const deLaCategoria = filtrarPorCategoria(publicados, categoria);
 <BaseLayout titulo={nombreCategoria(categoria)}>
   <h1 class="font-display text-3xl font-bold mb-8">{nombreCategoria(categoria)}</h1>
   {deLaCategoria.length === 0 ? (
-    <p class="text-tinta/60">Todavía no hay artículos publicados en esta categoría.</p>
+    <p class="text-marfil/60">Todavía no hay artículos publicados en esta categoría.</p>
   ) : (
     deLaCategoria.map((a) => <ArticleCard articulo={a} />)
   )}

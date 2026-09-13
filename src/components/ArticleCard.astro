@@ -10,13 +10,13 @@ interface Props {
 const { articulo } = Astro.props;
 const fechaFormateada = formatearFecha(articulo.fecha);
 ---
-<a href={`/articulo/${articulo.id}`} class="group block border-b border-linea py-6">
+<a href={`/articulo/${articulo.id}`} class="group block border-b border-borde py-6">
   <span class="inline-block text-xs font-semibold uppercase tracking-wide text-acento mb-2">
     {nombreCategoria(articulo.categoria)}
   </span>
   <h3 class="font-display text-xl font-semibold leading-snug group-hover:text-acento transition-colors">
     {articulo.titulo}
   </h3>
-  <p class="mt-2 text-sm text-tinta/70">{articulo.resumen}</p>
-  <time datetime={articulo.fecha.toISOString()} class="mt-3 block text-xs text-tinta/50">{fechaFormateada}</time>
+  <p class="mt-2 text-sm text-marfil/70">{articulo.resumen}</p>
+  <time datetime={articulo.fecha.toISOString()} class="mt-3 block text-xs text-marfil/50">{fechaFormateada}</time>
 </a>
