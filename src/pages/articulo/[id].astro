@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { nombreCategoria } from '../../lib/categorias';
+
+export async function getStaticPaths() {
+  const entradas = await getCollection('articulos', ({ data }) => data.estado === 'publicado');
+  return entradas.map((entrada) => ({
+    params: { id: entrada.id },
+    props: { entrada },
+  }));
+}
+
+const { entrada } = Astro.props;
+const { Content } = await render(entrada);
+const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(entrada.data.fecha);
+---
+<BaseLayout titulo={entrada.data.titulo} descripcion={entrada.data.resumen}>
+  <article class="max-w-2xl mx-auto">
+    <span class="inline-block text-xs font-semibold uppercase tracking-wide text-acento mb-3">
+      {nombreCategoria(entrada.data.categoria)}
+    </span>
+    <h1 class="font-display text-3xl font-bold leading-tight mb-3">{entrada.data.titulo}</h1>
+    <time class="block text-sm text-tinta/50 mb-8">{fechaFormateada}</time>
+    <div class="contenido">
+      <Content />
+    </div>
+    {entrada.data.fuente && (
+      <p class="mt-10 text-sm text-tinta/50">Fuente: {entrada.data.fuente}</p>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .contenido :global(p) {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+  .contenido :global(h2) {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .contenido :global(ul) {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .contenido :global(a) {
+    color: var(--color-acento);
+    text-decoration: underline;
+  }
+</style>
