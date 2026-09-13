@@ -694,8 +694,11 @@ git commit -m "Add article detail page"
 **Files:**
 - Create: `src/content/articulos/dove-real-beauty.md`
 - Create: `src/content/articulos/ice-bucket-challenge.md`
+- Create: `src/content/articulos/auge-video-corto.md`
 - Create: `src/content/articulos/campana-actual.md` (topic sourced via WebSearch, see Step 1)
 - Create: `src/content/articulos/tendencia-datos.md` (topic sourced via WebSearch, see Step 2)
+
+**Note:** without this task, the `marketing-digital` category would launch with zero seed articles while the other 4 categories each have at least one — `auge-video-corto.md` closes that gap so every category shows real content on day one.
 
 **Interfaces:**
 - Consumes: `src/content.config.ts` schema (Task 3) — every new file must satisfy it.
@@ -748,9 +751,30 @@ Nadie compró pauta publicitaria para lanzarlo. El mecanismo de nominación en c
 El caso se volvió referencia obligada para entender el marketing de contenido generado por usuarios: mostró que un mecanismo de participación simple y compartible puede generar más alcance orgánico que cualquier presupuesto de medios tradicional.
 ```
 
+- [ ] **Step 3b: Write the "marketing digital" seed article**
+
+Create `src/content/articulos/auge-video-corto.md`:
+
+```markdown
+---
+titulo: "Cómo el video corto reescribió el presupuesto de pauta digital"
+categoria: marketing-digital
+fecha: 2023-01-01
+resumen: "TikTok e Instagram Reels corrieron el eje de la pauta digital del formato estático al video vertical de pocos segundos."
+fuente: "Análisis de industria"
+estado: publicado
+---
+
+Durante años, la pauta digital giró alrededor de banners, imágenes estáticas y videos horizontales pensados para YouTube. La irrupción de TikTok, y la respuesta de Instagram con Reels, corrió ese eje hacia el video vertical de entre 15 y 60 segundos, consumido en un feed de scroll continuo.
+
+Para las áreas de marketing digital, esto cambió no solo el formato del anuncio sino el proceso de producción: en lugar de una sola pieza pulida para múltiples canales, las marcas empezaron a producir muchas variantes livianas, pensadas para probarse y descartarse rápido según el rendimiento real en plataforma.
+
+El resultado fue una redistribución de presupuestos: las áreas de performance y growth destinan hoy una porción creciente de la pauta a estos formatos cortos, priorizando volumen de creatividades y velocidad de iteración por sobre la producción tradicional de alto costo.
+```
+
 - [ ] **Step 4: Full build and responsive check**
 
-Run: `npm run build`. Expected: succeeds, `dist/` contains 6 article pages and 5 category pages.
+Run: `npm run build`. Expected: succeeds, `dist/` contains 7 article pages and 5 category pages, with every category showing at least one article.
 
 Run: `npm run dev`, check the home page and one article page at a narrow viewport (~400px wide) in the browser's device toolbar. Confirm no horizontal scrolling and text stays readable.
 
