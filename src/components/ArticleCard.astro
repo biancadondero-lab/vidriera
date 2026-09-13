@@ -11,6 +11,7 @@ const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
+  timeZone: 'UTC',
 }).format(articulo.fecha);
 ---
 <a href={`/articulo/${articulo.id}`} class="group block border-b border-linea py-6 first:pt-0">
