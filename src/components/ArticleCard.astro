@@ -1,5 +1,6 @@
 ---
 import { nombreCategoria } from '../lib/categorias';
+import { formatearFecha } from '../lib/fechas';
 import type { Articulo } from '../lib/articles';
 
 interface Props {
@@ -7,14 +8,9 @@ interface Props {
 }
 
 const { articulo } = Astro.props;
-const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric',
-  timeZone: 'UTC',
-}).format(articulo.fecha);
+const fechaFormateada = formatearFecha(articulo.fecha);
 ---
-<a href={`/articulo/${articulo.id}`} class="group block border-b border-linea py-6 first:pt-0">
+<a href={`/articulo/${articulo.id}`} class="group block border-b border-linea py-6">
   <span class="inline-block text-xs font-semibold uppercase tracking-wide text-acento mb-2">
     {nombreCategoria(articulo.categoria)}
   </span>
@@ -22,5 +18,5 @@ const fechaFormateada = new Intl.DateTimeFormat('es-AR', {
     {articulo.titulo}
   </h3>
   <p class="mt-2 text-sm text-tinta/70">{articulo.resumen}</p>
-  <time class="mt-3 block text-xs text-tinta/50">{fechaFormateada}</time>
+  <time datetime={articulo.fecha.toISOString()} class="mt-3 block text-xs text-tinta/50">{fechaFormateada}</time>
 </a>

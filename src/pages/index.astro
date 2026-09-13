@@ -1,17 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import { obtenerPublicadosOrdenados, filtrarPorCategoria, type Articulo } from '../lib/articles';
+import { filtrarPorCategoria } from '../lib/articles';
+import { obtenerArticulosPublicados } from '../lib/contenido';
 
-const entradas = await getCollection('articulos');
-const articulos: Articulo[] = entradas.map((e) => ({ id: e.id, ...e.data }));
-
-const publicados = obtenerPublicadosOrdenados(articulos);
+const publicados = await obtenerArticulosPublicados();
 const destacadosActuales = filtrarPorCategoria(publicados, 'campanas-actuales').slice(0, 3);
 const destacadosDatos = filtrarPorCategoria(publicados, 'tendencias-y-datos').slice(0, 3);
+const idsDestacados = new Set([...destacadosActuales, ...destacadosDatos].map((a) => a.id));
+const resto = publicados.filter((a) => !idsDestacados.has(a.id));
 ---
 <BaseLayout titulo="Inicio">
+  <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
   {destacadosActuales.length > 0 && (
     <section class="mb-14">
       <h2 class="font-display text-2xl font-bold mb-4">Campañas actuales</h2>
@@ -25,9 +25,9 @@ const destacadosDatos = filtrarPorCategoria(publicados, 'tendencias-y-datos').sl
     </section>
   )}
   <section>
-    <h2 class="font-display text-2xl font-bold mb-4">Todas las novedades</h2>
-    {publicados.length > 0 ? (
-      publicados.map((a) => <ArticleCard articulo={a} />)
+    <h2 class="font-display text-2xl font-bold mb-4">Todos los artículos</h2>
+    {resto.length > 0 ? (
+      resto.map((a) => <ArticleCard articulo={a} />)
     ) : (
       <p class="text-tinta/60">Todavía no hay artículos publicados.</p>
     )}

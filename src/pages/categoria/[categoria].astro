@@ -1,18 +1,16 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { obtenerPublicadosOrdenados, filtrarPorCategoria, type Articulo } from '../../lib/articles';
-import { CATEGORIAS, nombreCategoria } from '../../lib/categorias';
+import { filtrarPorCategoria } from '../../lib/articles';
+import { obtenerArticulosPublicados } from '../../lib/contenido';
+import { CATEGORIAS, nombreCategoria, type CategoriaSlug } from '../../lib/categorias';
 
 export async function getStaticPaths() {
   return CATEGORIAS.map((c) => ({ params: { categoria: c.slug } }));
 }
 
-const { categoria } = Astro.params as { categoria: string };
-const entradas = await getCollection('articulos');
-const articulos: Articulo[] = entradas.map((e) => ({ id: e.id, ...e.data }));
-const publicados = obtenerPublicadosOrdenados(articulos);
+const { categoria } = Astro.params as { categoria: CategoriaSlug };
+const publicados = await obtenerArticulosPublicados();
 const deLaCategoria = filtrarPorCategoria(publicados, categoria);
 ---
 <BaseLayout titulo={nombreCategoria(categoria)}>
