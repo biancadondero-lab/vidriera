@@ -14,6 +14,11 @@ const articulos = defineCollection({
     fuente: z.string().optional(),
     estado: z.enum(['borrador', 'publicado']),
     imagen: z.string().optional(),
+    citaDestacada: z.string().optional(),
+    enNumeros: z.array(z.object({ etiqueta: z.string(), valor: z.string() })).optional(),
+    nivelViral: z.number().min(0).max(100).optional(),
+    viralidadEtiqueta: z.string().optional(),
+    antesDespues: z.object({ antes: z.string(), despues: z.string() }).optional(),
   }),
 });
 
