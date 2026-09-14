@@ -5,6 +5,8 @@ fecha: 2014-07-01
 resumen: "Un desafío simple en redes sociales recaudó más de 100 millones de dólares para la investigación de ELA sin pautar un solo aviso tradicional."
 fuente: "ALS Association"
 citaDestacada: "El desafío se auto-propagara a una escala que ninguna campaña paga de la época había logrado, recaudando más de 100 millones de dólares para la ALS Association en pocas semanas."
+nivelViral: 92
+viralidadEtiqueta: "Viral extremo"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
 ---

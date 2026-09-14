@@ -5,6 +5,8 @@ fecha: 2023-06-12
 resumen: "McDonald's lanzó un batido morado por el cumpleaños de Grimace y TikTok lo transformó en una broma sobre morir 'intoxicado' por tomarlo, sin que la marca desmintiera nada."
 fuente: "CNN Business / CBS News"
 citaDestacada: "Dejar que la comunidad se apropie del chiste, sin intentar controlarlo, generó muchísima más exposición orgánica para un producto de edición limitada que cualquier campaña paga equivalente."
+nivelViral: 66
+viralidadEtiqueta: "Impacto moderado"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1615478503562-ec2d8aa0e24e"
 ---
