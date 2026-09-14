@@ -5,6 +5,13 @@ fecha: 2026-01-01
 resumen: "El State of Marketing Report 2026 de HubSpot, con datos de más de 1.500 marketers globales, encontró que el 80% de los profesionales de marketing ya usa inteligencia artificial para crear contenido y el 75% la aplica a producción de imágenes o video."
 fuente: "HubSpot (State of Marketing Report 2026)"
 citaDestacada: "Apenas el 7% de los marketers publica contenido generado por IA sin revisarlo antes."
+enNumeros:
+  - etiqueta: "Usa IA para crear contenido"
+    valor: "80%"
+  - etiqueta: "Usa IA para imágenes o video"
+    valor: "75%"
+  - etiqueta: "Publica contenido de IA sin revisar"
+    valor: "7%"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf"
 ---

@@ -5,6 +5,13 @@ fecha: 2023-06-22
 resumen: "Un estudio de Deloitte Canadá encontró que el 57% de los consumidores no cree en la mayoría de las afirmaciones ambientales que hacen las marcas, mientras que el 71% de los líderes empresariales sobreestima cuánta confianza genera realmente su comunicación de sustentabilidad."
 fuente: "Deloitte Canadá (Creating value from sustainable products: How business purpose and brand trust can make the difference, junio 2023)"
 citaDestacada: "El 71% de los líderes empresariales consultados cree que el público confía de forma significativa o moderada en sus afirmaciones de sustentabilidad."
+enNumeros:
+  - etiqueta: "No cree en las afirmaciones verdes"
+    valor: "57%"
+  - etiqueta: "Líderes que sobreestiman su confianza"
+    valor: "71%"
+  - etiqueta: "No pagaría más por productos sustentables"
+    valor: "46%"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1551897317-8b5a520d498b"
 ---
