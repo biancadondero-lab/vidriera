@@ -16,10 +16,29 @@ import { CATEGORIAS } from '../lib/categorias';
     </a>
     <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
       {CATEGORIAS.map((c) => (
-        <a href={`/categoria/${c.slug}`} class="hover:text-acento transition-colors">
+        <a href={`/categoria/${c.slug}`} class="enlace-nav relative hover:text-acento transition-colors">
           {c.nombre}
         </a>
       ))}
     </nav>
   </div>
 </header>
+
+<style>
+  .enlace-nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: var(--color-acento);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease-out;
+  }
+
+  .enlace-nav:hover::after {
+    transform: scaleX(1);
+  }
+</style>
