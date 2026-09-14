@@ -29,7 +29,11 @@ const { imagen, alt, eager = false } = Astro.props;
   }
 
   .imagen-articulo-fondo {
-    background: var(--color-marfil);
+    background:
+      radial-gradient(circle at 25% 20%, color-mix(in srgb, var(--color-acento) 16%, transparent), transparent 60%),
+      radial-gradient(circle at 80% 85%, color-mix(in srgb, var(--color-acento) 10%, transparent), transparent 55%),
+      var(--color-marfil);
+    box-shadow: inset 0 0 32px color-mix(in srgb, var(--color-fondo) 12%, transparent);
   }
 
   .imagen-articulo {
