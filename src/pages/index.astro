@@ -1,19 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import ArticuloDestacado from '../components/ArticuloDestacado.astro';
 import { obtenerArticulosPublicados } from '../lib/contenido';
-import { filtrarPorCategoria } from '../lib/articles';
+import { filtrarPorCategoria, separarDestacadoPrincipal } from '../lib/articles';
 import { claseBento, CLASES_GRID_BENTO } from '../lib/bento';
 
 const publicados = await obtenerArticulosPublicados();
-const destacadosActuales = filtrarPorCategoria(publicados, 'campanas-actuales').slice(0, 3);
-const destacadosDatos = filtrarPorCategoria(publicados, 'tendencias-y-datos').slice(0, 3);
+const { destacado, resto } = separarDestacadoPrincipal(publicados);
+const destacadosActuales = filtrarPorCategoria(resto, 'campanas-actuales').slice(0, 3);
+const destacadosDatos = filtrarPorCategoria(resto, 'tendencias-y-datos').slice(0, 3);
 const idsDestacados = new Set([...destacadosActuales, ...destacadosDatos].map((a) => a.id));
-const resto = publicados.filter((a) => !idsDestacados.has(a.id));
-const ordenados = [...destacadosActuales, ...destacadosDatos, ...resto];
+const restoGrid = resto.filter((a) => !idsDestacados.has(a.id));
+const ordenados = [...destacadosActuales, ...destacadosDatos, ...restoGrid];
 ---
 <BaseLayout titulo="Inicio">
-  <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
+  <h2 class="sr-only">Vidriera — noticias y campañas de marketing</h2>
+  {destacado && <ArticuloDestacado articulo={destacado} />}
   {ordenados.length > 0 ? (
     <div class={CLASES_GRID_BENTO}>
       {ordenados.map((articulo, indice) => (
