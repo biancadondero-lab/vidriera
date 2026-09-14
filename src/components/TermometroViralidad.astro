@@ -1,0 +1,16 @@
+---
+interface Props {
+  nivel: number;
+  etiqueta: string;
+}
+
+const { nivel, etiqueta } = Astro.props;
+const nivelClamp = Math.max(0, Math.min(100, nivel));
+---
+<div class="termometro my-4 flex flex-wrap items-center gap-3">
+  <span class="text-xs font-semibold uppercase tracking-wide text-marfil/50">Viralidad</span>
+  <div class="h-1.5 w-full max-w-[180px] flex-1 overflow-hidden rounded-full bg-borde">
+    <div class="h-full rounded-full bg-acento" style={`width: ${nivelClamp}%`}></div>
+  </div>
+  <span class="text-xs text-marfil/70">{etiqueta}</span>
+</div>

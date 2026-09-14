@@ -1,0 +1,18 @@
+---
+interface Props {
+  antes: string;
+  despues: string;
+}
+
+const { antes, despues } = Astro.props;
+---
+<div class="antes-despues my-10 grid gap-4 sm:grid-cols-2">
+  <div class="rounded-xl border border-borde bg-tarjeta p-5">
+    <span class="text-xs font-semibold uppercase tracking-wide text-marfil/50">Antes</span>
+    <p class="mt-2 text-sm leading-relaxed text-marfil/80">{antes}</p>
+  </div>
+  <div class="rounded-xl border border-acento bg-tarjeta p-5">
+    <span class="text-xs font-semibold uppercase tracking-wide text-acento">Después</span>
+    <p class="mt-2 text-sm leading-relaxed text-marfil/80">{despues}</p>
+  </div>
+</div>
