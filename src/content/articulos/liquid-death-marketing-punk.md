@@ -4,7 +4,7 @@ categoria: campanas-actuales
 fecha: 2018-12-18
 resumen: "Liquid Death vendió agua de manantial en latas con estética heavy metal y humor irreverente, y construyó una marca valuada en 1.400 millones de dólares sin depender de publicidad tradicional."
 fuente: "Liquid Death"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/9/94/Liquid-Death-Logo.svg"
 ---
 

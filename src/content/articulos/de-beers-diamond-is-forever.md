@@ -4,7 +4,7 @@ categoria: campanas-historicas
 fecha: 1948-01-01
 resumen: "Una campaña de la agencia N.W. Ayer instaló la costumbre del anillo de compromiso con diamante y multiplicó casi cien veces las ventas de De Beers en Estados Unidos."
 fuente: "N.W. Ayer & Son"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Classic_Diamond_Engagement_Ring.jpg"
 ---
 

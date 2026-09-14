@@ -4,7 +4,7 @@ categoria: campanas-actuales
 fecha: 2023-03-27
 resumen: "Heinz lanzó 'Ketchup Fraud', una campaña que acusó con humor a restaurantes de rellenar sus botellas vacías con ketchup genérico, apoyada en el reconocimiento inmediato del color y la forma de su envase."
 fuente: "Rethink / Heinz"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/0/04/Heinz-logo.svg"
 ---
 

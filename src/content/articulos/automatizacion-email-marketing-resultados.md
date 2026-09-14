@@ -4,7 +4,7 @@ categoria: marketing-digital
 fecha: 2026-01-29
 resumen: "El informe anual de Omnisend muestra que los emails automatizados generan 16 veces más ingresos por envío que las campañas manuales, con datos de más de 150.000 marcas."
 fuente: "Omnisend – 2026 Ecommerce Marketing Report"
-estado: borrador
+estado: publicado
 imagen: "https://images.unsplash.com/photo-1683117927786-f146451082fb"
 ---
 

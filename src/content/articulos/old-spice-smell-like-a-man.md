@@ -4,7 +4,7 @@ categoria: campanas-historicas
 fecha: 2010-02-04
 resumen: "Wieden+Kennedy revitalizó una marca percibida como anticuada con un comercial protagonizado por Isaiah Mustafa y, meses después, con 186 videos de respuesta personalizados en redes."
 fuente: "Wieden+Kennedy"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Old_Spice_Deodorant.jpg"
 ---
 

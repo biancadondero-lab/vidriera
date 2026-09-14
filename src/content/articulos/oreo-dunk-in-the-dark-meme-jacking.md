@@ -4,7 +4,7 @@ categoria: redes-y-viralidad
 fecha: 2013-02-03
 resumen: "Cuando un apagón interrumpió el Super Bowl XLVII, Oreo respondió en minutos con un tuit que terminó siendo más comentado que los anuncios pagos del partido."
 fuente: "Digiday / AdAge"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Oreo_Logo_2014.svg"
 ---
 

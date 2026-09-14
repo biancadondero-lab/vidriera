@@ -4,7 +4,7 @@ categoria: marketing-digital
 fecha: 2025-11-04
 resumen: "Un estudio de Seer Interactive registra caídas de hasta 68% en el CTR de búsquedas con resúmenes de IA de Google, obligando a marcas y medios a repensar su estrategia de contenido."
 fuente: "Seer Interactive / Search Engine Land"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
 ---
 

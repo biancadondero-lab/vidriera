@@ -4,7 +4,7 @@ categoria: marketing-digital
 fecha: 2026-03-19
 resumen: "El comercio conversacional crece 18% interanual en la región según Infobip, mientras catálogos, chatbots y ventas directas por chat se consolidan como canal de marketing digital."
 fuente: "Infobip – Messaging Trends Report 2026"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 ---
 

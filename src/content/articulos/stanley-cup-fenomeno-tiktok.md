@@ -4,7 +4,7 @@ categoria: redes-y-viralidad
 fecha: 2023-11-01
 resumen: "El vaso térmico Stanley Quencher pasó de producto de nicho a fenómeno viral en TikTok, con filas de madrugada, reventa a cientos de dólares y una marca que supo capitalizar cada momento del hype."
 fuente: "NBC News / Forbes"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Stanley_Quencher_in_a_shop.jpg"
 ---
 

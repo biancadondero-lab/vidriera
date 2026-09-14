@@ -4,7 +4,7 @@ categoria: tendencias-y-datos
 fecha: 2026-05-04
 resumen: "El Influencer Marketing Benchmark Report 2026, de Influencer Marketing Hub, muestra que los creadores nano y micro concentran más de la mitad de las decisiones de presupuesto de las marcas, mientras que los influencers macro y las celebridades quedan muy por detrás en intención de expansión de esas campañas."
 fuente: "Influencer Marketing Hub (Influencer Marketing Benchmark Report 2026)"
-estado: borrador
+estado: publicado
 imagen: "https://images.unsplash.com/photo-1764162051244-1391c41122ac"
 ---
 

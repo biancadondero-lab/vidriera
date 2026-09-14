@@ -4,7 +4,7 @@ categoria: tendencias-y-datos
 fecha: 2025-04-23
 resumen: "El reporte Digital 2025 April Global Statshot, de DataReportal y GWI, muestra que el 87,5% de los adultos conectados ve formatos como TikToks o Reels cada semana, con un promedio global de 6 horas 37 minutos semanales dedicadas a ese consumo."
 fuente: "DataReportal / We Are Social / Meltwater (Digital 2025 April Global Statshot Report, con datos de GWI)"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg"
 ---
 

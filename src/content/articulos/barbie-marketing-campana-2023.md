@@ -4,7 +4,7 @@ categoria: campanas-actuales
 fecha: 2023-07-21
 resumen: "La campaña de marketing de Barbie combinó más de 165 alianzas de marca y un generador de selfies viral para convertir el estreno de julio de 2023 en un fenómeno cultural global."
 fuente: "Warner Bros. / Mattel"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/5/50/Barbie_%282023_movie_logo%29.png"
 ---
 

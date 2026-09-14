@@ -4,7 +4,7 @@ categoria: campanas-actuales
 fecha: 2021-10-18
 resumen: "Ogilvy India y Wavemaker crearon miles de avisos personalizados con la cara y la voz de Shah Rukh Khan generadas por IA para que pequeños comercios indios tuvieran, por primera vez, un aviso protagonizado por una superestrella."
 fuente: "Ogilvy India / Wavemaker"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cadbury_logo_new.jpg"
 ---
 
