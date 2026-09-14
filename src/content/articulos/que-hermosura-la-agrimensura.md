@@ -5,6 +5,7 @@ fecha: 2025-11-01
 resumen: "Una campaña del Consejo Profesional de Agrimensura bonaerense logró un 52% más de inscripciones a la carrera y se llevó un Bronze en los Clio Awards 2026."
 fuente: "Forbes Argentina / Clio Awards"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Total-Robotic-Station.jpg"
 ---
 
 A fines de 2025, el Consejo Profesional de Agrimensura de la Provincia de Buenos Aires lanzó, junto con la agencia From, la campaña "Qué hermosura la Agrimensura". En lugar de promocionar la carrera de forma directa, la pieza central usa el humor para señalar la saturación de profesiones como Psicología, Abogacía y Medicina, con films como "Psicólogos", "Abogados" y "Médicos", para instalar la idea de que la agrimensura es una salida laboral con demanda real y poca competencia.

@@ -5,6 +5,7 @@ fecha: 2011-01-01
 resumen: "Coca-Cola reemplazó su logo por nombres propios en las botellas y logró que millones de personas buscaran 'la suya' en las góndolas."
 fuente: "Ogilvy Australia"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coca-Cola_bottle.jpg"
 ---
 
 En 2011, Coca-Cola Australia lanzó "Share a Coke", una campaña que reemplazó el logo de la marca en sus botellas por los nombres más populares del país. La idea, desarrollada por Ogilvy, buscaba revertir una caída en el consumo entre adolescentes y jóvenes adultos que sentían que la marca ya no les hablaba directamente a ellos.

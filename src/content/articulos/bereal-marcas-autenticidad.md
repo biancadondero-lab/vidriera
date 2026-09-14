@@ -5,7 +5,7 @@ fecha: 2022-04-01
 resumen: "BeReal se hizo popular como la 'anti-Instagram': fotos espontáneas y sin filtros, dos veces al día. Marcas como Chipotle intentaron sumarse a esa estética antes de que la propia app cambiara de postura frente a lo comercial."
 fuente: "The Drum / Contrary Research"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/a/a6/BeReal._Logo.svg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Guy_taking_a_Selfie.jpg"
 ---
 
 BeReal fue fundada en Francia en 2020 por Alexis Barreyat y Kévin Perreau, con una propuesta deliberadamente opuesta a la lógica de Instagram o TikTok: una vez al día, en un horario aleatorio, la app notifica a todos los usuarios a la vez para que tengan dos minutos para sacarse una foto con la cámara frontal y trasera simultáneamente, sin filtros ni edición posible. Tras un crecimiento lento entre campus universitarios franceses en 2021, la app explotó en 2022 impulsada por conversaciones en TikTok, llegando a ser la aplicación de fotografía más descargada de Apple en septiembre de ese año, con más de 14 millones de descargas en un solo mes, y a ser nombrada App del Año en el iPhone.

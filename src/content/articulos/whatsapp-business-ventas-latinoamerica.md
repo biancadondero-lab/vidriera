@@ -5,7 +5,7 @@ fecha: 2026-03-19
 resumen: "El comercio conversacional crece 18% interanual en la región según Infobip, mientras catálogos, chatbots y ventas directas por chat se consolidan como canal de marketing digital."
 fuente: "Infobip – Messaging Trends Report 2026"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG"
 ---
 
 Catálogos de productos, chatbots de atención y ventas cerradas sin salir del chat: el comercio conversacional dejó de ser una curiosidad para convertirse en un canal de marketing digital central en América Latina. WhatsApp, la aplicación de mensajería dominante en la región, es el vehículo principal de ese cambio, y las marcas locales lo están incorporando cada vez más como parte de su embudo de ventas y no solo como soporte al cliente.

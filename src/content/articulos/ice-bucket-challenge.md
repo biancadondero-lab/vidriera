@@ -5,6 +5,7 @@ fecha: 2014-07-01
 resumen: "Un desafío simple en redes sociales recaudó más de 100 millones de dólares para la investigación de ELA sin pautar un solo aviso tradicional."
 fuente: "ALS Association"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
 ---
 
 A mediados de 2014, el "Ice Bucket Challenge" se propagó por redes sociales: cada persona nominada tenía 24 horas para tirarse un balde de agua helada, filmarlo, subirlo y nominar a tres personas más, o donar dinero a la investigación sobre esclerosis lateral amiotrófica (ELA).

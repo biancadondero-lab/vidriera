@@ -5,6 +5,7 @@ fecha: 2023-01-01
 resumen: "TikTok e Instagram Reels corrieron el eje de la pauta digital del formato estático al video vertical de pocos segundos."
 fuente: "Análisis de industria"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Instagram_app_on_smartphone.jpg"
 ---
 
 Durante años, la pauta digital giró alrededor de banners, imágenes estáticas y videos horizontales pensados para YouTube. La irrupción de TikTok, y la respuesta de Instagram con Reels, corrió ese eje hacia el video vertical de entre 15 y 60 segundos, consumido en un feed de scroll continuo.

@@ -5,7 +5,7 @@ fecha: 2023-06-12
 resumen: "McDonald's lanzó un batido morado por el cumpleaños de Grimace y TikTok lo transformó en una broma sobre morir 'intoxicado' por tomarlo, sin que la marca desmintiera nada."
 fuente: "CNN Business / CBS News"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg"
+imagen: "https://images.unsplash.com/photo-1615478503562-ec2d8aa0e24e"
 ---
 
 El 12 de junio de 2023, McDonald's lanzó el "Grimace Birthday Shake", un batido de sabor a baya de color violeta intenso, para celebrar lo que la marca declaró como el cumpleaños de Grimace, el personaje morado y de forma indefinida que integra el universo de McDonaldland desde los años 70. Al día siguiente, el creador Austin Frazier subió a TikTok un video probando el batido que, a mitad de clip, cortaba bruscamente a él tirado en el piso con el líquido morado derramado alrededor de su boca, simulando estar muerto. El video superó los 2,6 millones de reproducciones y encendió una tendencia.
