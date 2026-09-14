@@ -17,7 +17,7 @@ const deLaCategoria = filtrarPorCategoria(publicados, categoria);
 <BaseLayout titulo={nombreCategoria(categoria)}>
   <div class="banda-categoria relative mb-10 overflow-hidden rounded-xl border border-borde px-6 py-10 sm:px-10 sm:py-14">
     <span class="relative block text-xs font-semibold uppercase tracking-wide text-acento">Categoría</span>
-    <h1 class="relative font-display text-3xl font-bold sm:text-4xl">{nombreCategoria(categoria)}</h1>
+    <h1 class="relative font-display text-4xl font-bold sm:text-5xl">{nombreCategoria(categoria)}</h1>
   </div>
   {deLaCategoria.length === 0 ? (
     <p class="text-marfil/60">Todavía no hay artículos publicados en esta categoría.</p>
