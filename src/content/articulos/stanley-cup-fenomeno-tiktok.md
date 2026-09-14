@@ -4,6 +4,7 @@ categoria: redes-y-viralidad
 fecha: 2023-11-01
 resumen: "El vaso térmico Stanley Quencher pasó de producto de nicho a fenómeno viral en TikTok, con filas de madrugada, reventa a cientos de dólares y una marca que supo capitalizar cada momento del hype."
 fuente: "NBC News / Forbes"
+citaDestacada: "Los ingresos anuales de Stanley pasaron de unos 73 millones de dólares en 2019 a unos 750 millones de dólares en 2023, un crecimiento de más de diez veces impulsado casi enteramente por el Quencher."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Stanley_Quencher_in_a_shop.jpg"
 ---

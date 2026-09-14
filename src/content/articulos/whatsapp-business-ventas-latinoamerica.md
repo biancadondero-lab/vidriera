@@ -4,6 +4,7 @@ categoria: marketing-digital
 fecha: 2026-03-19
 resumen: "El comercio conversacional crece 18% interanual en la región según Infobip, mientras catálogos, chatbots y ventas directas por chat se consolidan como canal de marketing digital."
 fuente: "Infobip – Messaging Trends Report 2026"
+citaDestacada: "WhatsApp concentra el 91% de todas las interacciones de IA conversacional registradas en la plataforma de Infobip, con un crecimiento interanual del 25%."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG"
 ---

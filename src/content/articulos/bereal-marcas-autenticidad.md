@@ -4,6 +4,7 @@ categoria: redes-y-viralidad
 fecha: 2022-04-01
 resumen: "BeReal se hizo popular como la 'anti-Instagram': fotos espontáneas y sin filtros, dos veces al día. Marcas como Chipotle intentaron sumarse a esa estética antes de que la propia app cambiara de postura frente a lo comercial."
 fuente: "The Drum / Contrary Research"
+citaDestacada: "En cuanto una plataforma se vuelve popular por su promesa de autenticidad, las marcas quieren estar ahí, pero su sola presencia empieza a tensionar la razón de ser de esa autenticidad."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Guy_taking_a_Selfie.jpg"
 ---
