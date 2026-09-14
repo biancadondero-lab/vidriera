@@ -11,7 +11,7 @@ enNumeros:
   - etiqueta: "Hace crecer su first-party data (2022)"
     valor: "41%"
   - etiqueta: "Considera prioritario el first-party data"
-    valor: "85%"
+    valor: "+85%"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
 ---

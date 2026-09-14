@@ -9,7 +9,7 @@ enNumeros:
   - etiqueta: "Adultos que ven video corto semanal"
     valor: "87,5%"
   - etiqueta: "Tiempo semanal viendo video corto"
-    valor: "6 horas 37 minutos"
+    valor: "6 horas y 37 minutos"
   - etiqueta: "Uso diario promedio en TikTok"
     valor: "1 hora 35 minutos"
 estado: publicado

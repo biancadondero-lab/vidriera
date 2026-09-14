@@ -9,7 +9,7 @@ enNumeros:
   - etiqueta: "Ingresos retail media de Amazon 2025"
     valor: "$60.000M"
   - etiqueta: "Ingresos retail media de Amazon 2026"
-    valor: "$70.000M"
+    valor: "casi $70.000M"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/0/06/Amazon_2024.svg"
 ---
