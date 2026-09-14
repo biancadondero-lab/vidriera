@@ -5,7 +5,7 @@ import { nombreCategoria } from '../../lib/categorias';
 import { formatearFecha } from '../../lib/fechas';
 
 export async function getStaticPaths() {
-  const entradas = await getCollection('articulos', ({ data }) => data.estado === 'publicado');
+  const entradas = await getCollection('articulos');
   return entradas.map((entrada) => ({
     params: { id: entrada.id },
     props: { entrada },
