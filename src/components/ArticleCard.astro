@@ -2,6 +2,7 @@
 import { nombreCategoria } from '../lib/categorias';
 import { formatearFecha } from '../lib/fechas';
 import type { Articulo } from '../lib/articles';
+import ArticuloImagen from './ArticuloImagen.astro';
 
 interface Props {
   articulo: Articulo;
@@ -14,7 +15,7 @@ const fechaFormateada = formatearFecha(articulo.fecha);
   href={`/articulo/${articulo.id}`}
   class="tarjeta group flex h-full flex-col overflow-hidden rounded-xl border border-borde bg-tarjeta transition duration-300 hover:-translate-y-1 hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
 >
-  <div class="grafico-abstracto aspect-[16/9] w-full"></div>
+  <ArticuloImagen imagen={articulo.imagen} alt={articulo.titulo} />
   <div class="flex flex-1 flex-col p-4">
     <span class="mb-2 inline-block text-xs font-semibold uppercase tracking-wide text-acento">
       {nombreCategoria(articulo.categoria)}
@@ -32,13 +33,6 @@ const fechaFormateada = formatearFecha(articulo.fecha);
     opacity: 0;
     transform: translateY(16px);
     animation: entrada 0.6s ease-out forwards;
-  }
-
-  .grafico-abstracto {
-    background:
-      radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--color-acento) 35%, transparent), transparent 60%),
-      radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--color-acento) 20%, transparent), transparent 55%),
-      var(--color-fondo);
   }
 
   @keyframes entrada {

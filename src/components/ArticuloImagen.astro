@@ -1,0 +1,38 @@
+---
+interface Props {
+  imagen?: string;
+  alt: string;
+}
+
+const { imagen, alt } = Astro.props;
+---
+{imagen ? (
+  <img
+    src={imagen}
+    alt={alt}
+    loading="lazy"
+    class="imagen-articulo aspect-[16/9] w-full object-cover"
+  />
+) : (
+  <div class="grafico-abstracto aspect-[16/9] w-full"></div>
+)}
+
+<style>
+  .grafico-abstracto {
+    background:
+      radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--color-acento) 35%, transparent), transparent 60%),
+      radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--color-acento) 20%, transparent), transparent 55%),
+      var(--color-fondo);
+  }
+
+  .imagen-articulo {
+    opacity: 0;
+    animation: aparicion 0.5s ease-out forwards;
+  }
+
+  @keyframes aparicion {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
