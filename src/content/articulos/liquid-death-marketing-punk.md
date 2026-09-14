@@ -5,7 +5,7 @@ fecha: 2018-12-18
 resumen: "Liquid Death vendió agua de manantial en latas con estética heavy metal y humor irreverente, y construyó una marca valuada en 1.400 millones de dólares sin depender de publicidad tradicional."
 fuente: "Liquid Death"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/3/30/Puszka_Black_Energy_Drink.jpg"
+imagen: "https://images.unsplash.com/photo-1697716400964-049b878e64d6?w=1200&q=80&auto=format&fit=crop"
 ---
 
 Liquid Death fue fundada el 18 de diciembre de 2018 por Mike Cessario, un director creativo publicitario con historia en el mundo de las bandas de punk y metal, que empezó a vender agua de manantial en latas de aluminio al estilo de una cerveza artesanal recién al mes siguiente, en enero de 2019. La idea había nacido años antes, en un festival de música, cuando Cessario notó que varios músicos bebían agua de latas de bebidas energéticas simplemente para no sentirse fuera de lugar en el backstage.
