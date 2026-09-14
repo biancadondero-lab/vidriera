@@ -4,6 +4,7 @@ import {
   ordenarPorFechaDesc,
   filtrarPorCategoria,
   obtenerPublicadosOrdenados,
+  separarDestacadoPrincipal,
   type Articulo,
 } from './articles';
 
@@ -60,5 +61,27 @@ describe('obtenerPublicadosOrdenados', () => {
       'publicado-nuevo',
       'publicado-viejo',
     ]);
+  });
+});
+
+describe('separarDestacadoPrincipal', () => {
+  it('devuelve destacado null y resto vacío para lista vacía', () => {
+    expect(separarDestacadoPrincipal([])).toEqual({ destacado: null, resto: [] });
+  });
+
+  it('con un solo artículo, ese es el destacado y el resto queda vacío', () => {
+    const unico = crearArticulo({ id: 'unico' });
+    expect(separarDestacadoPrincipal([unico])).toEqual({ destacado: unico, resto: [] });
+  });
+
+  it('con varios, el primero es el destacado y el resto mantiene el orden', () => {
+    const articulos = [
+      crearArticulo({ id: 'primero' }),
+      crearArticulo({ id: 'segundo' }),
+      crearArticulo({ id: 'tercero' }),
+    ];
+    const resultado = separarDestacadoPrincipal(articulos);
+    expect(resultado.destacado?.id).toBe('primero');
+    expect(resultado.resto.map((a) => a.id)).toEqual(['segundo', 'tercero']);
   });
 });
