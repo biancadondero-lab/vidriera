@@ -15,7 +15,7 @@ const fechaFormateada = formatearFecha(articulo.fecha);
   href={`/articulo/${articulo.id}`}
   class="destacado group mb-8 grid overflow-hidden rounded-xl border border-borde bg-tarjeta transition duration-300 hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento sm:grid-cols-2"
 >
-  <ArticuloImagen imagen={articulo.imagen} alt={articulo.titulo} />
+  <ArticuloImagen imagen={articulo.imagen} alt={articulo.titulo} eager={true} />
   <div class="flex flex-col justify-center p-6 sm:p-10">
     <span class="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-acento before:h-px before:w-4 before:bg-acento">
       {nombreCategoria(articulo.categoria)}
