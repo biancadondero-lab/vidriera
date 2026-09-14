@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { filtrarPorCategoria } from '../../lib/articles';
 import { obtenerArticulosPublicados } from '../../lib/contenido';
+import { filtrarPorCategoria } from '../../lib/articles';
+import { claseBento } from '../../lib/bento';
 import { CATEGORIAS, nombreCategoria, type CategoriaSlug } from '../../lib/categorias';
 
 export async function getStaticPaths() {
@@ -14,10 +15,28 @@ const publicados = await obtenerArticulosPublicados();
 const deLaCategoria = filtrarPorCategoria(publicados, categoria);
 ---
 <BaseLayout titulo={nombreCategoria(categoria)}>
-  <h1 class="font-display text-3xl font-bold mb-8">{nombreCategoria(categoria)}</h1>
+  <div class="banda-categoria relative mb-10 overflow-hidden rounded-xl border border-borde px-6 py-10 sm:px-10 sm:py-14">
+    <span class="relative block text-xs font-semibold uppercase tracking-wide text-acento">Categoría</span>
+    <h1 class="relative font-display text-3xl font-bold sm:text-4xl">{nombreCategoria(categoria)}</h1>
+  </div>
   {deLaCategoria.length === 0 ? (
     <p class="text-marfil/60">Todavía no hay artículos publicados en esta categoría.</p>
   ) : (
-    deLaCategoria.map((a) => <ArticleCard articulo={a} />)
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:auto-rows-[180px]">
+      {deLaCategoria.map((articulo, indice) => (
+        <div class={claseBento(indice)}>
+          <ArticleCard articulo={articulo} />
+        </div>
+      ))}
+    </div>
   )}
 </BaseLayout>
+
+<style>
+  .banda-categoria {
+    background:
+      radial-gradient(420px 220px at 15% 20%, color-mix(in srgb, var(--color-acento) 22%, transparent), transparent 60%),
+      radial-gradient(360px 200px at 90% 90%, color-mix(in srgb, var(--color-acento) 14%, transparent), transparent 60%),
+      var(--color-tarjeta);
+  }
+</style>
