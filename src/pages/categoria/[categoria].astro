@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { obtenerArticulosPublicados } from '../../lib/contenido';
 import { filtrarPorCategoria } from '../../lib/articles';
-import { claseBento } from '../../lib/bento';
+import { claseBento, CLASES_GRID_BENTO } from '../../lib/bento';
 import { CATEGORIAS, nombreCategoria, type CategoriaSlug } from '../../lib/categorias';
 
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ const deLaCategoria = filtrarPorCategoria(publicados, categoria);
   {deLaCategoria.length === 0 ? (
     <p class="text-marfil/60">Todavía no hay artículos publicados en esta categoría.</p>
   ) : (
-    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:auto-rows-[180px]">
+    <div class={CLASES_GRID_BENTO}>
       {deLaCategoria.map((articulo, indice) => (
         <div class={claseBento(indice)}>
           <ArticleCard articulo={articulo} />

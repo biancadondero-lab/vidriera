@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { obtenerArticulosPublicados } from '../lib/contenido';
 import { filtrarPorCategoria } from '../lib/articles';
-import { claseBento } from '../lib/bento';
+import { claseBento, CLASES_GRID_BENTO } from '../lib/bento';
 
 const publicados = await obtenerArticulosPublicados();
 const destacadosActuales = filtrarPorCategoria(publicados, 'campanas-actuales').slice(0, 3);
@@ -15,7 +15,7 @@ const ordenados = [...destacadosActuales, ...destacadosDatos, ...resto];
 <BaseLayout titulo="Inicio">
   <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
   {ordenados.length > 0 ? (
-    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:auto-rows-[180px]">
+    <div class={CLASES_GRID_BENTO}>
       {ordenados.map((articulo, indice) => (
         <div class={claseBento(indice)}>
           <ArticleCard articulo={articulo} />
