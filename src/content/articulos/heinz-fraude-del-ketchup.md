@@ -6,7 +6,7 @@ resumen: "Heinz lanzó 'Ketchup Fraud', una campaña que acusó con humor a rest
 fuente: "Rethink / Heinz"
 citaDestacada: "\"Ketchup Fraud\" generó más de 502 millones de impresiones y un 92% de sentimiento positivo en las menciones."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Heinz-tomato-kethup-bottle.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Heinz-tomato-kethup-bottle.jpg/1280px-Heinz-tomato-kethup-bottle.jpg"
 ---
 
 A fines de marzo de 2023, Heinz y la agencia canadiense Rethink lanzaron "Ketchup Fraud", una campaña que partió de una sospecha muy extendida entre los propios consumidores: que algunos restaurantes reutilizan las icónicas botellas de vidrio de Heinz y las rellenan con ketchup genérico, más barato, una vez que se termina el producto original. La campaña, que debutó con vía pública en Nueva York y Chicago además de piezas gráficas y contenido para redes, mostraba a empleados de restaurantes "in fraganti" rellenando botellas vacías, bajo el eslogan "aunque no sea Heinz, tiene que parecer Heinz".

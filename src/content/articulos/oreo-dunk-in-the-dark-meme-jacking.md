@@ -8,7 +8,7 @@ citaDestacada: "\"Power out? No problem. You can still dunk in the dark\"."
 nivelViral: 78
 viralidadEtiqueta: "Viral alto"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Oreo-Two-Cookies.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Oreo-Two-Cookies.jpg/1280px-Oreo-Two-Cookies.jpg"
 ---
 
 El 3 de febrero de 2013, durante el tercer cuarto del Super Bowl XLVII, se cortó la luz en el Mercedes-Benz Superdome de Nueva Orleans y el partido quedó detenido durante más de media hora. La marca de galletitas Oreo, que ya tenía un equipo de la agencia 360i trabajando en un "war room" para monitorear el partido en tiempo real, vio la oportunidad y a las 20:48 publicó en Twitter una imagen con una Oreo partida en tres franjas de luz, sombra y oscuridad, acompañada del texto "Power out? No problem. You can still dunk in the dark" ("¿Se fue la luz? No hay problema. Igual podés mojar tu galletita en la oscuridad").

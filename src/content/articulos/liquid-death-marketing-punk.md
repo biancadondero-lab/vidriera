@@ -6,7 +6,6 @@ resumen: "Liquid Death vendió agua de manantial en latas con estética heavy me
 fuente: "Liquid Death"
 citaDestacada: "Latas negras con calaveras, tipografía gótica y un eslogan directo: \"Murder Your Thirst\" (\"asesina tu sed\")."
 estado: publicado
-imagen: "https://images.unsplash.com/photo-1697716400964-049b878e64d6?w=1200&q=80&auto=format&fit=crop"
 ---
 
 Liquid Death fue fundada el 18 de diciembre de 2018 por Mike Cessario, un director creativo publicitario con historia en el mundo de las bandas de punk y metal, que empezó a vender agua de manantial en latas de aluminio al estilo de una cerveza artesanal recién al mes siguiente, en enero de 2019. La idea había nacido años antes, en un festival de música, cuando Cessario notó que varios músicos bebían agua de latas de bebidas energéticas simplemente para no sentirse fuera de lugar en el backstage.

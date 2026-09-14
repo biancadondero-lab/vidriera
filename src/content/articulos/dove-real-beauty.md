@@ -6,7 +6,7 @@ resumen: "Dove rompió con los estándares publicitarios de belleza usando mujer
 fuente: "Ogilvy"
 citaDestacada: "Solo un pequeño porcentaje de mujeres se sentía representado por los estándares de belleza publicitarios tradicionales."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Sabonete_Dove.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sabonete_Dove.jpg/1280px-Sabonete_Dove.jpg"
 ---
 
 En 2004, Dove lanzó la "Campaign for Real Beauty", reemplazando a las modelos profesionales de sus anuncios por mujeres de distintas edades, tamaños y tipos de cuerpo. La decisión respondía a un estudio encargado por la propia marca que mostraba que solo un pequeño porcentaje de mujeres se sentía representado por los estándares de belleza publicitarios tradicionales.

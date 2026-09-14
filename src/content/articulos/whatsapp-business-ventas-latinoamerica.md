@@ -6,7 +6,7 @@ resumen: "El comercio conversacional crece 18% interanual en la región según I
 fuente: "Infobip – Messaging Trends Report 2026"
 citaDestacada: "WhatsApp concentra el 91% de todas las interacciones de IA conversacional registradas en la plataforma de Infobip, con un crecimiento interanual del 25%."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG/1280px-Young_people_texting_on_smartphones_using_thumbs.JPG"
 ---
 
 Catálogos de productos, chatbots de atención y ventas cerradas sin salir del chat: el comercio conversacional dejó de ser una curiosidad para convertirse en un canal de marketing digital central en América Latina. WhatsApp, la aplicación de mensajería dominante en la región, es el vehículo principal de ese cambio, y las marcas locales lo están incorporando cada vez más como parte de su embudo de ventas y no solo como soporte al cliente.

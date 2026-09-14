@@ -6,7 +6,7 @@ resumen: "En 1988, tres simples palabras transformaron a Nike de marca deportiva
 fuente: "Wieden+Kennedy"
 citaDestacada: "\"Just Do It\" no vendía zapatillas, vendía una actitud."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/d/df/Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg/1280px-Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg"
 ---
 
 En 1988, la agencia Wieden+Kennedy lanzó para Nike el eslogan "Just Do It", inspirado —según contó el propio Dan Wieden— en las últimas palabras de un condenado a muerte en Utah. Lo que empezó como una línea de cierre para una tanda de comerciales terminó convertido en uno de los eslóganes más reconocidos de la historia de la publicidad.
