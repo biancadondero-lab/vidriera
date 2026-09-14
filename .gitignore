@@ -25,3 +25,5 @@ pnpm-debug.log*
 
 # superpowers scratch workspace (plan ledgers, brainstorm mockups)
 .superpowers/
+.vercel
+.env*
