@@ -7,6 +7,9 @@ fuente: "Leo Burnett Company"
 citaDestacada: "Hacia 1957 sus ventas habían crecido un 300% en apenas dos años."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Paul_Hornung_-_Marlboro%2C_the_filter_cigarette_with_the_unfiltered_taste%2C_1962.jpg"
+antesDespues:
+  antes: "Marlboro había nacido como un cigarrillo de posicionamiento elegante, publicitado con el eslogan 'Mild as May' y consumido mayormente por mujeres; los cigarrillos con filtro eran percibidos como poco masculinos."
+  despues: "Tras el relanzamiento con el vaquero solitario, se convirtió en la marca de cigarrillos más vendida del área metropolitana de Nueva York en cuatro semanas, y sus ventas crecieron un 300% hacia 1957."
 ---
 
 Marlboro había nacido décadas antes como un cigarrillo de posicionamiento elegante, publicitado bajo el eslogan "Mild as May" y consumido mayormente por mujeres. En 1954, Philip Morris le encargó a la agencia Leo Burnett un problema puntual: había que popularizar los cigarrillos con filtro, entonces percibidos como poco masculinos, sin perder al público existente. Leo Burnett, al frente de su propia agencia, resolvió la pregunta con otra pregunta: "¿hay algo más masculino que un vaquero?".
