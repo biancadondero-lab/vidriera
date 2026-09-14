@@ -1,35 +1,28 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import { filtrarPorCategoria } from '../lib/articles';
 import { obtenerArticulosPublicados } from '../lib/contenido';
+import { filtrarPorCategoria } from '../lib/articles';
+import { claseBento } from '../lib/bento';
 
 const publicados = await obtenerArticulosPublicados();
 const destacadosActuales = filtrarPorCategoria(publicados, 'campanas-actuales').slice(0, 3);
 const destacadosDatos = filtrarPorCategoria(publicados, 'tendencias-y-datos').slice(0, 3);
 const idsDestacados = new Set([...destacadosActuales, ...destacadosDatos].map((a) => a.id));
 const resto = publicados.filter((a) => !idsDestacados.has(a.id));
+const ordenados = [...destacadosActuales, ...destacadosDatos, ...resto];
 ---
 <BaseLayout titulo="Inicio">
   <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
-  {destacadosActuales.length > 0 && (
-    <section class="mb-14">
-      <h2 class="font-display text-2xl font-bold mb-4">Campañas actuales</h2>
-      {destacadosActuales.map((a) => <ArticleCard articulo={a} />)}
-    </section>
+  {ordenados.length > 0 ? (
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 sm:auto-rows-[180px]">
+      {ordenados.map((articulo, indice) => (
+        <div class={claseBento(indice)}>
+          <ArticleCard articulo={articulo} />
+        </div>
+      ))}
+    </div>
+  ) : (
+    <p class="text-marfil/60">Todavía no hay artículos publicados.</p>
   )}
-  {destacadosDatos.length > 0 && (
-    <section class="mb-14">
-      <h2 class="font-display text-2xl font-bold mb-4">Tendencias y datos</h2>
-      {destacadosDatos.map((a) => <ArticleCard articulo={a} />)}
-    </section>
-  )}
-  <section>
-    <h2 class="font-display text-2xl font-bold mb-4">Todos los artículos</h2>
-    {resto.length > 0 ? (
-      resto.map((a) => <ArticleCard articulo={a} />)
-    ) : (
-      <p class="text-marfil/60">Todavía no hay artículos publicados.</p>
-    )}
-  </section>
 </BaseLayout>
