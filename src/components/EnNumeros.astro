@@ -1,0 +1,20 @@
+---
+interface Item {
+  etiqueta: string;
+  valor: string;
+}
+
+interface Props {
+  items: Item[];
+}
+
+const { items } = Astro.props;
+---
+<div class="en-numeros my-8 flex flex-wrap gap-6 border-y border-borde py-6">
+  {items.map((item) => (
+    <div class="min-w-[120px] flex-1">
+      <p class="font-display text-3xl font-bold text-acento">{item.valor}</p>
+      <p class="mt-1 text-xs uppercase tracking-wide text-marfil/50">{item.etiqueta}</p>
+    </div>
+  ))}
+</div>
