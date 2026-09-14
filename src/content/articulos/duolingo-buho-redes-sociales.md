@@ -4,6 +4,7 @@ categoria: campanas-actuales
 fecha: 2023-11-01
 resumen: "Duolingo convirtió a su mascota, el búho Duo, en una estrella errática de TikTok e Instagram, y pasó de una cuenta dormida a millones de seguidores en apenas dos años."
 fuente: "Contagious / Adweek"
+citaDestacada: "La cuenta pasó de un puñado de seguidores a 8,2 millones en TikTok en apenas dos años."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Duolingo_logo_%282019%29.svg"
 ---

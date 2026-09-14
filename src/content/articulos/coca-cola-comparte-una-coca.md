@@ -4,6 +4,7 @@ categoria: campanas-historicas
 fecha: 2011-01-01
 resumen: "Coca-Cola reemplazó su logo por nombres propios en las botellas y logró que millones de personas buscaran 'la suya' en las góndolas."
 fuente: "Ogilvy Australia"
+citaDestacada: "La campaña se expandió a más de 80 países en los años siguientes."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coca-Cola_bottle.jpg"
 ---

@@ -4,6 +4,7 @@ categoria: campanas-historicas
 fecha: 1981-01-01
 resumen: "TBWA convirtió la silueta de una botella de vodka en el eje de la campaña gráfica más longeva de la historia de la publicidad, con más de mil variaciones."
 fuente: "TBWA / Carillon Importers"
+citaDestacada: "Llegó a generar más de mil quinientas variaciones distintas sin perder nunca el mismo punto de partida visual."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6a/A_bottle_of_Absolut_Vodka.jpg"
 ---

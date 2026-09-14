@@ -4,6 +4,7 @@ categoria: campanas-historicas
 fecha: 1954-01-01
 resumen: "Leo Burnett le dio vuelta por completo la identidad de Marlboro, una marca asociada a lo femenino, apoyándose en la figura del vaquero."
 fuente: "Leo Burnett Company"
+citaDestacada: "Hacia 1957 sus ventas habían crecido un 300% en apenas dos años."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Paul_Hornung_-_Marlboro%2C_the_filter_cigarette_with_the_unfiltered_taste%2C_1962.jpg"
 ---

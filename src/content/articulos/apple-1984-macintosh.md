@@ -4,6 +4,7 @@ categoria: campanas-historicas
 fecha: 1984-01-22
 resumen: "Apple emitió una sola vez, durante la Super Bowl XVIII, un cortometraje dirigido por Ridley Scott que presentó a la Macintosh sin mostrar la computadora."
 fuente: "Chiat/Day"
+citaDestacada: "\"El 24 de enero, Apple Computer presentará Macintosh. Y ustedes verán por qué 1984 no será como '1984'\"."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/0/05/Macintosh_128k_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_%28cropped_to_remove_individual%29.jpg"
 ---

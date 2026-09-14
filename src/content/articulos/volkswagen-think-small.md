@@ -4,6 +4,7 @@ categoria: campanas-historicas
 fecha: 1959-01-01
 resumen: "DDB lanzó para Volkswagen una campaña que, en plena era del exceso publicitario, vendió al Escarabajo admitiendo con humor que era chico."
 fuente: "Doyle Dane Bernbach (DDB)"
+citaDestacada: "En 1999, Advertising Age la nombró la mejor campaña publicitaria del siglo XX en Norteamérica."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vintage_Volkswagen_Beetle_%28Unsplash%29.jpg"
 ---

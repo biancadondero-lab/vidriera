@@ -4,6 +4,7 @@ categoria: campanas-actuales
 fecha: 2025-11-01
 resumen: "Una campaña del Consejo Profesional de Agrimensura bonaerense logró un 52% más de inscripciones a la carrera y se llevó un Bronze en los Clio Awards 2026."
 fuente: "Forbes Argentina / Clio Awards"
+citaDestacada: "La campaña generó un aumento del 52% en las inscripciones a Agrimensura en universidades de todo el país."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Total-Robotic-Station.jpg"
 ---
