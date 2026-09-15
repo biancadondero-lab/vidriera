@@ -31,8 +31,8 @@ const datos = articulos.map((a) => ({
     </select>
   </div>
   <div class="comparador-paneles">
-    <div id="panel-a" class="comparador-panel"><p class="comparador-vacio">Elegí una nota para comparar</p></div>
-    <div id="panel-b" class="comparador-panel"><p class="comparador-vacio">Elegí una nota para comparar</p></div>
+    <div id="panel-a" class="comparador-panel"><p class="comparador-vacio">Elegí una nota arriba para empezar a comparar</p></div>
+    <div id="panel-b" class="comparador-panel"><p class="comparador-vacio">Elegí una nota arriba para empezar a comparar</p></div>
   </div>
 </div>
 
@@ -45,7 +45,7 @@ const datos = articulos.map((a) => ({
   function renderPanel(panel, id) {
     const articulo = datos.find((a) => a.id === id);
     if (!articulo) {
-      panel.innerHTML = '<p class="comparador-vacio">Elegí una nota para comparar</p>';
+      panel.innerHTML = '<p class="comparador-vacio">Elegí una nota arriba para empezar a comparar</p>';
       return;
     }
     panel.innerHTML = `
@@ -74,12 +74,26 @@ const datos = articulos.map((a) => ({
   .comparador-select {
     flex: 1;
     min-width: 200px;
-    background: var(--color-tarjeta);
+    background-color: var(--color-tarjeta);
     color: var(--color-marfil);
     border: 1px solid var(--color-borde);
     border-radius: 8px;
-    padding: 10px 14px;
+    padding: 10px 40px 10px 14px;
     font-family: var(--font-texto);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23c9a24b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+  }
+
+  .comparador-select:hover,
+  .comparador-select:focus-visible {
+    border-color: var(--color-acento);
+    outline: none;
   }
 
   .comparador-vs {
@@ -101,16 +115,32 @@ const datos = articulos.map((a) => ({
   }
 
   .comparador-panel {
-    border: 1px solid var(--color-borde);
+    border: 1px dashed var(--color-borde);
     border-radius: 12px;
     background: var(--color-tarjeta);
-    padding: 24px;
-    min-height: 200px;
+    padding: 32px 24px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease;
+  }
+
+  .comparador-panel:has(.comparador-vacio) {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: dashed;
+  }
+
+  .comparador-panel:not(:has(.comparador-vacio)) {
+    border-style: solid;
+    border-color: var(--color-borde);
   }
 
   .comparador-vacio {
-    color: color-mix(in srgb, var(--color-marfil) 50%, transparent);
-    font-size: 0.9rem;
+    color: color-mix(in srgb, var(--color-marfil) 45%, transparent);
+    font-size: 0.85rem;
+    line-height: 1.6;
   }
 
   .comparador-categoria {
