@@ -20,6 +20,14 @@ const articulos = defineCollection({
     viralidadEtiqueta: z.string().optional(),
     antesDespues: z.object({ antes: z.string(), despues: z.string() }).optional(),
     pais: z.string().optional(),
+    desafio: z
+      .object({
+        pregunta: z.string(),
+        opciones: z.array(z.string()).min(2).max(4),
+        correctaIndice: z.number().int().min(0),
+        revelacion: z.string(),
+      })
+      .optional(),
   }),
 });
 

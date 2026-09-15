@@ -10,6 +10,15 @@ nivelViral: 88
 viralidadEtiqueta: "Viral alto"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Stanley_Quencher_in_a_shop.jpg"
+desafio:
+  pregunta: "¿Cuánto crecieron los ingresos anuales de Stanley entre 2019 y 2023, impulsados por el vaso Quencher?"
+  opciones:
+    - "Se duplicaron"
+    - "Crecieron 5 veces"
+    - "Crecieron más de 10 veces"
+    - "Se mantuvieron estables"
+  correctaIndice: 2
+  revelacion: "Pasaron de unos 73 millones de dólares en 2019 a unos 750 millones en 2023: más de diez veces más, impulsado casi enteramente por el Quencher viral en TikTok."
 ---
 
 Stanley es una marca de termos y vasos fundada hace más de un siglo, orientada históricamente a un público de camping y trabajo al aire libre. Eso cambió a partir de 2020, cuando la compañía sumó como presidente a Terence Reilly (ex ejecutivo de Crocs) y apostó por el "Quencher", un vaso térmico de 40 onzas con asa, en una paleta de colores pensada para redes sociales. El giro coincidió con el auge de comunidades de compra en TikTok, y el hashtag #StanleyCup terminó acumulando más de 6.800 millones de reproducciones en la plataforma.

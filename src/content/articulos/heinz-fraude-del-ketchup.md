@@ -8,6 +8,15 @@ citaDestacada: "\"Ketchup Fraud\" generó más de 502 millones de impresiones y 
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Heinz-tomato-kethup-bottle.jpg/1280px-Heinz-tomato-kethup-bottle.jpg"
+desafio:
+  pregunta: "¿Cuántas impresiones generó la campaña \"Ketchup Fraud\" de Heinz?"
+  opciones:
+    - "80 millones"
+    - "220 millones"
+    - "502 millones"
+    - "1.000 millones"
+  correctaIndice: 2
+  revelacion: "Heinz reportó más de 502 millones de impresiones, un 92% de sentimiento positivo y un crecimiento en ventas del 8% interanual en las regiones donde se difundió la campaña."
 ---
 
 A fines de marzo de 2023, Heinz y la agencia canadiense Rethink lanzaron "Ketchup Fraud", una campaña que partió de una sospecha muy extendida entre los propios consumidores: que algunos restaurantes reutilizan las icónicas botellas de vidrio de Heinz y las rellenan con ketchup genérico, más barato, una vez que se termina el producto original. La campaña, que debutó con vía pública en Nueva York y Chicago además de piezas gráficas y contenido para redes, mostraba a empleados de restaurantes "in fraganti" rellenando botellas vacías, bajo el eslogan "aunque no sea Heinz, tiene que parecer Heinz".

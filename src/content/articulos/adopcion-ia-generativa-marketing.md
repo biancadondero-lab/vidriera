@@ -15,6 +15,15 @@ enNumeros:
     valor: "7%"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf"
+desafio:
+  pregunta: "Según el reporte de HubSpot, ¿qué porcentaje de marketers publica contenido generado por IA sin revisarlo antes?"
+  opciones:
+    - "7%"
+    - "25%"
+    - "48%"
+    - "65%"
+  correctaIndice: 0
+  revelacion: "Apenas el 7% publica sin revisión previa: aunque el 80% ya usa IA para crear contenido y el 75% para imágenes o video, la mayoría sigue revisando antes de publicar."
 ---
 
 El State of Marketing Report 2026 de HubSpot, elaborado a partir de una encuesta a más de 1.500 marketers de distintos países, confirma que la inteligencia artificial generativa dejó de ser una herramienta experimental para volverse parte del flujo de trabajo cotidiano: el 80% de los profesionales de marketing dice usarla actualmente para crear contenido, y un 75% la aplica también a producción de imágenes o piezas audiovisuales.

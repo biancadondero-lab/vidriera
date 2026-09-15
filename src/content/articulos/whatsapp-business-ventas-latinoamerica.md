@@ -8,6 +8,15 @@ citaDestacada: "WhatsApp concentra el 91% de todas las interacciones de IA conve
 pais: "brasil"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG/1280px-Young_people_texting_on_smartphones_using_thumbs.JPG"
+desafio:
+  pregunta: "¿Qué porcentaje de todas las interacciones de IA conversacional de la plataforma de Infobip se concentra en WhatsApp?"
+  opciones:
+    - "35%"
+    - "58%"
+    - "91%"
+    - "99%"
+  correctaIndice: 2
+  revelacion: "WhatsApp concentra el 91% de todas las interacciones de IA conversacional registradas, con un crecimiento interanual del 25%, mientras el comercio conversacional crece 18% interanual en la región."
 ---
 
 Catálogos de productos, chatbots de atención y ventas cerradas sin salir del chat: el comercio conversacional dejó de ser una curiosidad para convertirse en un canal de marketing digital central en América Latina. WhatsApp, la aplicación de mensajería dominante en la región, es el vehículo principal de ese cambio, y las marcas locales lo están incorporando cada vez más como parte de su embudo de ventas y no solo como soporte al cliente.

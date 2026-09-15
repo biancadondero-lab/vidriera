@@ -10,6 +10,15 @@ nivelViral: 92
 viralidadEtiqueta: "Viral extremo"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/1280px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
+desafio:
+  pregunta: "¿Cuánto dinero recaudó el Ice Bucket Challenge para la investigación de ELA, sin pautar un solo aviso?"
+  opciones:
+    - "2 millones de dólares"
+    - "20 millones de dólares"
+    - "100 millones de dólares"
+    - "500 millones de dólares"
+  correctaIndice: 2
+  revelacion: "Recaudó más de 100 millones de dólares para la ALS Association en pocas semanas, sin pauta publicitaria tradicional: el mecanismo de nominación en cadena hizo todo el trabajo."
 ---
 
 A mediados de 2014, el "Ice Bucket Challenge" se propagó por redes sociales: cada persona nominada tenía 24 horas para tirarse un balde de agua helada, filmarlo, subirlo y nominar a tres personas más, o donar dinero a la investigación sobre esclerosis lateral amiotrófica (ELA).

@@ -8,6 +8,15 @@ citaDestacada: "El generador de selfies barbieselfie.ai se usó más de 13 millo
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1686264098464-84f19b2cbd4f?w=1200&q=80&auto=format&fit=crop"
+desafio:
+  pregunta: "¿Cuántas veces se usó el generador de selfies barbieselfie.ai?"
+  opciones:
+    - "2 millones"
+    - "13 millones"
+    - "40 millones"
+    - "100 millones"
+  correctaIndice: 1
+  revelacion: "El generador barbieselfie.ai se usó más de 13 millones de veces, dentro de una campaña con más de 165 alianzas de marca y un presupuesto de promoción (150 millones de dólares) que superó al de producción de la película (145 millones)."
 ---
 
 Meses antes de que "Barbie" llegara a los cines el 21 de julio de 2023, Warner Bros. y Mattel ya habían convertido a la muñeca en el centro de una de las campañas de marketing más ambiciosas de la década. El estudio destinó un presupuesto estimado de 150 millones de dólares a la promoción de la película, una cifra que superó los 145 millones invertidos en su producción, y lo canalizó en una estrategia que trascendió los avances de cine tradicionales.
