@@ -5,6 +5,8 @@ import {
   filtrarPorCategoria,
   obtenerPublicadosOrdenados,
   separarDestacadoPrincipal,
+  separarPrimeros,
+  ordenarPorFechaAsc,
   type Articulo,
 } from './articles';
 
@@ -83,5 +85,38 @@ describe('separarDestacadoPrincipal', () => {
     const resultado = separarDestacadoPrincipal(articulos);
     expect(resultado.destacado?.id).toBe('primero');
     expect(resultado.resto.map((a) => a.id)).toEqual(['segundo', 'tercero']);
+  });
+});
+
+describe('separarPrimeros', () => {
+  it('con lista vacía devuelve ambos arrays vacíos', () => {
+    expect(separarPrimeros([], 3)).toEqual({ primeros: [], resto: [] });
+  });
+
+  it('con cantidad mayor a la lista, todo queda en primeros', () => {
+    const articulos = [crearArticulo({ id: 'a' }), crearArticulo({ id: 'b' })];
+    expect(separarPrimeros(articulos, 5)).toEqual({ primeros: articulos, resto: [] });
+  });
+
+  it('separa los primeros N manteniendo el orden, y el resto queda con el resto', () => {
+    const articulos = [
+      crearArticulo({ id: 'a' }),
+      crearArticulo({ id: 'b' }),
+      crearArticulo({ id: 'c' }),
+      crearArticulo({ id: 'd' }),
+    ];
+    const resultado = separarPrimeros(articulos, 2);
+    expect(resultado.primeros.map((a) => a.id)).toEqual(['a', 'b']);
+    expect(resultado.resto.map((a) => a.id)).toEqual(['c', 'd']);
+  });
+});
+
+describe('ordenarPorFechaAsc', () => {
+  it('ordena del más viejo al más nuevo', () => {
+    const articulos = [
+      crearArticulo({ id: 'nuevo', fecha: new Date('2026-06-01') }),
+      crearArticulo({ id: 'viejo', fecha: new Date('2026-01-01') }),
+    ];
+    expect(ordenarPorFechaAsc(articulos).map((a) => a.id)).toEqual(['viejo', 'nuevo']);
   });
 });

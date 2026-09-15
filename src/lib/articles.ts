@@ -34,3 +34,14 @@ export function separarDestacadoPrincipal(
   const [destacado, ...resto] = articulos;
   return { destacado, resto };
 }
+
+export function separarPrimeros(
+  articulos: Articulo[],
+  cantidad: number,
+): { primeros: Articulo[]; resto: Articulo[] } {
+  return { primeros: articulos.slice(0, cantidad), resto: articulos.slice(cantidad) };
+}
+
+export function ordenarPorFechaAsc(articulos: Articulo[]): Articulo[] {
+  return [...articulos].sort((a, b) => a.fecha.valueOf() - b.fecha.valueOf());
+}
