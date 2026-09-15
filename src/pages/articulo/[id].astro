@@ -7,6 +7,7 @@ import CitaDestacada from '../../components/CitaDestacada.astro';
 import EnNumeros from '../../components/EnNumeros.astro';
 import TermometroViralidad from '../../components/TermometroViralidad.astro';
 import AntesDespues from '../../components/AntesDespues.astro';
+import DesafioInteractivo from '../../components/DesafioInteractivo.astro';
 
 export async function getStaticPaths() {
   const entradas = await getCollection('articulos', ({ data }) => data.estado === 'publicado');
@@ -27,6 +28,9 @@ const fechaFormateada = formatearFecha(entrada.data.fecha);
     </span>
     <h1 class="font-display text-3xl font-bold leading-tight mb-3">{entrada.data.titulo}</h1>
     <time datetime={entrada.data.fecha.toISOString()} class="block text-sm text-marfil/50 mb-8">{fechaFormateada}</time>
+    {entrada.data.desafio && (
+      <DesafioInteractivo desafio={entrada.data.desafio} />
+    )}
     {entrada.data.nivelViral !== undefined && entrada.data.viralidadEtiqueta && (
       <TermometroViralidad nivel={entrada.data.nivelViral} etiqueta={entrada.data.viralidadEtiqueta} />
     )}

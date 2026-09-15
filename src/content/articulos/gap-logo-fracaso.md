@@ -14,6 +14,14 @@ enNumeros:
   - etiqueta: "Días hasta revertir el nuevo logo"
     valor: "6"
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gap_logo.svg/1280px-Gap_logo.svg.png"
+desafio:
+  pregunta: "Gap cambia su logo histórico sin aviso y el rechazo en redes es inmediato. ¿Qué hace la marca?"
+  opciones:
+    - "Vuelve al logo original a los pocos días"
+    - "Mantiene el nuevo logo pese a las críticas"
+    - "Lanza una campaña publicitaria para defender el nuevo diseño"
+  correctaIndice: 0
+  revelacion: "Gap volvió al logo original apenas seis días después del cambio, reconociendo que 'estaba claro que el nuevo logo no funcionaba'."
 ---
 
 El 4 de octubre de 2010, la cadena de indumentaria Gap actualizó silenciosamente el logo de su sitio web y sus canales oficiales, reemplazando el clásico recuadro azul con tipografía serif que la identificaba desde 1990 por un diseño en tipografía sans-serif con un pequeño degradado azul superpuesto a la letra "P". El cambio se hizo sin campaña de lanzamiento, sin explicación pública y sin previo aviso a los consumidores.

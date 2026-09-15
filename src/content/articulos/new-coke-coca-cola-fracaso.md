@@ -16,6 +16,14 @@ enNumeros:
   - etiqueta: "Cartas y llamados de consumidores en contra"
     valor: "+400.000"
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_bottle_cap.jpg/1280px-Coca-Cola_bottle_cap.jpg"
+desafio:
+  pregunta: "Sos el equipo de marketing de Coca-Cola en 1985. Las pruebas de sabor a ciegas dicen que la gente prefiere una fórmula más dulce. ¿Qué hacés?"
+  opciones:
+    - "Reemplazo la fórmula original por completo y la descontinuo"
+    - "Lanzo la nueva fórmula como una marca aparte, sin tocar la original"
+    - "Ignoro el resultado de las pruebas y no cambio nada"
+  correctaIndice: 0
+  revelacion: "Coca-Cola reemplazó la fórmula original por 'New Coke'. El rechazo fue tan fuerte —más de 400.000 cartas y llamados— que tuvo que revertir la decisión 79 días después."
 ---
 
 En 1985, tras años de perder terreno frente a Pepsi en pruebas de sabor a ciegas conocidas como el "Desafío Pepsi", Coca-Cola tomó una decisión sin precedentes: cambiar la fórmula de su producto insignia por primera vez en 99 años. La nueva fórmula, más dulce y pensada para ganar esas pruebas de sabor, se lanzó el 23 de abril de 1985 bajo el nombre "New Coke", descontinuando la receta original.

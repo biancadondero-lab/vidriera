@@ -8,6 +8,15 @@ citaDestacada: "Las ventas mayoristas de diamantes de De Beers en Estados Unidos
 pais: "sudafrica"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Classic_Diamond_Engagement_Ring.jpg"
+desafio:
+  pregunta: "¿Cuánto crecieron las ventas mayoristas de diamantes de De Beers en Estados Unidos entre 1939 y 1979?"
+  opciones:
+    - "Se duplicaron"
+    - "Crecieron 10 veces"
+    - "Crecieron casi 100 veces"
+    - "Se mantuvieron iguales"
+  correctaIndice: 2
+  revelacion: "Pasaron de 23 millones de dólares en 1939 a 2.100 millones en 1979: casi cien veces más en cuatro décadas."
 ---
 
 En septiembre de 1938, Harry Oppenheimer, de la firma sudafricana De Beers, se reunió con Gerold Lauck, presidente de la agencia estadounidense N.W. Ayer, para encargarle una tarea inusual: no vender un producto puntual, sino instalar una costumbre. De Beers necesitaba reactivar la demanda de diamantes en Estados Unidos, deprimida tras la Gran Depresión, y lo que la agencia propuso fue asociar de forma permanente al diamante con el ritual del compromiso matrimonial.

@@ -1,0 +1,148 @@
+---
+interface Desafio {
+  pregunta: string;
+  opciones: string[];
+  correctaIndice: number;
+  revelacion: string;
+}
+
+interface Props {
+  desafio: Desafio;
+}
+
+const { desafio } = Astro.props;
+const id = `desafio-${Math.random().toString(36).slice(2, 9)}`;
+---
+
+<div id={id} class="desafio revelable my-8 rounded-xl border border-borde bg-tarjeta p-6 sm:p-8" data-correcta={desafio.correctaIndice}>
+  <span class="desafio-etiqueta text-xs font-semibold uppercase tracking-wide text-acento">Antes de seguir leyendo</span>
+  <p class="mt-2 font-display text-xl font-semibold leading-snug sm:text-2xl">{desafio.pregunta}</p>
+  <div class="desafio-opciones mt-5 grid gap-3 sm:grid-cols-2">
+    {desafio.opciones.map((opcion, indice) => (
+      <button type="button" class="desafio-opcion" data-indice={indice}>
+        <span class="desafio-opcion-marca" aria-hidden="true"></span>
+        <span class="desafio-opcion-texto">{opcion}</span>
+      </button>
+    ))}
+  </div>
+  <div class="desafio-revelacion mt-5 border-l-2 border-acento pl-5" hidden>
+    <p class="text-sm leading-relaxed text-marfil/80">{desafio.revelacion}</p>
+  </div>
+</div>
+
+<script define:vars={{ id }}>
+  const raiz = document.getElementById(id);
+  if (raiz) {
+    const correctaIndice = Number(raiz.dataset.correcta);
+    const botones = raiz.querySelectorAll('.desafio-opcion');
+    const revelacion = raiz.querySelector('.desafio-revelacion');
+
+    let resuelto = false;
+
+    botones.forEach((boton) => {
+      boton.addEventListener('click', () => {
+        if (resuelto) return;
+        resuelto = true;
+        raiz.classList.add('desafio-resuelto');
+
+        const indiceElegido = Number(boton.dataset.indice);
+        botones.forEach((b) => {
+          const esCorrecta = Number(b.dataset.indice) === correctaIndice;
+          const esElegida = b === boton;
+          b.classList.toggle('es-correcta', esCorrecta);
+          b.classList.toggle('es-incorrecta-elegida', esElegida && !esCorrecta);
+          b.disabled = true;
+        });
+
+        if (revelacion) {
+          revelacion.hidden = false;
+          requestAnimationFrame(() => revelacion.classList.add('revelacion-visible'));
+        }
+      });
+    });
+  }
+</script>
+
+<style>
+  .desafio-opcion {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--color-fondo) 40%, transparent);
+    padding: 12px 16px;
+    font-family: var(--font-texto);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-marfil);
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
+  }
+
+  .desafio-opcion:hover:not(:disabled) {
+    border-color: var(--color-acento);
+    transform: translateY(-1px);
+  }
+
+  .desafio-opcion:focus-visible {
+    outline: 2px solid var(--color-acento);
+    outline-offset: 2px;
+  }
+
+  .desafio-opcion-marca {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    border-radius: 999px;
+    border: 1.5px solid color-mix(in srgb, var(--color-marfil) 35%, transparent);
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+  }
+
+  .desafio-opcion:disabled {
+    cursor: default;
+  }
+
+  .desafio-opcion.es-correcta {
+    border-color: var(--color-acento);
+    background: color-mix(in srgb, var(--color-acento) 14%, transparent);
+  }
+
+  .desafio-opcion.es-correcta .desafio-opcion-marca {
+    border-color: var(--color-acento);
+    background: var(--color-acento);
+  }
+
+  .desafio-opcion.es-incorrecta-elegida {
+    opacity: 0.55;
+  }
+
+  .desafio-opcion.es-incorrecta-elegida .desafio-opcion-marca {
+    border-color: color-mix(in srgb, var(--color-marfil) 35%, transparent);
+  }
+
+  .desafio-resuelto .desafio-opcion:disabled:not(.es-correcta):not(.es-incorrecta-elegida) {
+    opacity: 0.4;
+  }
+
+  .desafio-revelacion {
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  }
+
+  .desafio-revelacion.revelacion-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .desafio-opcion,
+    .desafio-revelacion {
+      transition: none;
+    }
+  }
+</style>

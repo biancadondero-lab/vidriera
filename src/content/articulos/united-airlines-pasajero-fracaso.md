@@ -14,6 +14,14 @@ enNumeros:
   - etiqueta: "Caída bursátil estimada en un día"
     valor: "1.400 millones de USD"
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/United_Airlines_Boeing_787-9_N29975_%2833527885765%29.jpg/1280px-United_Airlines_Boeing_787-9_N29975_%2833527885765%29.jpg"
+desafio:
+  pregunta: "Un pasajero es arrastrado por la fuerza fuera de un vuelo de United Airlines y el video se viraliza. ¿Cómo reacciona primero el CEO de la aerolínea?"
+  opciones:
+    - "Pide disculpas públicas de inmediato y asume responsabilidad"
+    - "Describe al pasajero como 'perjudicial y beligerante' y defiende a la tripulación"
+    - "No hace ninguna declaración pública"
+  correctaIndice: 1
+  revelacion: "El CEO Oscar Munoz describió al pasajero como 'perjudicial y beligerante' en un comunicado interno filtrado, antes de disculparse recién días después. Las acciones de United cayeron hasta un 4% al día siguiente: unos 1.400 millones de dólares en valor de mercado."
 ---
 
 El 9 de abril de 2017, un vuelo de United Airlines de Chicago a Louisville tenía overbooking y necesitaba liberar cuatro asientos para personal de la aerolínea. Al no conseguir suficientes voluntarios pese a ofrecer compensación económica, el personal seleccionó pasajeros al azar para bajarlos del avión. Uno de ellos, el doctor David Dao, se negó a abandonar su asiento explicando que tenía pacientes que atender al día siguiente. Personal de seguridad del aeropuerto lo sacó por la fuerza, arrastrándolo inconsciente por el pasillo del avión ante la mirada de otros pasajeros, varios de los cuales grabaron la escena con sus teléfonos.

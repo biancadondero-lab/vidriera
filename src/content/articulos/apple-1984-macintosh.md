@@ -8,6 +8,15 @@ citaDestacada: "\"El 24 de enero, Apple Computer presentará Macintosh. Y ustede
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/0/05/Macintosh_128k_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_%28cropped_to_remove_individual%29.jpg"
+desafio:
+  pregunta: "¿Cuántas veces se emitió el comercial \"1984\" a nivel nacional en Estados Unidos?"
+  opciones:
+    - "Una sola vez"
+    - "Tres veces durante la Super Bowl"
+    - "Todas las semanas durante ese año"
+    - "Nunca se emitió en TV, solo en cines"
+  correctaIndice: 0
+  revelacion: "Se emitió una única vez a nivel nacional, durante el tercer cuarto de la Super Bowl XVIII. Nunca volvió a pasarse, lo que ayudó a construir su mística."
 ---
 
 El 22 de enero de 1984, durante el tercer cuarto de la Super Bowl XVIII, Apple emitió por única vez a nivel nacional un comercial de sesenta segundos dirigido por Ridley Scott —recién salido de "Alien" y "Blade Runner"— y concebido por la agencia Chiat/Day. La pieza, ambientada en una distopía inspirada en "1984" de George Orwell, mostraba a una atleta irrumpiendo con un mazo en una sala de trabajadores uniformados hipnotizados por una pantalla gigante, para destruirla en el instante final.

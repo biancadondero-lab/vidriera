@@ -15,6 +15,15 @@ enNumeros:
     valor: "52,83%"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1764162051244-1391c41122ac"
+desafio:
+  pregunta: "¿Qué porcentaje del presupuesto de creadores destinan hoy las marcas a influencers nano (los más chicos)?"
+  opciones:
+    - "8%"
+    - "18%"
+    - "29,5%"
+    - "45%"
+  correctaIndice: 2
+  revelacion: "Los creadores nano concentran el 29,54% del presupuesto y los micro el 22,36%: juntos superan la mitad de las decisiones de inversión, muy por delante de macro influencers (4,35%) y celebridades (13,92%)."
 ---
 
 El "Influencer Marketing Benchmark Report 2026", publicado por Influencer Marketing Hub el 4 de mayo de 2026, documenta con datos de presupuesto un desplazamiento que se venía anunciando hace tiempo: los creadores nano y micro —cuentas chicas, con comunidades acotadas pero comprometidas— concentran hoy el 29,54% y el 22,36% de las decisiones de asignación de presupuesto de las marcas encuestadas, respectivamente. Sumados, superan la mitad de las elecciones de inversión, muy por encima del 4,35% que recibe el segmento macro y del 13,92% que todavía capturan las celebridades.
