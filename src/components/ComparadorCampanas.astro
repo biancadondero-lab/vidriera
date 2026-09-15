@@ -20,12 +20,12 @@ const datos = articulos.map((a) => ({
 ---
 <div class="comparador revelable">
   <div class="comparador-selectores">
-    <select id="selector-a" class="comparador-select">
+    <select id="selector-a" class="comparador-select" aria-label="Primera nota a comparar">
       <option value="">Elegí la primera nota…</option>
       {articulos.map((a) => <option value={a.id}>{a.titulo}</option>)}
     </select>
     <span class="comparador-vs">vs</span>
-    <select id="selector-b" class="comparador-select">
+    <select id="selector-b" class="comparador-select" aria-label="Segunda nota a comparar">
       <option value="">Elegí la segunda nota…</option>
       {articulos.map((a) => <option value={a.id}>{a.titulo}</option>)}
     </select>

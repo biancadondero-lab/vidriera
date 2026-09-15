@@ -16,12 +16,28 @@ const FORMA_POR_CATEGORIA: Record<string, string> = {
   'marketing-digital': 'forma-anillo',
 };
 
+// Cuando varios artículos comparten país, se dispersan en una pequeña
+// espiral alrededor del punto real (ángulo áureo) para que ninguno quede
+// tapado ni inalcanzable — el primero de cada país queda exactamente en
+// su lugar, los siguientes se abren hacia afuera.
+const contadorPorPais: Record<string, number> = {};
+
 const puntos = articulos
   .filter((a) => a.pais && PAISES[a.pais])
   .map((articulo) => {
-    const pais = PAISES[articulo.pais as string];
-    const xPercent = ((pais.lon + 180) / 360) * 100;
-    const yPercent = ((90 - pais.lat) / 180) * 100;
+    const paisSlug = articulo.pais as string;
+    const pais = PAISES[paisSlug];
+    const indiceEnPais = contadorPorPais[paisSlug] ?? 0;
+    contadorPorPais[paisSlug] = indiceEnPais + 1;
+
+    const anguloDispersion = indiceEnPais * 2.4;
+    const radioDispersion = indiceEnPais === 0 ? 0 : 1.4 + indiceEnPais * 0.45;
+
+    const xBase = ((pais.lon + 180) / 360) * 100;
+    const yBase = ((90 - pais.lat) / 180) * 100;
+    const xPercent = Math.max(2, Math.min(98, xBase + radioDispersion * Math.cos(anguloDispersion)));
+    const yPercent = Math.max(2, Math.min(98, yBase + radioDispersion * Math.sin(anguloDispersion)));
+
     return {
       articulo,
       xPercent,
@@ -79,8 +95,12 @@ const puntos = articulos
           punto.style.left = `${leftPercent}%`;
           const distanciaAlBorde = Math.min(leftPercent, 100 - leftPercent);
           punto.style.opacity = distanciaAlBorde < 8 ? String(Math.max(0.15, distanciaAlBorde / 8)) : '1';
+          punto.style.pointerEvents = 'auto';
+          punto.removeAttribute('tabindex');
         } else {
           punto.style.opacity = '0';
+          punto.style.pointerEvents = 'none';
+          punto.setAttribute('tabindex', '-1');
         }
       });
     }
