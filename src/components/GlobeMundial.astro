@@ -1,0 +1,212 @@
+---
+import type { Articulo } from '../lib/articles';
+import { PAISES } from '../lib/paises';
+
+interface Props {
+  articulos: Articulo[];
+}
+
+const { articulos } = Astro.props;
+
+const FORMA_POR_CATEGORIA: Record<string, string> = {
+  'campanas-actuales': 'forma-circulo',
+  'campanas-historicas': 'forma-diamante',
+  'tendencias-y-datos': 'forma-cuadrado',
+  'redes-y-viralidad': 'forma-triangulo',
+  'marketing-digital': 'forma-anillo',
+};
+
+const puntos = articulos
+  .filter((a) => a.pais && PAISES[a.pais])
+  .map((articulo) => {
+    const pais = PAISES[articulo.pais as string];
+    const xPercent = ((pais.lon + 180) / 360) * 100;
+    const yPercent = ((90 - pais.lat) / 180) * 100;
+    return {
+      articulo,
+      xPercent,
+      yPercent,
+      forma: FORMA_POR_CATEGORIA[articulo.categoria] ?? 'forma-circulo',
+    };
+  });
+---
+<div id="globo-mundial" class="globo-mundial revelable">
+  <div class="globo-esfera">
+    <div class="globo-mapa"></div>
+    <div class="globo-sombra"></div>
+    {puntos.map((p) => (
+      <a
+        href={`/articulo/${p.articulo.id}`}
+        class={`globo-punto ${p.forma}`}
+        style={`left: ${p.xPercent}%; top: ${p.yPercent}%;`}
+        data-x={p.xPercent}
+        aria-label={p.articulo.titulo}
+        title={p.articulo.titulo}
+      ></a>
+    ))}
+  </div>
+  <p class="globo-hint">Arrastrá para girar</p>
+</div>
+
+<script>
+  const contenedor = document.getElementById('globo-mundial');
+
+  if (contenedor) {
+    const esfera = contenedor.querySelector('.globo-esfera') as HTMLElement;
+    const mapa = contenedor.querySelector('.globo-mapa') as HTMLElement;
+    const puntos = Array.from(contenedor.querySelectorAll('.globo-punto')) as HTMLElement[];
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    let offsetPx = 0;
+    let arrastrando = false;
+    let ultimoX = 0;
+    let inactivoDesde = Date.now();
+
+    function anchoDeVuelta(): number {
+      return esfera.getBoundingClientRect().height * 2;
+    }
+
+    function actualizarPosiciones() {
+      const ancho = anchoDeVuelta();
+      mapa.style.backgroundPositionX = `${offsetPx}px`;
+      puntos.forEach((punto) => {
+        const baseX = parseFloat(punto.dataset.x || '0');
+        let px = (baseX / 100) * ancho + offsetPx;
+        px = ((px % ancho) + ancho) % ancho;
+        const leftPercent = (px / ancho) * 100;
+        punto.style.left = `${leftPercent}%`;
+        const distanciaAlBorde = Math.min(leftPercent, 100 - leftPercent);
+        punto.style.opacity = distanciaAlBorde < 8 ? String(Math.max(0.15, distanciaAlBorde / 8)) : '1';
+      });
+    }
+
+    esfera.addEventListener('pointerdown', (e) => {
+      arrastrando = true;
+      ultimoX = e.clientX;
+      esfera.setPointerCapture(e.pointerId);
+    });
+
+    esfera.addEventListener('pointermove', (e) => {
+      if (!arrastrando) return;
+      const deltaX = e.clientX - ultimoX;
+      ultimoX = e.clientX;
+      offsetPx += deltaX;
+      inactivoDesde = Date.now();
+      actualizarPosiciones();
+    });
+
+    const terminarArrastre = () => {
+      arrastrando = false;
+      inactivoDesde = Date.now();
+    };
+    esfera.addEventListener('pointerup', terminarArrastre);
+    esfera.addEventListener('pointercancel', terminarArrastre);
+
+    actualizarPosiciones();
+
+    if (!reduceMotion) {
+      function auto() {
+        if (!arrastrando && Date.now() - inactivoDesde > 1500) {
+          offsetPx += 0.3;
+          actualizarPosiciones();
+        }
+        requestAnimationFrame(auto);
+      }
+      requestAnimationFrame(auto);
+    }
+  }
+</script>
+
+<style>
+  .globo-mundial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .globo-esfera {
+    position: relative;
+    width: min(70vw, 420px);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: grab;
+    touch-action: pan-y;
+    box-shadow:
+      0 0 60px color-mix(in srgb, var(--color-acento) 15%, transparent),
+      inset 0 0 40px rgba(0, 0, 0, 0.5);
+    background: var(--color-tarjeta);
+  }
+
+  .globo-esfera:active {
+    cursor: grabbing;
+  }
+
+  .globo-mapa {
+    position: absolute;
+    inset: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Equirectangular_projection_world_map_without_borders.svg');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    filter: grayscale(1) sepia(0.6) saturate(2) brightness(0.9);
+    opacity: 0.85;
+  }
+
+  .globo-sombra {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, transparent 40%, color-mix(in srgb, var(--color-fondo) 70%, transparent) 100%);
+    pointer-events: none;
+  }
+
+  .globo-punto {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    margin: -4.5px;
+    background: var(--color-acento);
+    border-radius: 50%;
+    box-shadow: 0 0 8px color-mix(in srgb, var(--color-acento) 70%, transparent);
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+
+  .globo-punto:hover,
+  .globo-punto:focus-visible {
+    transform: scale(1.6);
+  }
+
+  .forma-diamante {
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+
+  .forma-cuadrado {
+    border-radius: 2px;
+  }
+
+  .forma-triangulo {
+    background: transparent;
+    box-shadow: none;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 9px solid var(--color-acento);
+    filter: drop-shadow(0 0 6px color-mix(in srgb, var(--color-acento) 70%, transparent));
+  }
+
+  .forma-anillo {
+    background: transparent;
+    border: 2px solid var(--color-acento);
+  }
+
+  .globo-hint {
+    font-family: var(--font-texto);
+    font-size: 0.75rem;
+    color: color-mix(in srgb, var(--color-marfil) 50%, transparent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+</style>
