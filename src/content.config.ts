@@ -19,6 +19,7 @@ const articulos = defineCollection({
     nivelViral: z.number().min(0).max(100).optional(),
     viralidadEtiqueta: z.string().optional(),
     antesDespues: z.object({ antes: z.string(), despues: z.string() }).optional(),
+    pais: z.string().optional(),
   }),
 });
 
