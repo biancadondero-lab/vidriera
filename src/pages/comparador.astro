@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ComparadorCampanas from '../components/ComparadorCampanas.astro';
+import RevelarAlScroll from '../components/RevelarAlScroll.astro';
+import { obtenerArticulosPublicados } from '../lib/contenido';
+
+const publicados = await obtenerArticulosPublicados();
+---
+<BaseLayout titulo="Comparador de campañas" descripcion="Elegí dos notas de Vidriera y compará lado a lado.">
+  <Fragment slot="full-bleed">
+    <RevelarAlScroll />
+    <section class="bg-fondo">
+      <div class="mx-auto max-w-6xl px-4 py-16">
+        <h1 class="mb-2 font-display text-3xl font-bold sm:text-4xl">Comparador de campañas</h1>
+        <p class="mb-10 max-w-2xl text-sm text-marfil/60">Elegí dos notas cualquiera del sitio y compará lado a lado.</p>
+        <ComparadorCampanas articulos={publicados} />
+      </div>
+    </section>
+  </Fragment>
+</BaseLayout>

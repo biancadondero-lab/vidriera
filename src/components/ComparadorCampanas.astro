@@ -1,0 +1,156 @@
+---
+import type { Articulo } from '../lib/articles';
+import { nombreCategoria } from '../lib/categorias';
+import { formatearFecha } from '../lib/fechas';
+
+interface Props {
+  articulos: Articulo[];
+}
+
+const { articulos } = Astro.props;
+
+const datos = articulos.map((a) => ({
+  id: a.id,
+  titulo: a.titulo,
+  categoria: nombreCategoria(a.categoria),
+  resumen: a.resumen,
+  citaDestacada: a.citaDestacada ?? null,
+  fecha: formatearFecha(a.fecha),
+}));
+---
+<div class="comparador revelable">
+  <div class="comparador-selectores">
+    <select id="selector-a" class="comparador-select">
+      <option value="">Elegí la primera nota…</option>
+      {articulos.map((a) => <option value={a.id}>{a.titulo}</option>)}
+    </select>
+    <span class="comparador-vs">vs</span>
+    <select id="selector-b" class="comparador-select">
+      <option value="">Elegí la segunda nota…</option>
+      {articulos.map((a) => <option value={a.id}>{a.titulo}</option>)}
+    </select>
+  </div>
+  <div class="comparador-paneles">
+    <div id="panel-a" class="comparador-panel"><p class="comparador-vacio">Elegí una nota para comparar</p></div>
+    <div id="panel-b" class="comparador-panel"><p class="comparador-vacio">Elegí una nota para comparar</p></div>
+  </div>
+</div>
+
+<script define:vars={{ datos }}>
+  const selectorA = document.getElementById('selector-a');
+  const selectorB = document.getElementById('selector-b');
+  const panelA = document.getElementById('panel-a');
+  const panelB = document.getElementById('panel-b');
+
+  function renderPanel(panel, id) {
+    const articulo = datos.find((a) => a.id === id);
+    if (!articulo) {
+      panel.innerHTML = '<p class="comparador-vacio">Elegí una nota para comparar</p>';
+      return;
+    }
+    panel.innerHTML = `
+      <span class="comparador-categoria">${articulo.categoria}</span>
+      <h3 class="comparador-titulo">${articulo.titulo}</h3>
+      <time class="comparador-fecha">${articulo.fecha}</time>
+      <p class="comparador-resumen">${articulo.resumen}</p>
+      ${articulo.citaDestacada ? `<blockquote class="comparador-cita">${articulo.citaDestacada}</blockquote>` : ''}
+      <a class="comparador-link" href="/articulo/${articulo.id}">Ver nota completa →</a>
+    `;
+  }
+
+  selectorA.addEventListener('change', () => renderPanel(panelA, selectorA.value));
+  selectorB.addEventListener('change', () => renderPanel(panelB, selectorB.value));
+</script>
+
+<style>
+  .comparador-selectores {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .comparador-select {
+    flex: 1;
+    min-width: 200px;
+    background: var(--color-tarjeta);
+    color: var(--color-marfil);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: var(--font-texto);
+  }
+
+  .comparador-vs {
+    font-family: var(--font-display);
+    color: var(--color-acento);
+    font-weight: bold;
+  }
+
+  .comparador-paneles {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 768px) {
+    .comparador-paneles {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .comparador-panel {
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+    background: var(--color-tarjeta);
+    padding: 24px;
+    min-height: 200px;
+  }
+
+  .comparador-vacio {
+    color: color-mix(in srgb, var(--color-marfil) 50%, transparent);
+    font-size: 0.9rem;
+  }
+
+  .comparador-categoria {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-acento);
+  }
+
+  .comparador-titulo {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    margin: 8px 0 4px;
+  }
+
+  .comparador-fecha {
+    font-size: 0.75rem;
+    color: color-mix(in srgb, var(--color-marfil) 50%, transparent);
+  }
+
+  .comparador-resumen {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: color-mix(in srgb, var(--color-marfil) 70%, transparent);
+  }
+
+  .comparador-cita {
+    margin: 16px 0 0;
+    padding-left: 12px;
+    border-left: 2px solid var(--color-acento);
+    font-family: var(--font-display);
+    font-style: italic;
+    color: var(--color-acento);
+  }
+
+  .comparador-link {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 0.85rem;
+    color: var(--color-acento);
+  }
+</style>
