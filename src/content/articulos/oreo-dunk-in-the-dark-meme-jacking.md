@@ -5,6 +5,7 @@ fecha: 2013-02-03
 resumen: "Cuando un apagón interrumpió el Super Bowl XLVII, Oreo respondió en minutos con un tuit que terminó siendo más comentado que los anuncios pagos del partido."
 fuente: "Digiday / AdAge"
 citaDestacada: "\"Power out? No problem. You can still dunk in the dark\"."
+pais: "estados-unidos"
 nivelViral: 78
 viralidadEtiqueta: "Viral alto"
 estado: publicado

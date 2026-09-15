@@ -5,6 +5,7 @@ fecha: 2025-05-21
 resumen: "Según eMarketer, los ingresos publicitarios de Amazon por retail media superarán los 60.000 millones de dólares en 2025 y llegarán a casi 70.000 millones en 2026, mientras Kantar Media ubica a Amazon empatada con TikTok como el medio publicitario más elegido por los anunciantes."
 fuente: "eMarketer (con datos de Kantar Media)"
 citaDestacada: "Amazon quedó empatada con TikTok como la plataforma publicitaria más elegida por los anunciantes."
+pais: "estados-unidos"
 enNumeros:
   - etiqueta: "Ingresos retail media de Amazon 2025"
     valor: "$60.000M"

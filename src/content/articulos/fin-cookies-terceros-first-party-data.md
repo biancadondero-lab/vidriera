@@ -5,6 +5,7 @@ fecha: 2024-03-14
 resumen: "El State of Data 2024 de IAB encontró que el 71% de marcas, agencias y editores ya está haciendo crecer sus bases de datos propios (first-party data), casi el doble que dos años antes (41%), incluso mientras Google demoraba y finalmente frenaba la eliminación de las cookies de terceros en Chrome."
 fuente: "IAB (State of Data 2024)"
 citaDestacada: "Google terminó por anunciar que no avanzaría con la eliminación estándar ni con el aviso a usuarios que había prometido, dejando a las cookies de terceros habilitadas por defecto."
+pais: "estados-unidos"
 enNumeros:
   - etiqueta: "Hace crecer su first-party data (2024)"
     valor: "71%"

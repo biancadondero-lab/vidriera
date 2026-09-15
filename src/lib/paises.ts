@@ -11,6 +11,8 @@ export const PAISES: Record<string, { nombre: string; lat: number; lon: number }
   australia: { nombre: 'Australia', lat: -25.3, lon: 133.8 },
   brasil: { nombre: 'Brasil', lat: -14.2, lon: -51.9 },
   estonia: { nombre: 'Estonia', lat: 58.6, lon: 25.0 },
+  china: { nombre: 'China', lat: 35.9, lon: 104.2 },
+  dinamarca: { nombre: 'Dinamarca', lat: 56.3, lon: 9.5 },
 };
 
 export function nombrePais(slug: string): string {

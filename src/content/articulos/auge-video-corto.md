@@ -5,6 +5,7 @@ fecha: 2023-01-01
 resumen: "TikTok e Instagram Reels corrieron el eje de la pauta digital del formato estático al video vertical de pocos segundos."
 fuente: "Análisis de industria"
 citaDestacada: "Las áreas de performance y growth destinan hoy una porción creciente de la pauta a estos formatos cortos, priorizando volumen de creatividades y velocidad de iteración por sobre la producción tradicional de alto costo."
+pais: "china"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Instagram_app_on_smartphone.jpg/1280px-Instagram_app_on_smartphone.jpg"
 ---
