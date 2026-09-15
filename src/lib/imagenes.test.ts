@@ -18,6 +18,10 @@ describe('esLogo', () => {
     expect(esLogo('https://example.com/logo.svg?width=200')).toBe(true);
   });
 
+  it('una url .svg.png (thumbnail rasterizado de Wikimedia) es logo', () => {
+    expect(esLogo('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/1280px-Gap_logo.svg.png')).toBe(true);
+  });
+
   it('una url .jpg no es logo', () => {
     expect(esLogo('https://images.unsplash.com/photo-123.jpg')).toBe(false);
   });
