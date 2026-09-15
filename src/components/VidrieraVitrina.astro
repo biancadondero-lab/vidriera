@@ -44,7 +44,7 @@ const anio = articulo.fecha.getUTCFullYear();
     background: var(--color-tarjeta);
     border-color: color-mix(in srgb, var(--color-acento) 30%, var(--color-borde));
     transform: perspective(1200px) rotateY(-9deg);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 20px 40px color-mix(in srgb, var(--color-fondo) 90%, transparent);
     transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
   }
 
@@ -53,7 +53,7 @@ const anio = articulo.fecha.getUTCFullYear();
     border-color: var(--color-acento);
     box-shadow:
       0 0 32px color-mix(in srgb, var(--color-acento) 35%, transparent),
-      0 20px 40px rgba(0, 0, 0, 0.5);
+      0 20px 40px color-mix(in srgb, var(--color-fondo) 95%, transparent);
   }
 
   .vitrina:hover .vitrina-vidrio {
