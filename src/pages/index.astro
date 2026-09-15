@@ -1,13 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import ArticuloDestacado from '../components/ArticuloDestacado.astro';
+import VidrieraEntrada from '../components/VidrieraEntrada.astro';
 import { obtenerArticulosPublicados } from '../lib/contenido';
-import { filtrarPorCategoria, separarDestacadoPrincipal } from '../lib/articles';
+import { filtrarPorCategoria, separarPrimeros } from '../lib/articles';
 import { claseBento, CLASES_GRID_BENTO } from '../lib/bento';
 
 const publicados = await obtenerArticulosPublicados();
-const { destacado, resto } = separarDestacadoPrincipal(publicados);
+const { primeros: entrada, resto } = separarPrimeros(publicados, 3);
 const destacadosActuales = filtrarPorCategoria(resto, 'campanas-actuales').slice(0, 3);
 const destacadosDatos = filtrarPorCategoria(resto, 'tendencias-y-datos').slice(0, 3);
 const idsDestacados = new Set([...destacadosActuales, ...destacadosDatos].map((a) => a.id));
@@ -15,8 +15,12 @@ const restoGrid = resto.filter((a) => !idsDestacados.has(a.id));
 const ordenados = [...destacadosActuales, ...destacadosDatos, ...restoGrid];
 ---
 <BaseLayout titulo="Inicio">
-  <h2 class="sr-only">Vidriera — noticias y campañas de marketing</h2>
-  {destacado && <ArticuloDestacado articulo={destacado} />}
+  {entrada.length > 0 && (
+    <Fragment slot="full-bleed">
+      <VidrieraEntrada articulos={entrada} />
+    </Fragment>
+  )}
+  <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
   {ordenados.length > 0 ? (
     <div class={CLASES_GRID_BENTO}>
       {ordenados.map((articulo, indice) => (

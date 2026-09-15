@@ -26,6 +26,7 @@ const { titulo, descripcion = 'Noticias y campañas de marketing.' } = Astro.pro
   </head>
   <body class="font-texto text-marfil bg-fondo min-h-screen flex flex-col">
     <Header />
+    <slot name="full-bleed" />
     <main class="flex-1 w-full max-w-5xl mx-auto px-4 py-10">
       <slot />
     </main>
