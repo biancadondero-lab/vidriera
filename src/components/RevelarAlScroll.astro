@@ -1,0 +1,23 @@
+---
+---
+<script>
+  document.documentElement.classList.add('con-js');
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reduceMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revelada');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 },
+    );
+
+    document.querySelectorAll('.revelable').forEach((el) => observer.observe(el));
+  }
+</script>

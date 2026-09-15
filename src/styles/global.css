@@ -47,3 +47,21 @@ body {
     transform: none;
   }
 }
+
+.con-js .revelable {
+  opacity: 0;
+  transform: perspective(900px) rotateY(-6deg) translateY(16px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.con-js .revelable.revelada {
+  opacity: 1;
+  transform: perspective(900px) rotateY(0deg) translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .con-js .revelable {
+    opacity: 1;
+    transform: none;
+  }
+}
