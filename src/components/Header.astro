@@ -14,21 +14,26 @@ import { CATEGORIAS } from '../lib/categorias';
       </span>
       Vidriera
     </a>
-    <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
-      {CATEGORIAS.map((c) => (
-        <a href={`/categoria/${c.slug}`} class="enlace-nav relative hover:text-acento transition-colors">
-          {c.nombre}
+    <nav class="flex flex-col gap-3 text-sm font-medium">
+      <div class="flex flex-wrap gap-x-5 gap-y-2">
+        {CATEGORIAS.map((c) => (
+          <a href={`/categoria/${c.slug}`} class="enlace-nav relative hover:text-acento transition-colors">
+            {c.nombre}
+          </a>
+        ))}
+      </div>
+      <div class="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-borde pt-3">
+        <span class="text-xs font-semibold uppercase tracking-wide text-marfil/40">Explorar</span>
+        <a href="/linea-de-tiempo" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
+          Línea de tiempo
         </a>
-      ))}
-      <a href="/linea-de-tiempo" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
-        Línea de tiempo
-      </a>
-      <a href="/mapa-mundial" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
-        Mapa mundial
-      </a>
-      <a href="/comparador" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
-        Comparador
-      </a>
+        <a href="/mapa-mundial" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
+          Mapa mundial
+        </a>
+        <a href="/comparador" class="enlace-nav relative font-semibold text-acento transition-colors hover:text-marfil">
+          Comparador
+        </a>
+      </div>
     </nav>
   </div>
 </header>
