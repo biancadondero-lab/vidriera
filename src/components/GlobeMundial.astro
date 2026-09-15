@@ -67,16 +67,21 @@ const puntos = articulos
     }
 
     function actualizarPosiciones() {
-      const ancho = anchoDeVuelta();
+      const anchoTextura = anchoDeVuelta();
+      const anchoVisible = anchoTextura / 2;
       mapa.style.backgroundPositionX = `${offsetPx}px`;
       puntos.forEach((punto) => {
         const baseX = parseFloat(punto.dataset.x || '0');
-        let px = (baseX / 100) * ancho + offsetPx;
-        px = ((px % ancho) + ancho) % ancho;
-        const leftPercent = (px / ancho) * 100;
-        punto.style.left = `${leftPercent}%`;
-        const distanciaAlBorde = Math.min(leftPercent, 100 - leftPercent);
-        punto.style.opacity = distanciaAlBorde < 8 ? String(Math.max(0.15, distanciaAlBorde / 8)) : '1';
+        const baseXPx = (baseX / 100) * anchoTextura;
+        const posTextura = (((baseXPx + offsetPx) % anchoTextura) + anchoTextura) % anchoTextura;
+        if (posTextura < anchoVisible) {
+          const leftPercent = (posTextura / anchoVisible) * 100;
+          punto.style.left = `${leftPercent}%`;
+          const distanciaAlBorde = Math.min(leftPercent, 100 - leftPercent);
+          punto.style.opacity = distanciaAlBorde < 8 ? String(Math.max(0.15, distanciaAlBorde / 8)) : '1';
+        } else {
+          punto.style.opacity = '0';
+        }
       });
     }
 
@@ -135,7 +140,7 @@ const puntos = articulos
     touch-action: pan-y;
     box-shadow:
       0 0 60px color-mix(in srgb, var(--color-acento) 15%, transparent),
-      inset 0 0 40px rgba(0, 0, 0, 0.5);
+      inset 0 0 40px color-mix(in srgb, var(--color-fondo) 95%, transparent);
     background: var(--color-tarjeta);
   }
 

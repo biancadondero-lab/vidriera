@@ -9,6 +9,12 @@ export type Articulo = {
   fuente?: string;
   estado: 'borrador' | 'publicado';
   imagen?: string;
+  citaDestacada?: string;
+  enNumeros?: { etiqueta: string; valor: string }[];
+  nivelViral?: number;
+  viralidadEtiqueta?: string;
+  antesDespues?: { antes: string; despues: string };
+  pais?: string;
 };
 
 export function filtrarPublicados(articulos: Articulo[]): Articulo[] {
