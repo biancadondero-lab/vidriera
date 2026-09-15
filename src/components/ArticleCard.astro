@@ -13,7 +13,7 @@ const fechaFormateada = formatearFecha(articulo.fecha);
 ---
 <a
   href={`/articulo/${articulo.id}`}
-  class="tarjeta group flex h-full flex-col overflow-hidden rounded-xl border border-borde bg-tarjeta transition duration-300 hover:-translate-y-1 hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
+  class="tarjeta group flex h-full flex-col overflow-hidden rounded-xl border border-borde bg-tarjeta hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
 >
   <ArticuloImagen imagen={articulo.imagen} alt={articulo.titulo} />
   <div class="flex flex-1 flex-col p-4">
@@ -30,15 +30,38 @@ const fechaFormateada = formatearFecha(articulo.fecha);
 
 <style>
   .tarjeta {
-    opacity: 0;
-    transform: translateY(16px);
-    animation: entrada 0.6s ease-out forwards;
+    transition: transform 0.3s ease, border-color 0.3s ease;
   }
 
-  @keyframes entrada {
-    to {
-      opacity: 1;
-      transform: translateY(0);
+  .tarjeta:hover {
+    transform: translateY(-4px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tarjeta:hover {
+      transform: none;
     }
   }
 </style>
+
+<script>
+  document.documentElement.classList.add('con-js');
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reduceMotion) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revelada');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 },
+    );
+
+    document.querySelectorAll('.tarjeta').forEach((tarjeta) => observer.observe(tarjeta));
+  }
+</script>
