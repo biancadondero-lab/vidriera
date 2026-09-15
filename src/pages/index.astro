@@ -17,10 +17,10 @@ const ordenados = [...destacadosActuales, ...destacadosDatos, ...restoGrid];
 <BaseLayout titulo="Inicio">
   {entrada.length > 0 && (
     <Fragment slot="full-bleed">
+      <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
       <VidrieraEntrada articulos={entrada} />
     </Fragment>
   )}
-  <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
   {ordenados.length > 0 ? (
     <div class={CLASES_GRID_BENTO}>
       {ordenados.map((articulo, indice) => (

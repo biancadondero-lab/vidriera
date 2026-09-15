@@ -27,14 +27,6 @@ export function obtenerPublicadosOrdenados(articulos: Articulo[]): Articulo[] {
   return ordenarPorFechaDesc(filtrarPublicados(articulos));
 }
 
-export function separarDestacadoPrincipal(
-  articulos: Articulo[],
-): { destacado: Articulo | null; resto: Articulo[] } {
-  if (articulos.length === 0) return { destacado: null, resto: [] };
-  const [destacado, ...resto] = articulos;
-  return { destacado, resto };
-}
-
 export function separarPrimeros(
   articulos: Articulo[],
   cantidad: number,

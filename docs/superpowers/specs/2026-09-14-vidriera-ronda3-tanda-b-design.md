@@ -46,9 +46,9 @@ posible para una ronda futura — no lo bloquea esta decisión.
 Reemplaza el bloque destacado único actual (`ArticuloDestacado`) por
 una **vidriera de tres piezas**: los 3 artículos publicados más
 recientes (cualquier categoría), cada uno como una "vitrina" de vidrio
-con profundidad 3D — la del medio queda al frente y bien iluminada en
-dorado, las de los costados quedan en perspectiva, más tenues, como
-mirar una hilera de vidrieras en una calle.
+con profundidad 3D — la primera (la más reciente) queda al frente y
+bien iluminada en dorado, las de los costados quedan en perspectiva,
+más tenues, como mirar una hilera de vidrieras en una calle.
 
 - **Full-bleed**: esta sección usa todo el ancho de la pantalla, sin
   los márgenes negros vacíos del resto del sitio.

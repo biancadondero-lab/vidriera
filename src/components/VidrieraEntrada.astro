@@ -61,15 +61,4 @@ const { articulos } = Astro.props;
   .vitrina-fila {
     scroll-snap-type: x proximity;
   }
-
-  .vitrina-fila > * {
-    width: 280px;
-    scroll-snap-align: start;
-  }
-
-  @media (max-width: 640px) {
-    .vitrina-fila > * {
-      width: 240px;
-    }
-  }
 </style>
