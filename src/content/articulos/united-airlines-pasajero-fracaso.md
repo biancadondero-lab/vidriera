@@ -13,7 +13,7 @@ antesDespues:
 enNumeros:
   - etiqueta: "Caída bursátil estimada en un día"
     valor: "1.400 millones de USD"
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/United_Airlines_Boeing_787-9_N29975_%2833527885765%29.jpg/1280px-United_Airlines_Boeing_787-9_N29975_%2833527885765%29.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/United_Airlines_-_N558UA_-_Boeing_757-222_-_San_Francisco_International_Airport-0713.jpg/1280px-United_Airlines_-_N558UA_-_Boeing_757-222_-_San_Francisco_International_Airport-0713.jpg"
 desafio:
   pregunta: "Un pasajero es arrastrado por la fuerza fuera de un vuelo de United Airlines y el video se viraliza. ¿Cómo reacciona primero el CEO de la aerolínea?"
   opciones:
