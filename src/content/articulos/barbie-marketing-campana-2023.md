@@ -7,7 +7,7 @@ fuente: "Warner Bros. / Mattel"
 citaDestacada: "El generador de selfies barbieselfie.ai se usó más de 13 millones de veces."
 pais: "estados-unidos"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/5/50/Barbie_%282023_movie_logo%29.png"
+imagen: "https://images.unsplash.com/photo-1686264098464-84f19b2cbd4f?w=1200&q=80&auto=format&fit=crop"
 ---
 
 Meses antes de que "Barbie" llegara a los cines el 21 de julio de 2023, Warner Bros. y Mattel ya habían convertido a la muñeca en el centro de una de las campañas de marketing más ambiciosas de la década. El estudio destinó un presupuesto estimado de 150 millones de dólares a la promoción de la película, una cifra que superó los 145 millones invertidos en su producción, y lo canalizó en una estrategia que trascendió los avances de cine tradicionales.

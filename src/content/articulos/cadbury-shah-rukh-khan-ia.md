@@ -7,7 +7,7 @@ fuente: "Ogilvy India / Wavemaker"
 citaDestacada: "La campaña de 2021 llegó a más de 2.500 comercios locales en más de 500 códigos postales de India."
 pais: "india"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cadbury_logo_new.jpg"
+imagen: "https://images.unsplash.com/photo-1750085037110-d38f296e9613?w=1200&q=80&auto=format&fit=crop"
 ---
 
 En 2020, en plena pandemia, Cadbury Celebrations lanzó en India la campaña "Not Just A Cadbury Ad" para apoyar a los pequeños comercios de barrio golpeados por las cuarentenas: una plataforma sencilla que insertaba el nombre y el logo de cada negocio local en un aviso genérico de la marca, con presencia en más de 300 códigos postales del país. La idea funcionó tan bien que, para 2021, Ogilvy India y la agencia de medios Wavemaker decidieron llevarla a otro nivel de cara al Diwali, la temporada de mayor consumo del año.

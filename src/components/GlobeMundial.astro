@@ -94,7 +94,6 @@ const puntos = articulos
     function actualizarPosiciones() {
       const anchoTextura = anchoDeVuelta();
       const anchoVisible = anchoTextura / 2;
-      mapa.style.backgroundPositionX = `${offsetPx}px`;
       mapa.style.maskPosition = `${offsetPx}px 0`;
       (mapa.style as any).webkitMaskPosition = `${offsetPx}px 0`;
       puntos.forEach((punto) => {
@@ -210,13 +209,29 @@ const puntos = articulos
     margin: -4.5px;
     background: var(--color-acento);
     border-radius: 50%;
-    box-shadow: 0 0 8px color-mix(in srgb, var(--color-acento) 70%, transparent);
+    box-shadow:
+      0 0 0 1.5px var(--color-fondo),
+      0 0 8px color-mix(in srgb, var(--color-acento) 70%, transparent);
     transition: transform 0.15s ease, opacity 0.15s ease;
   }
 
   .globo-punto:hover,
   .globo-punto:focus-visible {
     transform: scale(1.6);
+  }
+
+  /* La leyenda comparte estas clases de forma con los puntos del mapa —
+     esta regla de tamaño va ANTES de las variantes de forma para que
+     .forma-diamante/.forma-cuadrado/etc puedan pisar su radio/fondo. Si
+     quedara después (mismo peso de selector, un solo nombre de clase),
+     el orden de aparición en la hoja decide, y esta ganaría, dejando
+     las 5 formas de la leyenda idénticas. */
+  .globo-leyenda-forma {
+    width: 8px;
+    height: 8px;
+    background: var(--color-acento);
+    border-radius: 50%;
+    flex: none;
   }
 
   .forma-diamante {
@@ -236,7 +251,10 @@ const puntos = articulos
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 9px solid var(--color-acento);
-    filter: drop-shadow(0 0 6px color-mix(in srgb, var(--color-acento) 70%, transparent));
+    filter:
+      drop-shadow(0 0 1.5px var(--color-fondo))
+      drop-shadow(0 0 1.5px var(--color-fondo))
+      drop-shadow(0 0 6px color-mix(in srgb, var(--color-acento) 70%, transparent));
   }
 
   .forma-anillo {
@@ -267,13 +285,5 @@ const puntos = articulos
     font-family: var(--font-texto);
     font-size: 0.72rem;
     color: color-mix(in srgb, var(--color-marfil) 60%, transparent);
-  }
-
-  .globo-leyenda-forma {
-    width: 8px;
-    height: 8px;
-    background: var(--color-acento);
-    border-radius: 50%;
-    flex: none;
   }
 </style>

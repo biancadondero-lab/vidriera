@@ -120,12 +120,12 @@ const datos = articulos.map((a) => ({
     background: var(--color-tarjeta);
     padding: 32px 24px;
     min-height: 240px;
-    display: flex;
-    flex-direction: column;
     transition: border-color 0.2s ease;
   }
 
   .comparador-panel:has(.comparador-vacio) {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
