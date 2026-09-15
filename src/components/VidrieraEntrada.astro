@@ -1,0 +1,75 @@
+---
+import VidrieraVitrina from './VidrieraVitrina.astro';
+import type { Articulo } from '../lib/articles';
+
+interface Props {
+  articulos: Articulo[];
+}
+
+const { articulos } = Astro.props;
+---
+<section id="vidriera-entrada" class="vidriera-entrada bg-fondo">
+  <div class="mx-auto max-w-6xl px-4 py-16">
+    <p class="mb-4 text-xs font-semibold uppercase tracking-wide text-acento">En vidriera ahora</p>
+    <div class="vitrina-fila flex gap-6 overflow-x-auto pb-4">
+      {articulos.map((articulo, indice) => (
+        <VidrieraVitrina articulo={articulo} activa={indice === 0} />
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const seccion = document.getElementById('vidriera-entrada');
+
+  if (seccion && !reduceMotion) {
+    let ticking = false;
+
+    const actualizar = () => {
+      const rect = seccion.getBoundingClientRect();
+      const alto = rect.height || 1;
+      const progreso = Math.min(1, Math.max(0, -rect.top / alto));
+      const escala = 1 - progreso * 0.18;
+      const opacidad = 1 - progreso * 0.85;
+      seccion.style.transform = `scale(${escala})`;
+      seccion.style.opacity = String(opacidad);
+      ticking = false;
+    };
+
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!ticking) {
+          window.requestAnimationFrame(actualizar);
+          ticking = true;
+        }
+      },
+      { passive: true },
+    );
+
+    actualizar();
+  }
+</script>
+
+<style>
+  .vidriera-entrada {
+    transform-origin: top center;
+    will-change: transform, opacity;
+  }
+
+  .vitrina-fila {
+    scroll-snap-type: x proximity;
+  }
+
+  .vitrina-fila > * {
+    width: 280px;
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 640px) {
+    .vitrina-fila > * {
+      width: 240px;
+    }
+  }
+</style>
