@@ -15,7 +15,7 @@ enNumeros:
     valor: "79"
   - etiqueta: "Cartas y llamados de consumidores en contra"
     valor: "+400.000"
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_bottle_cap.jpg/1280px-Coca-Cola_bottle_cap.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg/1280px-15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg"
 desafio:
   pregunta: "Sos el equipo de marketing de Coca-Cola en 1985. Las pruebas de sabor a ciegas dicen que la gente prefiere una fórmula más dulce. ¿Qué hacés?"
   opciones:
