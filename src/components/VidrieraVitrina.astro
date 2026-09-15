@@ -1,0 +1,92 @@
+---
+import { nombreCategoria } from '../lib/categorias';
+import type { Articulo } from '../lib/articles';
+
+interface Props {
+  articulo: Articulo;
+  activa?: boolean;
+  mostrarAnio?: boolean;
+}
+
+const { articulo, activa = false, mostrarAnio = false } = Astro.props;
+const anio = articulo.fecha.getUTCFullYear();
+---
+<a
+  href={`/articulo/${articulo.id}`}
+  class={`vitrina group block flex-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento ${activa ? 'vitrina-activa' : ''}`}
+>
+  {mostrarAnio && (
+    <div class="mb-2 font-display text-sm font-semibold text-acento">{anio}</div>
+  )}
+  <div class="vitrina-vidrio relative overflow-hidden rounded-lg border border-borde">
+    <div class="vitrina-imagen absolute inset-0">
+      {articulo.imagen ? (
+        <img src={articulo.imagen} alt={articulo.titulo} loading="lazy" class="h-full w-full object-cover" />
+      ) : (
+        <div class="grafico-abstracto h-full w-full"></div>
+      )}
+    </div>
+    <div class="vitrina-veta absolute inset-0"></div>
+    <div class="relative flex h-full flex-col justify-end p-4">
+      <span class="mb-1 text-xs font-semibold uppercase tracking-wide text-acento">
+        {nombreCategoria(articulo.categoria)}
+      </span>
+      <h3 class="font-display text-lg font-semibold leading-snug text-marfil transition-colors group-hover:text-acento">
+        {articulo.titulo}
+      </h3>
+    </div>
+  </div>
+</a>
+
+<style>
+  .vitrina-vidrio {
+    height: 220px;
+    background: var(--color-tarjeta);
+    border-color: color-mix(in srgb, var(--color-acento) 30%, var(--color-borde));
+    transform: perspective(1200px) rotateY(-9deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  }
+
+  .vitrina-activa .vitrina-vidrio {
+    transform: perspective(1200px) rotateY(0deg) scale(1.03);
+    border-color: var(--color-acento);
+    box-shadow:
+      0 0 32px color-mix(in srgb, var(--color-acento) 35%, transparent),
+      0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .vitrina:hover .vitrina-vidrio {
+    transform: perspective(1200px) rotateY(0deg) scale(1.02);
+  }
+
+  .vitrina-imagen img,
+  .vitrina-imagen .grafico-abstracto {
+    filter: grayscale(0.5) sepia(0.25) contrast(1.05);
+  }
+
+  .vitrina-veta {
+    background:
+      repeating-linear-gradient(
+        115deg,
+        transparent 0,
+        transparent 2px,
+        color-mix(in srgb, var(--color-acento) 8%, transparent) 2px,
+        color-mix(in srgb, var(--color-acento) 8%, transparent) 3px
+      ),
+      linear-gradient(to top, var(--color-fondo) 5%, transparent 60%);
+  }
+
+  .grafico-abstracto {
+    background:
+      radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--color-acento) 35%, transparent), transparent 60%),
+      radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--color-acento) 20%, transparent), transparent 55%),
+      var(--color-fondo);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .vitrina-vidrio {
+      transition: none;
+    }
+  }
+</style>
