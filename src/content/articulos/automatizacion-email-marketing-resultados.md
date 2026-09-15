@@ -7,7 +7,7 @@ fuente: "Omnisend – 2026 Ecommerce Marketing Report"
 citaDestacada: "Cada envío automatizado produjo en promedio 2,87 dólares, contra 0,18 dólares de una campaña programada: 16 veces más ingreso por envío."
 pais: "reino-unido"
 estado: publicado
-imagen: "https://images.unsplash.com/photo-1683117927786-f146451082fb"
+imagen: "https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?w=1200&q=80&auto=format&fit=crop"
 ---
 
 El email marketing sigue siendo uno de los canales más rentables del marketing digital, pero la diferencia entre un envío manual y uno automatizado se volvió abismal. Secuencias de bienvenida, recuperación de carritos abandonados y flujos de re-engagement disparados por el comportamiento del usuario están concentrando una porción cada vez mayor de los ingresos que genera el canal, mientras las campañas puntuales pierden peso relativo.
