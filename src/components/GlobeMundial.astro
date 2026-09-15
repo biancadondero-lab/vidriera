@@ -1,6 +1,7 @@
 ---
 import type { Articulo } from '../lib/articles';
 import { PAISES } from '../lib/paises';
+import { nombreCategoria, type CategoriaSlug } from '../lib/categorias';
 
 interface Props {
   articulos: Articulo[];
@@ -62,6 +63,14 @@ const puntos = articulos
     ))}
   </div>
   <p class="globo-hint">Arrastrá para girar</p>
+  <div class="globo-leyenda" role="list">
+    {Object.entries(FORMA_POR_CATEGORIA).map(([slug, forma]) => (
+      <span class="globo-leyenda-item" role="listitem">
+        <span class={`globo-leyenda-forma ${forma}`} aria-hidden="true"></span>
+        {nombreCategoria(slug as CategoriaSlug)}
+      </span>
+    ))}
+  </div>
 </div>
 
 <script>
@@ -86,6 +95,8 @@ const puntos = articulos
       const anchoTextura = anchoDeVuelta();
       const anchoVisible = anchoTextura / 2;
       mapa.style.backgroundPositionX = `${offsetPx}px`;
+      mapa.style.maskPosition = `${offsetPx}px 0`;
+      (mapa.style as any).webkitMaskPosition = `${offsetPx}px 0`;
       puntos.forEach((punto) => {
         const baseX = parseFloat(punto.dataset.x || '0');
         const baseXPx = (baseX / 100) * anchoTextura;
@@ -160,7 +171,8 @@ const puntos = articulos
     touch-action: pan-y;
     box-shadow:
       0 0 60px color-mix(in srgb, var(--color-acento) 15%, transparent),
-      inset 0 0 40px color-mix(in srgb, var(--color-fondo) 95%, transparent);
+      inset 0 0 40px color-mix(in srgb, var(--color-fondo) 95%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--color-acento) 25%, transparent);
     background: var(--color-tarjeta);
   }
 
@@ -171,18 +183,23 @@ const puntos = articulos
   .globo-mapa {
     position: absolute;
     inset: 0;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Equirectangular_projection_world_map_without_borders.svg');
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    filter: grayscale(1) sepia(0.6) saturate(2) brightness(0.9);
-    opacity: 0.85;
+    background: linear-gradient(160deg, color-mix(in srgb, var(--color-acento) 85%, var(--color-marfil)), var(--color-acento));
+    -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Equirectangular_projection_world_map_without_borders.svg');
+    mask-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Equirectangular_projection_world_map_without_borders.svg');
+    -webkit-mask-repeat: repeat-x;
+    mask-repeat: repeat-x;
+    -webkit-mask-size: auto 100%;
+    mask-size: auto 100%;
+    opacity: 0.92;
   }
 
   .globo-sombra {
     position: absolute;
     inset: 0;
     border-radius: 50%;
-    background: radial-gradient(circle at 30% 30%, transparent 40%, color-mix(in srgb, var(--color-fondo) 70%, transparent) 100%);
+    background:
+      radial-gradient(circle at 30% 26%, color-mix(in srgb, var(--color-marfil) 14%, transparent), transparent 32%),
+      radial-gradient(circle at 50% 50%, transparent 48%, color-mix(in srgb, var(--color-fondo) 88%, transparent) 100%);
     pointer-events: none;
   }
 
@@ -233,5 +250,30 @@ const puntos = articulos
     color: color-mix(in srgb, var(--color-marfil) 50%, transparent);
     text-transform: uppercase;
     letter-spacing: 0.08em;
+  }
+
+  .globo-leyenda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  .globo-leyenda-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-texto);
+    font-size: 0.72rem;
+    color: color-mix(in srgb, var(--color-marfil) 60%, transparent);
+  }
+
+  .globo-leyenda-forma {
+    width: 8px;
+    height: 8px;
+    background: var(--color-acento);
+    border-radius: 50%;
+    flex: none;
   }
 </style>
