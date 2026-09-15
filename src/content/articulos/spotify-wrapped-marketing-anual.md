@@ -5,6 +5,7 @@ fecha: 2023-11-29
 resumen: "Cada diciembre, Spotify convierte el historial de escucha de sus usuarios en tarjetas personalizadas que ellos mismos difunden, transformando datos personales en una de las campañas de marketing más imitadas del mundo digital."
 fuente: "Spotify Newsroom"
 citaDestacada: "Spotify registró un aumento del 21% en las descargas de su aplicación móvil tras el lanzamiento de Wrapped."
+pais: "suecia"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bd/2024_Spotify_Logo.svg"
 ---

@@ -5,6 +5,7 @@ fecha: 2004-01-01
 resumen: "Dove rompió con los estándares publicitarios de belleza usando mujeres reales en lugar de modelos profesionales."
 fuente: "Ogilvy"
 citaDestacada: "Solo un pequeño porcentaje de mujeres se sentía representado por los estándares de belleza publicitarios tradicionales."
+pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sabonete_Dove.jpg/1280px-Sabonete_Dove.jpg"
 ---

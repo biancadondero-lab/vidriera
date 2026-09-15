@@ -5,6 +5,7 @@ fecha: 2021-10-18
 resumen: "Ogilvy India y Wavemaker crearon miles de avisos personalizados con la cara y la voz de Shah Rukh Khan generadas por IA para que pequeños comercios indios tuvieran, por primera vez, un aviso protagonizado por una superestrella."
 fuente: "Ogilvy India / Wavemaker"
 citaDestacada: "La campaña de 2021 llegó a más de 2.500 comercios locales en más de 500 códigos postales de India."
+pais: "reino-unido"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cadbury_logo_new.jpg"
 ---

@@ -5,6 +5,7 @@ fecha: 2018-12-18
 resumen: "Liquid Death vendió agua de manantial en latas con estética heavy metal y humor irreverente, y construyó una marca valuada en 1.400 millones de dólares sin depender de publicidad tradicional."
 fuente: "Liquid Death"
 citaDestacada: "Latas negras con calaveras, tipografía gótica y un eslogan directo: \"Murder Your Thirst\" (\"asesina tu sed\")."
+pais: "estados-unidos"
 estado: publicado
 ---
 

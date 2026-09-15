@@ -5,6 +5,7 @@ fecha: 1988-07-01
 resumen: "En 1988, tres simples palabras transformaron a Nike de marca deportiva a símbolo cultural."
 fuente: "Wieden+Kennedy"
 citaDestacada: "\"Just Do It\" no vendía zapatillas, vendía una actitud."
+pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg/1280px-Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg"
 ---
