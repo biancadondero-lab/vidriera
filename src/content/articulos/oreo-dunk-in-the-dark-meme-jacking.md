@@ -10,6 +10,15 @@ nivelViral: 78
 viralidadEtiqueta: "Viral alto"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Oreo-Two-Cookies.jpg/1280px-Oreo-Two-Cookies.jpg"
+desafio:
+  pregunta: "¿Cuántas veces se retuiteó el tuit 'Dunk in the Dark' de Oreo al día siguiente del apagón del Super Bowl?"
+  opciones:
+    - "Más de 2.000"
+    - "Más de 5.000"
+    - "Más de 15.000"
+    - "Más de 50.000"
+  correctaIndice: 2
+  revelacion: "Más de 15.000 retuits al día siguiente, tras superar los 10.000 en la primera hora. El tuit se armó y publicó en minutos desde un war room de la agencia 360i."
 ---
 
 El 3 de febrero de 2013, durante el tercer cuarto del Super Bowl XLVII, se cortó la luz en el Mercedes-Benz Superdome de Nueva Orleans y el partido quedó detenido durante más de media hora. La marca de galletitas Oreo, que ya tenía un equipo de la agencia 360i trabajando en un "war room" para monitorear el partido en tiempo real, vio la oportunidad y a las 20:48 publicó en Twitter una imagen con una Oreo partida en tres franjas de luz, sombra y oscuridad, acompañada del texto "Power out? No problem. You can still dunk in the dark" ("¿Se fue la luz? No hay problema. Igual podés mojar tu galletita en la oscuridad").

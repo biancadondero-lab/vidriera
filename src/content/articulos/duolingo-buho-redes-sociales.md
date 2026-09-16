@@ -8,6 +8,15 @@ citaDestacada: "La cuenta pasó de un puñado de seguidores a 8,2 millones en Ti
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Duolingo_logo_%282019%29.svg"
+desafio:
+  pregunta: "¿A cuántos seguidores llegó la cuenta de Duolingo en TikTok en apenas dos años?"
+  opciones:
+    - "800.000"
+    - "2,5 millones"
+    - "8,2 millones"
+    - "20 millones"
+  correctaIndice: 2
+  revelacion: "8,2 millones. Pasó de un puñado de seguidores a esa cifra gracias a la estrategia 'unhinged' con el búho Duo."
 ---
 
 A mediados de 2021, cuando TikTok anunció que había alcanzado los 1.000 millones de usuarios activos mensuales, la cuenta de Duolingo en la plataforma estaba prácticamente abandonada. Zaria Parvez, que se había sumado a la empresa como coordinadora de redes sociales, pidió hacerse cargo de ese perfil dormido y propuso algo poco convencional para una marca de tecnología educativa: dejar que Duo, el búho verde de la app, actuara como un personaje impredecible, obsesivo y un poco perturbador, en lugar de limitarse a promocionar lecciones de idiomas.

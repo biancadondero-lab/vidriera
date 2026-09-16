@@ -11,6 +11,15 @@ imagen: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Old_Spice_Deodorant
 antesDespues:
   antes: "A comienzos de 2010, Old Spice era una marca con historia pero con una imagen envejecida, frente a competidores como Axe que dominaban el segmento entre consumidores jóvenes."
   despues: "Con el comercial de Isaiah Mustafa y los 186 videos de respuesta personalizados, Old Spice logró que la serie se convirtiera en el anuncio más visto de YouTube en sus primeras 24 horas, ganó el Grand Prix de Cannes Lions y un Emmy, y quedó como caso de estudio de marketing en redes sociales."
+desafio:
+  pregunta: "¿Cuántos videos de respuesta personalizados filmó y publicó Old Spice en tiempo real en la segunda etapa de la campaña?"
+  opciones:
+    - "36"
+    - "90"
+    - "186"
+    - "300"
+  correctaIndice: 2
+  revelacion: "186 videos, filmados, editados y publicados en tiempo real a lo largo de dos días. La serie se convirtió en el anuncio más visto de YouTube en sus primeras 24 horas."
 ---
 
 A comienzos de 2010, Old Spice era una marca con historia pero con una imagen envejecida frente a competidores como Axe, que dominaban el segmento de higiene masculina entre consumidores jóvenes. La agencia Wieden+Kennedy, a través de los creativos Craig Allen y Eric Kallman, propuso una salida poco convencional: en lugar de pelear por atención masculina directa, el comercial "The Man Your Man Could Smell Like" se dirigió explícitamente a las mujeres, que suelen decidir buena parte de las compras de higiene del hogar.

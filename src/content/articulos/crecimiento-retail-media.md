@@ -13,6 +13,15 @@ enNumeros:
     valor: "casi $70.000M"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/0/06/Amazon_2024.svg"
+desafio:
+  pregunta: "¿Cuánto proyectaba eMarketer que ingresarían los ingresos de Amazon por retail media en 2025?"
+  opciones:
+    - "Más de 20.000 millones de dólares"
+    - "Más de 40.000 millones de dólares"
+    - "Más de 60.000 millones de dólares"
+    - "Más de 100.000 millones de dólares"
+  correctaIndice: 2
+  revelacion: "Más de 60.000 millones de dólares, con una proyección de casi 70.000 millones para 2026. Según Kantar Media, Amazon ya está empatada con TikTok como plataforma publicitaria más elegida."
 ---
 
 Un artículo de eMarketer publicado el 21 de mayo de 2025 confirmó una tendencia que venía consolidándose desde hacía varios años: los ingresos publicitarios de Amazon por retail media —los avisos que aparecen dentro de su propia plataforma de e-commerce, como resultados patrocinados o banners en la página de producto— superarán los 60.000 millones de dólares durante 2025 y treparán a casi 70.000 millones en 2026. Son cifras que ubican a Amazon Ads entre los negocios publicitarios más grandes del mundo, comparable en escala a jugadores que llevan mucho más tiempo instalados en ese terreno.

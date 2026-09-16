@@ -7,6 +7,15 @@ fuente: "Liquid Death"
 citaDestacada: "Latas negras con calaveras, tipografía gótica y un eslogan directo: \"Murder Your Thirst\" (\"asesina tu sed\")."
 pais: "estados-unidos"
 estado: publicado
+desafio:
+  pregunta: "¿En cuánto quedó valuada Liquid Death tras la ronda de inversión de marzo de 2024?"
+  opciones:
+    - "300 millones de dólares"
+    - "700 millones de dólares"
+    - "1.400 millones de dólares"
+    - "3.000 millones de dólares"
+  correctaIndice: 2
+  revelacion: "1.400 millones de dólares, con 263 millones en ventas minoristas durante 2023, construidos sobre agua enlatada con estética punk y casi sin publicidad tradicional."
 ---
 
 Liquid Death fue fundada el 18 de diciembre de 2018 por Mike Cessario, un director creativo publicitario con historia en el mundo de las bandas de punk y metal, que empezó a vender agua de manantial en latas de aluminio al estilo de una cerveza artesanal recién al mes siguiente, en enero de 2019. La idea había nacido años antes, en un festival de música, cuando Cessario notó que varios músicos bebían agua de latas de bebidas energéticas simplemente para no sentirse fuera de lugar en el backstage.

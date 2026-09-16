@@ -8,6 +8,15 @@ citaDestacada: "Spotify registró un aumento del 21% en las descargas de su apli
 pais: "suecia"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bd/2024_Spotify_Logo.svg"
+desafio:
+  pregunta: "¿Cuánto aumentaron las descargas de la app de Spotify en la primera semana de diciembre de 2020, tras el lanzamiento de Wrapped?"
+  opciones:
+    - "5%"
+    - "21%"
+    - "45%"
+    - "60%"
+  correctaIndice: 1
+  revelacion: "21%. En 2022, más de 156 millones de usuarios interactuaron con la experiencia de Wrapped."
 ---
 
 Spotify Wrapped nació en 2016 como el rediseño de una función anterior llamada "Year in Music", pero se transformó rápidamente en algo mucho más ambicioso: en lugar de presentar simples estadísticas de escucha, la empresa empezó a empaquetarlas en tarjetas de colores, con humor y datos curiosos, pensadas específicamente para compartirse en redes sociales. La edición de 2023 se puso a disposición de los usuarios el 29 de noviembre de ese año, según confirmó la propia compañía en su sala de prensa, y resumió la actividad de más de 574 millones de personas que escucharon música en la plataforma durante el año.

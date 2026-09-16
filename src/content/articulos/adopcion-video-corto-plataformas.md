@@ -15,6 +15,15 @@ enNumeros:
     valor: "1 hora 35 minutos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg"
+desafio:
+  pregunta: "¿Qué porcentaje de adultos conectados ve TikToks o Reels cada semana, según el reporte Digital 2025 April Global Statshot?"
+  opciones:
+    - "52%"
+    - "68%"
+    - "87,5%"
+    - "95%"
+  correctaIndice: 2
+  revelacion: "87,5%. En promedio le dedican 6 horas y 37 minutos semanales, con Kenia liderando (cerca de 11,5 horas) y Japón en el otro extremo (menos de 2 horas)."
 ---
 
 El reporte "Digital 2025 April Global Statshot", publicado el 23 de abril de 2025 por DataReportal junto con We Are Social y Meltwater, puso un número concreto a algo que ya se sentía en cualquier feed: el 87,5% de los adultos conectados a internet dice ver formatos como TikToks o Reels todas las semanas, según datos de la encuestadora GWI. No es un hábito ocasional, sino la forma dominante de consumir video en el celular.

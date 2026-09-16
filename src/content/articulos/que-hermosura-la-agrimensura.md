@@ -8,6 +8,15 @@ citaDestacada: "La campaña generó un aumento del 52% en las inscripciones a Ag
 pais: "argentina"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Total-Robotic-Station.jpg/1280px-Total-Robotic-Station.jpg"
+desafio:
+  pregunta: "¿Cuánto aumentaron las inscripciones a Agrimensura en universidades argentinas tras la campaña 'Qué hermosura la Agrimensura'?"
+  opciones:
+    - "18%"
+    - "35%"
+    - "52%"
+    - "70%"
+  correctaIndice: 2
+  revelacion: "52%. La pieza 'Psicólogos' también se llevó un Bronze en Film Craft en los Clio Awards 2026."
 ---
 
 A fines de 2025, el Consejo Profesional de Agrimensura de la Provincia de Buenos Aires lanzó, junto con la agencia From, la campaña "Qué hermosura la Agrimensura". En lugar de promocionar la carrera de forma directa, la pieza central usa el humor para señalar la saturación de profesiones como Psicología, Abogacía y Medicina, con films como "Psicólogos", "Abogados" y "Médicos", para instalar la idea de que la agrimensura es una salida laboral con demanda real y poca competencia.

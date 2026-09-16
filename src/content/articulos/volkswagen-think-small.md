@@ -8,6 +8,15 @@ citaDestacada: "En 1999, Advertising Age la nombró la mejor campaña publicitar
 pais: "alemania"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vintage_Volkswagen_Beetle_%28Unsplash%29.jpg"
+desafio:
+  pregunta: "¿Cómo mostró DDB al Escarabajo en el aviso fundacional de 'Think Small'?"
+  opciones:
+    - "En una foto grande ocupando toda la página"
+    - "Con un titular grandilocuente sobre potencia"
+    - "Como una foto pequeña en la esquina, con mucho blanco alrededor"
+    - "Rodeado de autos más grandes para comparar tamaños"
+  correctaIndice: 2
+  revelacion: "Una foto pequeña en la esquina superior izquierda, con el resto de la página en blanco. En 1999, Advertising Age la nombró la mejor campaña publicitaria del siglo XX en Norteamérica."
 ---
 
 En 1959, la agencia Doyle Dane Bernbach (DDB) presentó para el Escarabajo de Volkswagen la campaña "Think Small", con dirección de arte de Helmut Krone y textos de Julian Koenig, bajo la supervisión de William Bernbach. En un mercado dominado por Ford y Chevrolet, donde los avisos de autos eran coloridos, grandilocuentes y prometían autos cada vez más grandes, Volkswagen enfrentaba el problema inverso: cómo vender un auto alemán, chico y sin lujos a un país que asociaba tamaño con éxito.

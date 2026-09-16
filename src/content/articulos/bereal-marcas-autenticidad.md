@@ -10,6 +10,15 @@ nivelViral: 66
 viralidadEtiqueta: "Impacto moderado"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Guy_taking_a_Selfie.jpg/1280px-Guy_taking_a_Selfie.jpg"
+desafio:
+  pregunta: "¿Qué hizo Chipotle al abrir su cuenta en BeReal en abril de 2022?"
+  opciones:
+    - "Pagó publicidad tradicional dentro de la app"
+    - "Publicó un código de promoción reutilizable válido por cuatro días"
+    - "Contrató influencers exclusivos de la plataforma"
+    - "Lanzó un producto nuevo solo para BeReal"
+  correctaIndice: 1
+  revelacion: "Publicó un código promocional reutilizable de cuatro días que daba entrada gratis a los primeros 100 usuarios que lo canjearan cada vez. BeReal, en ese momento, no tenía infraestructura publicitaria oficial."
 ---
 
 BeReal fue fundada en Francia en 2020 por Alexis Barreyat y Kévin Perreau, con una propuesta deliberadamente opuesta a la lógica de Instagram o TikTok: una vez al día, en un horario aleatorio, la app notifica a todos los usuarios a la vez para que tengan dos minutos para sacarse una foto con la cámara frontal y trasera simultáneamente, sin filtros ni edición posible. Tras un crecimiento lento entre campus universitarios franceses en 2021, la app explotó en 2022 impulsada por conversaciones en TikTok, llegando a ser la aplicación de fotografía más descargada de Apple en septiembre de ese año, con más de 14 millones de descargas en un solo mes, y a ser nombrada App del Año en el iPhone.

@@ -15,6 +15,15 @@ enNumeros:
     valor: "46%"
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1551897317-8b5a520d498b"
+desafio:
+  pregunta: "¿Qué porcentaje de consumidores dijo no creer en la mayoría de las afirmaciones ambientales de las marcas, según Deloitte Canadá?"
+  opciones:
+    - "31%"
+    - "44%"
+    - "57%"
+    - "73%"
+  correctaIndice: 2
+  revelacion: "57%. La brecha de percepción es notable: el 71% de los líderes empresariales cree que el público sí confía en sus mensajes de sustentabilidad."
 ---
 
 El informe "Creating value from sustainable products: How business purpose and brand trust can make the difference", publicado por Deloitte Canadá el 22 de junio de 2023, puso en números algo que la industria del marketing venía intuyendo: el 57% de los consumidores encuestados dijo no creer en la mayoría de las afirmaciones ambientales que hacen las marcas. Es decir, más de la mitad del público recibe los mensajes de sustentabilidad de una empresa con desconfianza de entrada, no como un dato neutral a evaluar.
