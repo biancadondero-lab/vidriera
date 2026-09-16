@@ -15,6 +15,15 @@ enNumeros:
     valor: "6%"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Filming_with_handheld_camera_stabilizer.jpg/1280px-Filming_with_handheld_camera_stabilizer.jpg"
+desafio:
+  pregunta: "¿Qué porcentaje de profesionales de marketing eligió al video corto como el formato con mejor ROI, según la encuesta de Statista citada por Sprout Social?"
+  opciones:
+    - "48%"
+    - "71%"
+    - "85%"
+    - "93%"
+  correctaIndice: 1
+  revelacion: "71%, muy por encima del video largo (22%) y el video en vivo (apenas 6%)."
 ---
 
 Según una encuesta de Statista de diciembre de 2024, citada por Sprout Social en su reporte de estadísticas de ROI en redes sociales, cuando se les pregunta a los equipos de marketing qué formato de video les da mejor retorno, el 71% elige el video corto, contra un 22% que señala al video largo y apenas un 6% que se inclina por el video en vivo. Es, por lejos, el formato mejor evaluado entre los profesionales consultados.

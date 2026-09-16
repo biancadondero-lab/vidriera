@@ -8,6 +8,15 @@ citaDestacada: "El CTR pago sobre esas mismas consultas se desplomó un 68%, de 
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+desafio:
+  pregunta: "¿En cuánto cayó el CTR orgánico de las búsquedas con AI Overviews, según el estudio de Seer Interactive?"
+  opciones:
+    - "21%"
+    - "61%"
+    - "38%"
+    - "80%"
+  correctaIndice: 1
+  revelacion: "Cayó 61%, de 1,76% a 0,61%. El CTR pago sobre esas mismas búsquedas se desplomó todavía más, un 68%."
 ---
 
 En poco más de un año, los AI Overviews de Google —la evolución de lo que empezó como Search Generative Experience— pasaron de ser un experimento a estar presentes en una porción creciente de las búsquedas, respondiendo directamente en la página de resultados sin que el usuario necesite visitar ningún sitio web. Para los equipos de marketing digital y los medios que dependen del tráfico orgánico, es el cambio más profundo que atravesó el ecosistema del SEO en años.

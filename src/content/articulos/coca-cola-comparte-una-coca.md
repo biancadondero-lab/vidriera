@@ -8,6 +8,15 @@ citaDestacada: "La campaña se expandió a más de 80 países en los años sigui
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coca-Cola_bottle.jpg/1280px-Coca-Cola_bottle.jpg"
+desafio:
+  pregunta: "¿A cuántos países se expandió 'Share a Coke' en los años siguientes a su lanzamiento en Australia en 2011?"
+  opciones:
+    - "Más de 20"
+    - "Más de 50"
+    - "Más de 80"
+    - "Más de 150"
+  correctaIndice: 2
+  revelacion: "Se expandió a más de 80 países. Nació en Australia para revertir una caída de consumo entre adolescentes y jóvenes adultos."
 ---
 
 En 2011, Coca-Cola Australia lanzó "Share a Coke", una campaña que reemplazó el logo de la marca en sus botellas por los nombres más populares del país. La idea, desarrollada por Ogilvy, buscaba revertir una caída en el consumo entre adolescentes y jóvenes adultos que sentían que la marca ya no les hablaba directamente a ellos.

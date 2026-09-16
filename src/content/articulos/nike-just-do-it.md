@@ -8,6 +8,15 @@ citaDestacada: "\"Just Do It\" no vendía zapatillas, vendía una actitud."
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg/1280px-Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg"
+desafio:
+  pregunta: "¿De dónde dijo Dan Wieden que sacó la inspiración para 'Just Do It'?"
+  opciones:
+    - "Un discurso motivacional de un atleta"
+    - "Las últimas palabras de un condenado a muerte en Utah"
+    - "Una frase de un comercial de la competencia"
+    - "Un eslogan que ya usaba otra marca"
+  correctaIndice: 1
+  revelacion: "De las últimas palabras de un condenado a muerte en Utah, según contó el propio Dan Wieden. Lo que iba a ser una simple línea de cierre se convirtió en el eslogan más longevo de Nike."
 ---
 
 En 1988, la agencia Wieden+Kennedy lanzó para Nike el eslogan "Just Do It", inspirado —según contó el propio Dan Wieden— en las últimas palabras de un condenado a muerte en Utah. Lo que empezó como una línea de cierre para una tanda de comerciales terminó convertido en uno de los eslóganes más reconocidos de la historia de la publicidad.

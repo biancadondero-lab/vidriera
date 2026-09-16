@@ -9,6 +9,15 @@ pais: "estados-unidos"
 nivelViral: 66
 viralidadEtiqueta: "Impacto moderado"
 estado: publicado
+desafio:
+  pregunta: "¿Cómo reaccionó McDonald's cuando TikTok convirtió el Grimace Shake en un meme sobre morir 'intoxicado'?"
+  opciones:
+    - "Desmintió la broma públicamente"
+    - "Pidió que se bajaran los videos"
+    - "Se sumó al chiste desde su cuenta oficial de Twitter"
+    - "No dijo nada y descontinuó el producto"
+  correctaIndice: 2
+  revelacion: "Se sumó al chiste con un tuit propio, sin desmentir ni pedir que bajaran los videos, lo que ayudó a que la tendencia siguiera circulando."
 ---
 
 El 12 de junio de 2023, McDonald's lanzó el "Grimace Birthday Shake", un batido de sabor a baya de color violeta intenso, para celebrar lo que la marca declaró como el cumpleaños de Grimace, el personaje morado y de forma indefinida que integra el universo de McDonaldland desde los años 70. Al día siguiente, el creador Austin Frazier subió a TikTok un video probando el batido que, a mitad de clip, cortaba bruscamente a él tirado en el piso con el líquido morado derramado alrededor de su boca, simulando estar muerto. El video superó los 2,6 millones de reproducciones y encendió una tendencia.

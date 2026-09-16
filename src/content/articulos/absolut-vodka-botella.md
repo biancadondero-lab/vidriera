@@ -8,6 +8,15 @@ citaDestacada: "Llegó a generar más de mil quinientas variaciones distintas si
 pais: "suecia"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6a/A_bottle_of_Absolut_Vodka.jpg"
+desafio:
+  pregunta: "¿Cuánto le pagó Carillon Importers a Andy Warhol en 1983 por su versión de la botella?"
+  opciones:
+    - "10.000 dólares"
+    - "65.000 dólares"
+    - "150.000 dólares"
+    - "500.000 dólares"
+  correctaIndice: 1
+  revelacion: "Le pagó 65.000 dólares. Ese encargo abrió la puerta a que más de 350 artistas, entre ellos Keith Haring y Ed Ruscha, crearan su propia versión de la botella."
 ---
 
 En 1981, la agencia TBWA lanzó para Carillon Importers, distribuidor estadounidense de Absolut, la campaña "Absolut Perfection", concebida por el director de arte Geoff Hayes. La primera pieza jugaba con un simple chiste visual y verbal alrededor de la forma de la botella, sin mostrar más producto que su silueta distintiva contra un titular de dos palabras que combinaba "Absolut" con un adjetivo. Esa fórmula —botella real, fondo simple, juego de palabras— se repitió y reinventó durante los veinticinco años siguientes.

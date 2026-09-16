@@ -8,6 +8,15 @@ citaDestacada: "Solo un pequeño porcentaje de mujeres se sentía representado p
 pais: "estados-unidos"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sabonete_Dove.jpg/1280px-Sabonete_Dove.jpg"
+desafio:
+  pregunta: "¿Qué decisión tomó Dove en 2004 para lanzar la 'Campaign for Real Beauty'?"
+  opciones:
+    - "Contratar más supermodelos reconocidas"
+    - "Reemplazar a las modelos profesionales por mujeres reales de distintos cuerpos y edades"
+    - "Dejar de hacer publicidad por completo"
+    - "Usar solo animación en sus anuncios"
+  correctaIndice: 1
+  revelacion: "Reemplazó a las modelos profesionales por mujeres reales, tras un estudio propio que mostró que solo una minoría se sentía representada por los estándares publicitarios tradicionales."
 ---
 
 En 2004, Dove lanzó la "Campaign for Real Beauty", reemplazando a las modelos profesionales de sus anuncios por mujeres de distintas edades, tamaños y tipos de cuerpo. La decisión respondía a un estudio encargado por la propia marca que mostraba que solo un pequeño porcentaje de mujeres se sentía representado por los estándares de belleza publicitarios tradicionales.

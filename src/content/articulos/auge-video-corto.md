@@ -8,6 +8,15 @@ citaDestacada: "Las áreas de performance y growth destinan hoy una porción cre
 pais: "china"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Instagram_app_on_smartphone.jpg/1280px-Instagram_app_on_smartphone.jpg"
+desafio:
+  pregunta: "¿Qué priorizan hoy las áreas de performance y growth al invertir en video corto?"
+  opciones:
+    - "Una sola pieza pulida para todos los canales"
+    - "Volumen de creatividades y velocidad de iteración"
+    - "Producción tradicional de alto costo"
+    - "Presupuesto fijo sin variantes"
+  correctaIndice: 1
+  revelacion: "Priorizan volumen de creatividades y velocidad de iteración por sobre la producción tradicional de alto costo: muchas variantes livianas para probar y descartar según el rendimiento real."
 ---
 
 Durante años, la pauta digital giró alrededor de banners, imágenes estáticas y videos horizontales pensados para YouTube. La irrupción de TikTok, y la respuesta de Instagram con Reels, corrió ese eje hacia el video vertical de entre 15 y 60 segundos, consumido en un feed de scroll continuo.

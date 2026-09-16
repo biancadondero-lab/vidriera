@@ -15,6 +15,15 @@ enNumeros:
     valor: "+85%"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+desafio:
+  pregunta: "¿Qué porcentaje de marcas, agencias y editores dijo estar haciendo crecer su first-party data en 2024, según IAB?"
+  opciones:
+    - "41%"
+    - "58%"
+    - "71%"
+    - "89%"
+  correctaIndice: 2
+  revelacion: "71%, casi el doble que en 2022 (41%). En 2025, Google terminó anunciando que no eliminaría las cookies de terceros de Chrome."
 ---
 
 Durante años, la industria publicitaria digital vivió pendiente de una fecha: el momento en que Google eliminaría las cookies de terceros de Chrome, el navegador más usado del mundo. Esa fecha se corrió varias veces y, en abril de 2025, Google terminó por anunciar que no avanzaría con la eliminación estándar ni con el aviso a usuarios que había prometido, dejando a las cookies de terceros habilitadas por defecto. Pero para entonces, buena parte de la industria ya había dejado de esperar.
