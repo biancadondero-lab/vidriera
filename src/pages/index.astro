@@ -14,7 +14,10 @@ const idsDestacados = new Set([...destacadosActuales, ...destacadosDatos].map((a
 const restoGrid = resto.filter((a) => !idsDestacados.has(a.id));
 const ordenados = [...destacadosActuales, ...destacadosDatos, ...restoGrid];
 ---
-<BaseLayout titulo="Inicio">
+<BaseLayout
+  titulo="Inicio"
+  descripcion="Una curaduría de campañas de marketing, casos históricos, fracasos de marca y tendencias, con datos y contexto real."
+>
   {entrada.length > 0 && (
     <Fragment slot="full-bleed">
       <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>

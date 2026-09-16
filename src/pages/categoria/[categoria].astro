@@ -4,7 +4,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { obtenerArticulosPublicados } from '../../lib/contenido';
 import { filtrarPorCategoria } from '../../lib/articles';
 import { claseBento, CLASES_GRID_BENTO } from '../../lib/bento';
-import { CATEGORIAS, nombreCategoria, type CategoriaSlug } from '../../lib/categorias';
+import { CATEGORIAS, nombreCategoria, descripcionCategoria, type CategoriaSlug } from '../../lib/categorias';
 
 export async function getStaticPaths() {
   return CATEGORIAS.map((c) => ({ params: { categoria: c.slug } }));
@@ -14,7 +14,7 @@ const { categoria } = Astro.params as { categoria: CategoriaSlug };
 const publicados = await obtenerArticulosPublicados();
 const deLaCategoria = filtrarPorCategoria(publicados, categoria);
 ---
-<BaseLayout titulo={nombreCategoria(categoria)}>
+<BaseLayout titulo={nombreCategoria(categoria)} descripcion={descripcionCategoria(categoria)}>
   <div class="banda-categoria relative mb-10 overflow-hidden rounded-xl border border-borde px-6 py-10 sm:px-10 sm:py-14">
     <span class="relative block text-xs font-semibold uppercase tracking-wide text-acento">Categoría</span>
     <h1 class="relative font-display text-4xl font-bold sm:text-5xl">{nombreCategoria(categoria)}</h1>
