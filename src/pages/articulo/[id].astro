@@ -20,8 +20,27 @@ export async function getStaticPaths() {
 const { entrada } = Astro.props;
 const { Content } = await render(entrada);
 const fechaFormateada = formatearFecha(entrada.data.fecha);
+const fechaISO = entrada.data.fecha.toISOString();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entrada.data.titulo,
+  description: entrada.data.resumen,
+  datePublished: fechaISO,
+  ...(entrada.data.imagen ? { image: [entrada.data.imagen] } : {}),
+  author: { '@type': 'Organization', name: 'Vidriera' },
+  publisher: { '@type': 'Organization', name: 'Vidriera' },
+};
 ---
-<BaseLayout titulo={entrada.data.titulo} descripcion={entrada.data.resumen}>
+<BaseLayout
+  titulo={entrada.data.titulo}
+  descripcion={entrada.data.resumen}
+  imagen={entrada.data.imagen}
+  tipo="article"
+  fechaPublicacion={fechaISO}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class="max-w-2xl mx-auto">
     <span class="inline-block text-xs font-semibold uppercase tracking-wide text-acento mb-3">
       {nombreCategoria(entrada.data.categoria)}
