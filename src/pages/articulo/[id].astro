@@ -8,6 +8,7 @@ import EnNumeros from '../../components/EnNumeros.astro';
 import TermometroViralidad from '../../components/TermometroViralidad.astro';
 import AntesDespues from '../../components/AntesDespues.astro';
 import DesafioInteractivo from '../../components/DesafioInteractivo.astro';
+import LecturaBianca from '../../components/LecturaBianca.astro';
 
 export async function getStaticPaths() {
   const entradas = await getCollection('articulos', ({ data }) => data.estado === 'publicado');
@@ -64,6 +65,9 @@ const jsonLd = {
     </div>
     {entrada.data.antesDespues && (
       <AntesDespues antes={entrada.data.antesDespues.antes} despues={entrada.data.antesDespues.despues} />
+    )}
+    {entrada.data.lecturaBianca && (
+      <LecturaBianca categoria={entrada.data.categoria} {...entrada.data.lecturaBianca} />
     )}
     {entrada.data.fuente && (
       <p class="mt-10 text-sm text-marfil/50">Fuente: {entrada.data.fuente}</p>
