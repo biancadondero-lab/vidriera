@@ -1,0 +1,30 @@
+---
+import { titulosLectura } from '../lib/lecturaBianca';
+
+interface Props {
+  categoria: string;
+  insight: string;
+  palanca: string;
+  pyme: string;
+}
+
+const { categoria, insight, palanca, pyme } = Astro.props;
+const titulos = titulosLectura(categoria);
+const partes = [
+  { titulo: titulos.insight, texto: insight },
+  { titulo: titulos.palanca, texto: palanca },
+  { titulo: titulos.pyme, texto: pyme },
+];
+---
+<aside class="lectura-bianca my-10 rounded-xl border border-acento/60 bg-tarjeta p-6" aria-labelledby="lectura-bianca-titulo">
+  <h2 id="lectura-bianca-titulo" class="font-display text-xl font-bold">La lectura de Bianca</h2>
+  <p class="mt-1 text-xs uppercase tracking-wide text-marfil/50">Bianca Dondero · Estudiante de Marketing</p>
+  <dl class="mt-5 space-y-4">
+    {partes.map((parte) => (
+      <div>
+        <dt class="text-xs font-semibold uppercase tracking-wide text-acento">{parte.titulo}</dt>
+        <dd class="mt-1 text-sm leading-relaxed text-marfil/80">{parte.texto}</dd>
+      </div>
+    ))}
+  </dl>
+</aside>

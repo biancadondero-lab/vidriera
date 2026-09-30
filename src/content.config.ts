@@ -28,6 +28,13 @@ const articulos = defineCollection({
         revelacion: z.string(),
       })
       .optional(),
+    lecturaBianca: z
+      .object({
+        insight: z.string(),
+        palanca: z.string(),
+        pyme: z.string(),
+      })
+      .optional(),
   }),
 });
 
