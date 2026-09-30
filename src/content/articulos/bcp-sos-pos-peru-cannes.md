@@ -13,7 +13,7 @@ enNumeros:
     valor: "+17.500"
   - etiqueta: "Peruanos alcanzados"
     valor: "+34 millones"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Cómo podía un cliente del BCP bloquear sus cuentas con SOS POS después de que le robaran el celular?"
   opciones:

@@ -6,7 +6,7 @@ resumen: "En plena ola de promociones para viajar al Mundial, Grido dio vuelta l
 fuente: "Merca2.0"
 citaDestacada: "No hay mejor lugar en el mundo para ver el Mundial que acá. En casa. Con los tuyos."
 pais: "argentina"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Qué ofrecía la promo mundialista de Grido, a contramano de la mayoría de las marcas?"
   opciones:

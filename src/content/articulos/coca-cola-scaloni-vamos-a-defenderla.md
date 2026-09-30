@@ -6,7 +6,7 @@ resumen: "Coca-Cola Argentina lanzó 'La Selección Coca-Cola' con un film de Gr
 fuente: "MDZ Online"
 citaDestacada: "No vamos a ir a ganarla. Vamos a ir a defenderla."
 pais: "argentina"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg"
 desafio:
   pregunta: "¿Qué formato simula el comercial de Coca-Cola protagonizado por Lionel Scaloni?"

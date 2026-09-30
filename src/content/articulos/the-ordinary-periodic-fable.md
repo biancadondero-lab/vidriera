@@ -13,7 +13,7 @@ enNumeros:
     valor: "+4,2 millones"
   - etiqueta: "Suba de intención de compra en EE. UU."
     valor: "+10%"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Qué hizo The Ordinary con la tabla periódica en 'The Periodic Fable'?"
   opciones:

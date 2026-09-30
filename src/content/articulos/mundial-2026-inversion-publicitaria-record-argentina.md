@@ -15,7 +15,7 @@ enNumeros:
     valor: "120"
   - etiqueta: "Marcas asociadas a Messi"
     valor: "+25"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Qué rubro fue el que más invirtió en publicidad durante el Mundial 2026 en Argentina?"
   opciones:

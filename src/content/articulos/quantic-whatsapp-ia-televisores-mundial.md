@@ -5,7 +5,7 @@ fecha: 2026-04-01
 resumen: "La marca de televisores de Cetrogar creó con Ogilvy Argentina a 'Q', un bot de WhatsApp que analiza con inteligencia artificial la foto de un televisor ajeno y devuelve un descuento para comprar uno más grande."
 fuente: "Merca2.0"
 pais: "argentina"
-estado: borrador
+estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 desafio:
   pregunta: "¿Qué tenía que mandar el usuario al bot 'Q' de Quantic por WhatsApp para obtener un descuento?"

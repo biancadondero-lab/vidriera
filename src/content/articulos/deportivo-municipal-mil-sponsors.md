@@ -15,7 +15,7 @@ enNumeros:
     valor: "254.000 soles"
   - etiqueta: "Personas alcanzadas"
     valor: "+10 millones"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Cuánto tardó el Deportivo Municipal en vender los 1.000 espacios de su camiseta?"
   opciones:

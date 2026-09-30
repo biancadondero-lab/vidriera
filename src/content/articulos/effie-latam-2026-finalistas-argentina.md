@@ -15,7 +15,7 @@ enNumeros:
     valor: "53"
   - etiqueta: "Campañas finalistas de México"
     valor: "35"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Qué evalúan los premios Effie, a diferencia de otros premios de publicidad?"
   opciones:

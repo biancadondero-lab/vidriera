@@ -6,7 +6,7 @@ resumen: "En la previa del partido entre Argentina e Inglaterra en el Mundial 20
 fuente: "MDZ Online"
 citaDestacada: "Debido al partido de Argentina e Inglaterra, en esta cuenta queda suspendido el uso de palabras en inglés."
 pais: "argentina"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Cómo reemplazó Moov la palabra 'sneakers' en su placa previa al Argentina–Inglaterra?"
   opciones:

@@ -6,7 +6,7 @@ resumen: "Con la agencia Zurda, Fernet Branca reunió a influencers de Brasil, M
 fuente: "Agenda Continua"
 citaDestacada: "Si ya son intensos, cada cuatro años se vuelven insoportables."
 pais: "argentina"
-estado: borrador
+estado: publicado
 desafio:
   pregunta: "¿Cuál es la idea central de la campaña 'We Are Unbearable' de Fernet Branca?"
   opciones:
