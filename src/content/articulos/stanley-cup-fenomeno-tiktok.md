@@ -8,6 +8,10 @@ citaDestacada: "Los ingresos anuales de Stanley pasaron de unos 73 millones de d
 pais: "estados-unidos"
 nivelViral: 88
 viralidadEtiqueta: "Viral alto"
+lecturaBianca:
+  insight: "El vaso dejó de ser un objeto útil para ser un accesorio de identidad que se muestra en redes."
+  palanca: "Escasez y deseo: los colores limitados y las filas de madrugada alimentaron un ciclo en el que cada lanzamiento generaba más ganas."
+  pyme: "Lanzar ediciones limitadas o colores de temporada con fecha y cantidad anunciadas. La escasez real, bien comunicada, genera urgencia."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Stanley_Quencher_in_a_shop.jpg"
 desafio:

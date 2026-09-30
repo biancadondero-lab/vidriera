@@ -6,6 +6,10 @@ resumen: "Una campaña del Consejo Profesional de Agrimensura bonaerense logró 
 fuente: "Forbes Argentina / Clio Awards"
 citaDestacada: "La campaña generó un aumento del 52% en las inscripciones a Agrimensura en universidades de todo el país."
 pais: "argentina"
+lecturaBianca:
+  insight: "Los jóvenes eligen carrera pensando en tener trabajo, y muchos no saben que las carreras más populares están saturadas."
+  palanca: "Contraste con humor: la campaña no vende la agrimensura por sus atributos, sino por lo que no es (una carrera saturada)."
+  pyme: "Comunicar la ventaja del producto comparándolo con humor con la opción 'obvia' del mercado, sin nombrar a nadie, y medir el resultado con un solo número claro."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Total-Robotic-Station.jpg/1280px-Total-Robotic-Station.jpg"
 desafio:

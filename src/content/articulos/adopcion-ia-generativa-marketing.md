@@ -13,6 +13,10 @@ enNumeros:
     valor: "75%"
   - etiqueta: "Publica contenido de IA sin revisar"
     valor: "7%"
+lecturaBianca:
+  insight: "Si 8 de cada 10 marketers ya usan IA para crear contenido, producir más rápido dejó de ser una ventaja: ahora todos pueden hacerlo."
+  palanca: "El diferencial se mueve de la producción al criterio: qué decir, a quién y con qué voz propia, porque el volumen ya no distingue a nadie."
+  pyme: "Usar la IA para ahorrar tiempo en borradores y piezas repetitivas, pero dedicar ese tiempo ganado a lo que la IA no sabe: las historias reales de los clientes y el tono propio de la marca."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf"
 desafio:

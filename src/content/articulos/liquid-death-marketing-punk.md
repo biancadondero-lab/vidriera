@@ -6,6 +6,10 @@ resumen: "Liquid Death vendió agua de manantial en latas con estética heavy me
 fuente: "Liquid Death"
 citaDestacada: "Latas negras con calaveras, tipografía gótica y un eslogan directo: \"Murder Your Thirst\" (\"asesina tu sed\")."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Tomar agua es aburrido, y a muchos les da vergüenza pedir agua en un recital o en un bar donde todos toman alcohol."
+  palanca: "Actitud por sobre producto: la estética heavy metal convirtió un producto básico en una marca con identidad y comunidad propias."
+  pyme: "Buscar qué es lo más aburrido o genérico de la categoría y darle una personalidad fuerte e inesperada, aunque no le guste a todo el mundo."
 estado: publicado
 desafio:
   pregunta: "¿En cuánto quedó valuada Liquid Death tras la ronda de inversión de marzo de 2024?"

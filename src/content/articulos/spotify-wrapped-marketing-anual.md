@@ -6,6 +6,10 @@ resumen: "Cada diciembre, Spotify convierte el historial de escucha de sus usuar
 fuente: "Spotify Newsroom"
 citaDestacada: "Spotify registró un aumento del 21% en las descargas de su aplicación móvil tras el lanzamiento de Wrapped."
 pais: "suecia"
+lecturaBianca:
+  insight: "A la gente le encanta hablar de sí misma y mostrar sus gustos, sobre todo si se ven lindos para compartir."
+  palanca: "Datos convertidos en contenido personal: el usuario recibe algo sobre él mismo y lo difunde gratis, haciendo que la marca aparezca en todas las redes."
+  pyme: "Mandar a fin de año un resumen personal a cada cliente (\"este año compraste 12 veces, tu producto favorito fue...\") en un formato lindo para compartir."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bd/2024_Spotify_Logo.svg"
 desafio:

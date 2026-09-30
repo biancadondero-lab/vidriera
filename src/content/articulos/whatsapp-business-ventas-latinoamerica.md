@@ -6,6 +6,10 @@ resumen: "El comercio conversacional crece 18% interanual en la región según I
 fuente: "Infobip – Messaging Trends Report 2026"
 citaDestacada: "WhatsApp concentra el 91% de todas las interacciones de IA conversacional registradas en la plataforma de Infobip, con un crecimiento interanual del 25%."
 pais: "brasil"
+lecturaBianca:
+  insight: "En Latinoamérica, la gente prefiere comprar hablando con alguien por chat antes que completar un formulario en una web."
+  palanca: "Comercio conversacional: el canal donde el cliente ya está todos los días se convierte en el lugar de la venta."
+  pyme: "Tener el catálogo cargado en WhatsApp Business, respuestas rápidas para las preguntas frecuentes y un horario claro de atención."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Young_people_texting_on_smartphones_using_thumbs.JPG/1280px-Young_people_texting_on_smartphones_using_thumbs.JPG"
 desafio:

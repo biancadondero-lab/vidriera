@@ -8,6 +8,10 @@ citaDestacada: "\"Power out? No problem. You can still dunk in the dark\"."
 pais: "estados-unidos"
 nivelViral: 78
 viralidadEtiqueta: "Viral alto"
+lecturaBianca:
+  insight: "Durante un evento en vivo, el público está pendiente de las redes y premia a quien responde con ingenio en el momento."
+  palanca: "Velocidad y marketing en tiempo real: un tuit simple, hecho en minutos, le ganó en conversación a avisos que costaron millones."
+  pyme: "Estar atento a lo que pasa en el barrio, la ciudad o el país y reaccionar rápido con una publicación ingeniosa. La velocidad importa más que la producción."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Oreo-Two-Cookies.jpg/1280px-Oreo-Two-Cookies.jpg"
 desafio:

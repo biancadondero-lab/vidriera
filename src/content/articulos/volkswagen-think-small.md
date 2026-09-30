@@ -6,6 +6,10 @@ resumen: "DDB lanzó para Volkswagen una campaña que, en plena era del exceso p
 fuente: "Doyle Dane Bernbach (DDB)"
 citaDestacada: "En 1999, Advertising Age la nombró la mejor campaña publicitaria del siglo XX en Norteamérica."
 pais: "alemania"
+lecturaBianca:
+  insight: "En plena época de autos enormes, había un público que quería algo práctico y económico, pero nadie le hablaba."
+  palanca: "Honestidad con humor: admitir el 'defecto' (ser chico) lo convirtió en una ventaja y le dio a la marca una credibilidad única."
+  pyme: "Tomar lo que parece una desventaja (ser chico, ser nuevo, tener poco stock) y comunicarlo con humor como algo positivo: atención personalizada, trato directo."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vintage_Volkswagen_Beetle_%28Unsplash%29.jpg"
 desafio:

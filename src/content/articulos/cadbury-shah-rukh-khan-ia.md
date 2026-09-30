@@ -6,6 +6,10 @@ resumen: "Ogilvy India y Wavemaker crearon miles de avisos personalizados con la
 fuente: "Ogilvy India / Wavemaker"
 citaDestacada: "La campaña de 2021 llegó a más de 2.500 comercios locales en más de 500 códigos postales de India."
 pais: "india"
+lecturaBianca:
+  insight: "El pequeño comerciante nunca pudo pagar un aviso con una estrella, y sufrió el golpe de la pandemia más que nadie."
+  palanca: "Tecnología al servicio de un propósito: la IA no se usó para mostrar innovación, sino para darle a miles de comercios chicos algo que nunca habían tenido."
+  pyme: "Pensar cómo la marca puede ayudar a otros negocios de su comunidad (proveedores, vecinos, clientes que venden) y contarlo. Ayudar a otros también construye marca."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1750085037110-d38f296e9613?w=1200&q=80&auto=format&fit=crop"
 desafio:

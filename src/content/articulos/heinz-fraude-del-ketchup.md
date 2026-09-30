@@ -6,6 +6,10 @@ resumen: "Heinz lanzó 'Ketchup Fraud', una campaña que acusó con humor a rest
 fuente: "Rethink / Heinz"
 citaDestacada: "\"Ketchup Fraud\" generó más de 502 millones de impresiones y un 92% de sentimiento positivo en las menciones."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Muchos notaron alguna vez que el ketchup de la botella Heinz del restaurante no sabía a Heinz."
+  palanca: "Convertir una sospecha cotidiana en campaña: el humor y la forma inconfundible del envase reforzaron que el original es único."
+  pyme: "Identificar qué hace única a la marca frente a las copias o imitaciones del rubro y animarse a decirlo con humor, sin atacar a nadie por su nombre."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Heinz-tomato-kethup-bottle.jpg/1280px-Heinz-tomato-kethup-bottle.jpg"
 desafio:

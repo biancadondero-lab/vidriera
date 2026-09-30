@@ -6,6 +6,10 @@ resumen: "Gap reemplazó su logo clásico de 20 años por un diseño genérico s
 fuente: "Gap Inc."
 citaDestacada: "En menos de una semana, la presión pública en redes sociales logró revertir una decisión de rebranding corporativo, algo sin precedentes hasta ese momento."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Cambiar un logo querido sin explicación, de un día para el otro y por un diseño genérico."
+  palanca: "El apego emocional del público al logo clásico: para los clientes era parte de la identidad de la marca, no un simple dibujo."
+  pyme: "Antes de cambiar el logo o el nombre, mostrarlo a clientes fieles y explicar el porqué. Y si se cambia, hacerlo de forma gradual."
 estado: publicado
 antesDespues:
   antes: "Logo azul con tipografía serif dentro de un recuadro, usado sin cambios desde 1990 y ampliamente reconocido."

@@ -8,6 +8,10 @@ citaDestacada: "En cuanto una plataforma se vuelve popular por su promesa de aut
 pais: "francia"
 nivelViral: 66
 viralidadEtiqueta: "Impacto moderado"
+lecturaBianca:
+  insight: "El público de BeReal eligió la app justamente para escapar de la perfección y de la publicidad."
+  palanca: "Autenticidad como estética: las marcas intentaron hablar el idioma de lo espontáneo, pero en un espacio que no las quería, el riesgo es parecer intrusas."
+  pyme: "No hace falta estar en todas las redes nuevas. Antes de sumarse, preguntarse si el público de esa red quiere ver marcas y si la marca tiene algo genuino para mostrar ahí."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Guy_taking_a_Selfie.jpg/1280px-Guy_taking_a_Selfie.jpg"
 desafio:

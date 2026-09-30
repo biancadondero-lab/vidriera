@@ -6,6 +6,10 @@ resumen: "El informe anual de Omnisend muestra que los emails automatizados gene
 fuente: "Omnisend – 2026 Ecommerce Marketing Report"
 citaDestacada: "Cada envío automatizado produjo en promedio 2,87 dólares, contra 0,18 dólares de una campaña programada: 16 veces más ingreso por envío."
 pais: "reino-unido"
+lecturaBianca:
+  insight: "El cliente responde mejor a un mensaje que llega en el momento justo (cuando abandonó un carrito, cuando cumple años) que a un mail masivo."
+  palanca: "Automatización basada en comportamiento: el mensaje lo dispara una acción del cliente, por eso es más relevante y rinde mucho más por envío."
+  pyme: "Empezar con dos automatizaciones básicas, bienvenida y carrito abandonado, antes que con newsletters mensuales. Son las que más rápido devuelven lo invertido."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?w=1200&q=80&auto=format&fit=crop"
 desafio:

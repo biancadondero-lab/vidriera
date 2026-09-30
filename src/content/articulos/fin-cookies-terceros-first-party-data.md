@@ -13,6 +13,10 @@ enNumeros:
     valor: "41%"
   - etiqueta: "Considera prioritario el first-party data"
     valor: "+85%"
+lecturaBianca:
+  insight: "Los datos que la marca obtiene directamente de sus clientes son los más confiables y los únicos que no dependen de Google o de Meta."
+  palanca: "Construir activos propios: las marcas dejaron de esperar una definición externa y empezaron a hacer crecer sus propias bases de datos."
+  pyme: "Armar desde hoy una base propia: pedir el WhatsApp o el mail en cada venta, con un beneficio a cambio. Es el canal que nadie le puede sacar a la PyME."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
 desafio:

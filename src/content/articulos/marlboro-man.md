@@ -6,6 +6,10 @@ resumen: "Leo Burnett le dio vuelta por completo la identidad de Marlboro, una m
 fuente: "Leo Burnett Company"
 citaDestacada: "Hacia 1957 sus ventas habían crecido un 300% en apenas dos años."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "El público masculino de los años 50 quería sentirse fuerte, libre e independiente."
+  palanca: "Reposicionamiento a través de un símbolo: el vaquero cambió por completo lo que representaba la marca sin cambiar el producto."
+  pyme: "Si la marca llega al público equivocado, cambiar el personaje, las imágenes y el tono antes que el producto. (Y elegir bien qué valores se representan: esta campaña vendía cigarrillos, un producto dañino.)"
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Paul_Hornung_-_Marlboro%2C_the_filter_cigarette_with_the_unfiltered_taste%2C_1962.jpg"
 antesDespues:

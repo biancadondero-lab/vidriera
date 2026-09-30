@@ -13,6 +13,10 @@ enNumeros:
     valor: "6 horas y 37 minutos"
   - etiqueta: "Uso diario promedio en TikTok"
     valor: "1 hora 35 minutos"
+lecturaBianca:
+  insight: "El video corto ya no es algo de adolescentes: casi 9 de cada 10 adultos conectados lo consumen todas las semanas."
+  palanca: "Ir a donde está la atención: el formato vertical de pocos segundos se volvió el lugar por defecto donde las marcas compiten por ser vistas."
+  pyme: "Grabar con el celular videos cortos y simples (cómo se hace un producto, una pregunta frecuente respondida en 20 segundos) en vez de invertir en una sola pieza cara al año."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg"
 desafio:

@@ -8,6 +8,10 @@ citaDestacada: "El desafío se auto-propagó a una escala que ninguna campaña p
 pais: "estados-unidos"
 nivelViral: 92
 viralidadEtiqueta: "Viral extremo"
+lecturaBianca:
+  insight: "A la gente le gusta participar de algo colectivo, divertido y fácil de copiar, sobre todo si le permite desafiar a sus amigos."
+  palanca: "Mecánica viral de nominación: cada participante invitaba a otros, por eso el mensaje se multiplicó solo sin necesidad de publicidad paga."
+  pyme: "Crear un desafío simple, con una acción fácil de grabar y una regla de nominar a otros, ligado a una causa o a la comunidad del negocio."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/1280px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
 desafio:

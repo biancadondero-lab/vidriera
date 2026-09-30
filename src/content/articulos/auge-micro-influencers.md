@@ -13,6 +13,10 @@ enNumeros:
     valor: "22,36%"
   - etiqueta: "Planea expandir trabajo con micro"
     valor: "52,83%"
+lecturaBianca:
+  insight: "La gente confía más en alguien que se parece a ella que en una celebridad a la que sabe que le pagaron."
+  palanca: "Credibilidad y nicho por sobre alcance: muchos creadores chicos con comunidades comprometidas rinden más que una sola cara famosa."
+  pyme: "Buscar clientes reales o creadores locales con pocos miles de seguidores y proponerles canje o una comisión por venta. Es accesible y el público lo siente más auténtico."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1764162051244-1391c41122ac"
 desafio:
