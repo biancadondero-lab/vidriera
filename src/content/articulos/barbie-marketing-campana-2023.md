@@ -6,6 +6,10 @@ resumen: "La campaña de marketing de Barbie combinó más de 165 alianzas de ma
 fuente: "Warner Bros. / Mattel"
 citaDestacada: "El generador de selfies barbieselfie.ai se usó más de 13 millones de veces."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Barbie ya era parte de la infancia de varias generaciones: el público no necesitaba conocerla, necesitaba una excusa para volver a jugar con ella."
+  palanca: "Saturación cultural con participación: más de 165 alianzas y un generador de selfies hicieron que el público se convirtiera en el medio de difusión."
+  pyme: "Darle a los clientes algo fácil de compartir con la marca (un filtro, una plantilla, un marco para fotos) y buscar alianzas con comercios vecinos para aparecer en más lugares."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1686264098464-84f19b2cbd4f?w=1200&q=80&auto=format&fit=crop"
 desafio:

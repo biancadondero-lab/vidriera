@@ -6,6 +6,10 @@ resumen: "Wieden+Kennedy revitalizó una marca percibida como anticuada con un c
 fuente: "Wieden+Kennedy"
 citaDestacada: "186 videos de respuesta personalizados, filmados, editados y publicados en tiempo real a lo largo de dos días."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Old Spice era 'el perfume del abuelo', y las mujeres eran quienes muchas veces compraban el desodorante para su pareja."
+  palanca: "Humor absurdo y conversación directa: el comercial le habló a las mujeres, y las 186 respuestas personalizadas convirtieron la campaña en diálogo."
+  pyme: "Responder a los comentarios de los clientes con videos cortos y creativos en lugar de un simple 'gracias'. Es gratis y genera más conversación."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Old_Spice_Deodorant.jpg"
 antesDespues:

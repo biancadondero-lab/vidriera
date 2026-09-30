@@ -6,6 +6,10 @@ resumen: "Coca-Cola reemplazó su logo por nombres propios en las botellas y log
 fuente: "Ogilvy Australia"
 citaDestacada: "La campaña se expandió a más de 80 países en los años siguientes."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "A todos nos gusta vernos nombrados: encontrar tu nombre en un producto masivo lo vuelve personal."
+  palanca: "Personalización masiva: un cambio simple en el envase transformó la compra en una búsqueda y un regalo, y cada botella se convirtió en contenido para compartir."
+  pyme: "Personalizar algo pequeño con el nombre del cliente (una etiqueta, una nota escrita a mano en el pedido). Cuesta poco y hace que la compra se comparta en redes."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coca-Cola_bottle.jpg/1280px-Coca-Cola_bottle.jpg"
 desafio:

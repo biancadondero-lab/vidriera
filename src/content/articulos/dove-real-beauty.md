@@ -6,6 +6,10 @@ resumen: "Dove rompió con los estándares publicitarios de belleza usando mujer
 fuente: "Ogilvy"
 citaDestacada: "Solo un pequeño porcentaje de mujeres se sentía representado por los estándares de belleza publicitarios tradicionales."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "La mayoría de las mujeres no se sentía representada por los estándares de belleza de la publicidad."
+  palanca: "Romper el código de la categoría: mostrar mujeres reales cuando todas las marcas mostraban modelos convirtió a Dove en la marca que 'entiende' a su público."
+  pyme: "Mostrar clientes reales usando el producto, con su permiso, en lugar de fotos de stock. La gente confía más en caras como la suya."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sabonete_Dove.jpg/1280px-Sabonete_Dove.jpg"
 desafio:

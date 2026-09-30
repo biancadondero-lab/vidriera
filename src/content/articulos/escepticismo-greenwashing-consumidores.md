@@ -13,6 +13,10 @@ enNumeros:
     valor: "71%"
   - etiqueta: "No pagaría más por productos sustentables"
     valor: "46%"
+lecturaBianca:
+  insight: "Más de la mitad de los consumidores no cree en lo que las marcas dicen sobre el medioambiente, y las empresas no se dan cuenta."
+  palanca: "La prueba por sobre la promesa: en temas de sustentabilidad, la confianza se gana con datos verificables y acciones concretas, no con palabras como 'eco' o 'verde'."
+  pyme: "Si la PyME hace algo sustentable, mostrarlo con hechos concretos (\"reutilizamos el 100% de las cajas\") y nunca prometer más de lo que realmente hace."
 estado: publicado
 imagen: "https://images.unsplash.com/photo-1551897317-8b5a520d498b"
 desafio:

@@ -6,6 +6,10 @@ resumen: "TBWA convirtió la silueta de una botella de vodka en el eje de la cam
 fuente: "TBWA / Carillon Importers"
 citaDestacada: "Llegó a generar más de mil quinientas variaciones distintas sin perder nunca el mismo punto de partida visual."
 pais: "suecia"
+lecturaBianca:
+  insight: "En una categoría donde el líquido es casi igual entre marcas, lo que el consumidor recuerda es la forma y la actitud del envase."
+  palanca: "Consistencia creativa: una sola idea (la silueta de la botella) repetida con variaciones durante años, hasta que la marca se reconoce sin leer el nombre."
+  pyme: "Elegir un elemento visual propio (un color, una forma, un personaje) y usarlo en todas las publicaciones durante mucho tiempo, cambiando el contexto pero nunca el elemento."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6a/A_bottle_of_Absolut_Vodka.jpg"
 desafio:

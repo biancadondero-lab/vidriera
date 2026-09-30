@@ -8,6 +8,10 @@ citaDestacada: "Dejar que la comunidad se apropie del chiste, sin intentar contr
 pais: "estados-unidos"
 nivelViral: 66
 viralidadEtiqueta: "Impacto moderado"
+lecturaBianca:
+  insight: "Al público de TikTok le encanta tomar un producto y darle un significado absurdo que la marca no controla."
+  palanca: "Dejar que la comunidad juegue: McDonald's no intentó corregir la broma, y eso hizo que el producto circulara todavía más."
+  pyme: "Si los clientes hacen memes o chistes con el producto, no salir a desmentirlos: acompañar con humor o simplemente dejar que la conversación siga."
 estado: publicado
 desafio:
   pregunta: "¿Cómo reaccionó McDonald's cuando TikTok convirtió el Grimace Shake en un meme sobre morir 'intoxicado'?"

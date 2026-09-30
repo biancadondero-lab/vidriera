@@ -6,6 +6,10 @@ resumen: "Pepsi lanzó un comercial donde Kendall Jenner 'resolvía' una manifes
 fuente: "Pepsi / PepsiCo"
 citaDestacada: "Pepsi retiró el aviso en menos de 24 horas y pidió disculpas públicas, algo inusual para una campaña con ese nivel de inversión en producción."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Usar un movimiento social serio (las protestas contra la violencia policial) como escenografía para vender una gaseosa."
+  palanca: "Que el público percibe cuándo una marca se apropia de una causa que no le pertenece, y eso se castiga en horas."
+  pyme: "Sumarse a una causa solo si la marca hace algo concreto por ella, y mostrar la idea a personas de ese colectivo antes de publicarla."
 estado: publicado
 antesDespues:
   antes: "Comercial de casi tres minutos que mostraba a Kendall Jenner uniéndose a una protesta genérica y calmando la tensión al entregarle una Pepsi a un oficial de policía."

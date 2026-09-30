@@ -6,6 +6,10 @@ resumen: "Un estudio de Seer Interactive registra caídas de hasta 68% en el CTR
 fuente: "Seer Interactive / Search Engine Land"
 citaDestacada: "El CTR pago sobre esas mismas consultas se desplomó un 68%, de 19,7% a 6,34%."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "La gente quiere la respuesta, no el link: si Google ya la resume arriba, muchos no hacen clic en ningún resultado."
+  palanca: "Adaptarse al nuevo canal en lugar de pelear con él: el contenido que sobrevive es el que aporta algo que un resumen no puede dar (experiencia propia, datos originales, opinión)."
+  pyme: "Dejar de escribir notas genéricas para el blog y publicar lo que solo la PyME sabe: precios reales, casos de clientes, preguntas frecuentes respondidas con su propia experiencia."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
 desafio:

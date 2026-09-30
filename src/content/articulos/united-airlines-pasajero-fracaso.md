@@ -6,6 +6,10 @@ resumen: "United Airlines hizo bajar por la fuerza a un pasajero de un vuelo con
 fuente: "United Airlines / cobertura pública"
 citaDestacada: "Las acciones de United Airlines cayeron hasta un 4% en un solo día, una pérdida de valor de mercado estimada en 1.400 millones de dólares."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Sacar a un pasajero por la fuerza y, después, defender el procedimiento en lugar de disculparse."
+  palanca: "Que en una crisis la gente juzga la empatía antes que la razón técnica: la primera respuesta, fría y corporativa, empeoró todo."
+  pyme: "Tener preparado un protocolo simple para quejas públicas: responder rápido, pedir disculpas de verdad y ofrecer una solución concreta antes de dar explicaciones."
 estado: publicado
 antesDespues:
   antes: "United Airlines pide voluntarios para ceder su asiento en un vuelo con overbooking; al no alcanzar, selecciona pasajeros al azar para bajarlos por la fuerza."

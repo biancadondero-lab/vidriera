@@ -6,6 +6,10 @@ resumen: "Duolingo convirtió a su mascota, el búho Duo, en una estrella errát
 fuente: "Contagious / Adweek"
 citaDestacada: "La cuenta pasó de un puñado de seguidores a 8,2 millones en TikTok en apenas dos años."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Todos conocen la culpa de no practicar el idioma, y Duolingo se rió de eso con su propio búho insistente."
+  palanca: "Personaje con personalidad: la mascota dejó de ser un logo y pasó a actuar como un creador más de TikTok, con humor absurdo y reacción a las tendencias."
+  pyme: "Darle a la cuenta de la marca una voz y un personaje reconocible (el dueño, un empleado, una mascota) en vez de publicar solo fotos de producto."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Duolingo_logo_%282019%29.svg"
 desafio:

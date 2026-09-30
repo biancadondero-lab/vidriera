@@ -13,6 +13,10 @@ enNumeros:
     valor: "22%"
   - etiqueta: "Elige el video en vivo por ROI"
     valor: "6%"
+lecturaBianca:
+  insight: "Los mismos marketers lo confirman: el formato que mejor retorno da es el que la gente mira hasta el final."
+  palanca: "Eficiencia de formato: el video corto es barato de producir, se prueba rápido y permite aprender qué funciona con poco presupuesto."
+  pyme: "Hacer varios videos cortos distintos, medir cuál genera más consultas o ventas y repetir la fórmula que funciona."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Filming_with_handheld_camera_stabilizer.jpg/1280px-Filming_with_handheld_camera_stabilizer.jpg"
 desafio:

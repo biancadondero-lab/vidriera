@@ -6,6 +6,10 @@ resumen: "En 1988, tres simples palabras transformaron a Nike de marca deportiva
 fuente: "Wieden+Kennedy"
 citaDestacada: "\"Just Do It\" no vendía zapatillas, vendía una actitud."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Todos tenemos excusas para no empezar a hacer deporte; Nike le habló a esa voz interna."
+  palanca: "Una frase que funciona como actitud: el mensaje no habla de zapatillas, habla de superarse, y por eso le sirve a cualquier persona."
+  pyme: "Resumir en pocas palabras qué actitud o valor quiere transmitir la marca y repetirlo en todo, desde la bio de Instagram hasta la bolsa de compra."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg/1280px-Vintage_Nike_Running_Shoes_at_the_ShoeZeum.jpg"
 desafio:

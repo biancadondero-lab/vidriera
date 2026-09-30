@@ -6,6 +6,10 @@ resumen: "Coca-Cola cambió la fórmula de su producto insignia por primera vez 
 fuente: "The Coca-Cola Company"
 citaDestacada: "La compañía recibió más de 400.000 cartas y llamados de consumidores furiosos, un volumen de reclamos sin precedentes para una marca de consumo masivo."
 pais: "estados-unidos"
+lecturaBianca:
+  insight: "Cambiar la fórmula de un producto que la gente sentía como propio, solo para ganarle a un competidor en pruebas de sabor."
+  palanca: "La relación emocional con el producto original: los consumidores no compraban solo un sabor, compraban una tradición."
+  pyme: "Antes de cambiar un producto que ya se vende bien, preguntarles a los clientes fieles qué valoran de él. Los números de una prueba no muestran todo."
 estado: publicado
 antesDespues:
   antes: "Fórmula original de Coca-Cola, sin cambios desde 1886, perdiendo cuota de mercado frente a Pepsi en pruebas de sabor a ciegas."

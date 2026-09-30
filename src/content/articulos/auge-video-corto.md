@@ -6,6 +6,10 @@ resumen: "TikTok e Instagram Reels corrieron el eje de la pauta digital del form
 fuente: "Análisis de industria"
 citaDestacada: "Las áreas de performance y growth destinan hoy una porción creciente de la pauta a estos formatos cortos, priorizando volumen de creatividades y velocidad de iteración por sobre la producción tradicional de alto costo."
 pais: "china"
+lecturaBianca:
+  insight: "El consumidor pasa de un contenido a otro en segundos: si el mensaje no engancha al principio, no existe."
+  palanca: "Cambio de formato en la pauta: el presupuesto siguió a la atención, del aviso estático al video vertical corto."
+  pyme: "Probar los mismos productos en video corto y en foto, con el mismo presupuesto chico, y comparar resultados antes de decidir dónde poner más plata."
 estado: publicado
 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Instagram_app_on_smartphone.jpg/1280px-Instagram_app_on_smartphone.jpg"
 desafio:
