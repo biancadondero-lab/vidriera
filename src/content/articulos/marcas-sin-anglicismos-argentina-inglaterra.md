@@ -7,6 +7,7 @@ fuente: "MDZ Online"
 citaDestacada: "Debido al partido de Argentina e Inglaterra, en esta cuenta queda suspendido el uso de palabras en inglés."
 pais: "argentina"
 estado: publicado
+imagen: "https://live.staticflickr.com/65535/48100019533_a7957b0b93_b.jpg"
 desafio:
   pregunta: "¿Cómo reemplazó Moov la palabra 'sneakers' en su placa previa al Argentina–Inglaterra?"
   opciones:

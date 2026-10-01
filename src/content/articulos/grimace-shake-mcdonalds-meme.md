@@ -13,6 +13,7 @@ lecturaBianca:
   palanca: "Dejar que la comunidad juegue: McDonald's no intentó corregir la broma, y eso hizo que el producto circulara todavía más."
   pyme: "Si los clientes hacen memes o chistes con el producto, no salir a desmentirlos: acompañar con humor o simplemente dejar que la conversación siga."
 estado: publicado
+imagen: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmY0MzMwLWltYWdlLWt3eXQ1Y3FwLmpwZw.jpg"
 desafio:
   pregunta: "¿Cómo reaccionó McDonald's cuando TikTok convirtió el Grimace Shake en un meme sobre morir 'intoxicado'?"
   opciones:

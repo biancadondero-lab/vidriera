@@ -22,6 +22,14 @@ describe('esLogo', () => {
     expect(esLogo('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/1280px-Gap_logo.svg.png')).toBe(true);
   });
 
+  it('un .png con "logo" en el nombre del archivo es logo', () => {
+    expect(esLogo('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Liquid-Death-Logo.png/1280px-Liquid-Death-Logo.png')).toBe(true);
+  });
+
+  it('un .png sin "logo" en el nombre no es logo', () => {
+    expect(esLogo('https://example.com/fotos/vaso-de-fernet.png')).toBe(false);
+  });
+
   it('una url .jpg no es logo', () => {
     expect(esLogo('https://images.unsplash.com/photo-123.jpg')).toBe(false);
   });

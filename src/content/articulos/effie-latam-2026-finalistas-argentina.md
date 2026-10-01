@@ -16,6 +16,7 @@ enNumeros:
   - etiqueta: "Campañas finalistas de México"
     valor: "35"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/DFC_2934_Hosts_present_on_a_brightly_lit_stage_in_front_of_large_screens_as_an_audience_watches_an_evening_awards_ceremony.jpg/1280px-DFC_2934_Hosts_present_on_a_brightly_lit_stage_in_front_of_large_screens_as_an_audience_watches_an_evening_awards_ceremony.jpg"
 desafio:
   pregunta: "¿Qué evalúan los premios Effie, a diferencia de otros premios de publicidad?"
   opciones:
