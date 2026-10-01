@@ -16,6 +16,7 @@ enNumeros:
   - etiqueta: "Personas alcanzadas"
     valor: "+10 millones"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Deportivo_Municipal_1973_%282%29.jpg/1280px-Deportivo_Municipal_1973_%282%29.jpg"
 desafio:
   pregunta: "¿Cuánto tardó el Deportivo Municipal en vender los 1.000 espacios de su camiseta?"
   opciones:

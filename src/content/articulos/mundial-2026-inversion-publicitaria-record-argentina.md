@@ -16,6 +16,7 @@ enNumeros:
   - etiqueta: "Marcas asociadas a Messi"
     valor: "+25"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Obelisco_de_Buenos_Aires_at_sunset.jpg/1280px-Obelisco_de_Buenos_Aires_at_sunset.jpg"
 desafio:
   pregunta: "¿Qué rubro fue el que más invirtió en publicidad durante el Mundial 2026 en Argentina?"
   opciones:

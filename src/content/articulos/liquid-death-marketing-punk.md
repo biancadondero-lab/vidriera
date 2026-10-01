@@ -11,6 +11,7 @@ lecturaBianca:
   palanca: "Actitud por sobre producto: la estética heavy metal convirtió un producto básico en una marca con identidad y comunidad propias."
   pyme: "Buscar qué es lo más aburrido o genérico de la categoría y darle una personalidad fuerte e inesperada, aunque no le guste a todo el mundo."
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Liquid-Death-Logo.png/1280px-Liquid-Death-Logo.png"
 desafio:
   pregunta: "¿En cuánto quedó valuada Liquid Death tras la ronda de inversión de marzo de 2024?"
   opciones:

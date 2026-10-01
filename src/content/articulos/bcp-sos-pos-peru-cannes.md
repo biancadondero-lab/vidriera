@@ -14,6 +14,7 @@ enNumeros:
   - etiqueta: "Peruanos alcanzados"
     valor: "+34 millones"
 estado: publicado
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Card_Payment_%28176811287%29.jpeg/1280px-Card_Payment_%28176811287%29.jpeg"
 desafio:
   pregunta: "¿Cómo podía un cliente del BCP bloquear sus cuentas con SOS POS después de que le robaran el celular?"
   opciones:
