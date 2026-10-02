@@ -9,6 +9,7 @@ export type Articulo = {
   fuente?: string;
   estado: 'borrador' | 'publicado';
   imagen?: string;
+  imagenPosicion?: 'top' | 'center' | 'bottom';
   citaDestacada?: string;
   enNumeros?: { etiqueta: string; valor: string }[];
   nivelViral?: number;

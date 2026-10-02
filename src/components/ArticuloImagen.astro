@@ -5,9 +5,10 @@ interface Props {
   imagen?: string;
   alt: string;
   eager?: boolean;
+  posicion?: 'top' | 'center' | 'bottom';
 }
 
-const { imagen, alt, eager = false } = Astro.props;
+const { imagen, alt, eager = false, posicion = 'center' } = Astro.props;
 const logo = esLogo(imagen);
 ---
 {imagen && !logo && (
@@ -17,6 +18,7 @@ const logo = esLogo(imagen);
       alt={alt}
       loading={eager ? 'eager' : 'lazy'}
       class="imagen-articulo h-full w-full object-cover"
+      style={`object-position: center ${posicion};`}
     />
   </div>
 )}

@@ -17,7 +17,7 @@ antesDespues:
 enNumeros:
   - etiqueta: "Horas hasta el retiro del aviso"
     valor: "menos de 24"
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pepsi_2023_%28with_2014_wordmark%29.svg/1280px-Pepsi_2023_%28with_2014_wordmark%29.svg.png"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pepsi_max_cans.jpg/1280px-Pepsi_max_cans.jpg"
 desafio:
   pregunta: "Sos el equipo de comunicación de Pepsi el día que estalla la polémica por el comercial con Kendall Jenner. ¿Qué hacés?"
   opciones:

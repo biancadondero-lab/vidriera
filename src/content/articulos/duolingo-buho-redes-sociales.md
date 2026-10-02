@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Personaje con personalidad: la mascota dejó de ser un logo y pasó a actuar como un creador más de TikTok, con humor absurdo y reacción a las tendencias."
   pyme: "Darle a la cuenta de la marca una voz y un personaje reconocible (el dueño, un empleado, una mascota) en vez de publicar solo fotos de producto."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Duolingo_logo_%282019%29.svg"
+imagen: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJvd2xfYmlyZF9lYWdsZV9vd2xfMC1pbWFnZS1reWJjejRpdS5qcGc.jpg"
 desafio:
   pregunta: "¿A cuántos seguidores llegó la cuenta de Duolingo en TikTok en apenas dos años?"
   opciones:
