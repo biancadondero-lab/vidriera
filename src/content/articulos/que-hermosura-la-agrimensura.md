@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Contraste con humor: la campaña no vende la agrimensura por sus atributos, sino por lo que no es (una carrera saturada)."
   pyme: "Comunicar la ventaja del producto comparándolo con humor con la opción 'obvia' del mercado, sin nombrar a nadie, y medir el resultado con un solo número claro."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Total-Robotic-Station.jpg/1280px-Total-Robotic-Station.jpg"
+imagen: "https://live.staticflickr.com/4225/34896373681_0533e38d51_b.jpg"
 desafio:
   pregunta: "¿Cuánto aumentaron las inscripciones a Agrimensura en universidades argentinas tras la campaña 'Qué hermosura la Agrimensura'?"
   opciones:
