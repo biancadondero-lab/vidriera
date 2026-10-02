@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Saturación cultural con participación: más de 165 alianzas y un generador de selfies hicieron que el público se convirtiera en el medio de difusión."
   pyme: "Darle a los clientes algo fácil de compartir con la marca (un filtro, una plantilla, un marco para fotos) y buscar alianzas con comercios vecinos para aparecer en más lugares."
 estado: publicado
-imagen: "https://images.unsplash.com/photo-1686264098464-84f19b2cbd4f?w=1200&q=80&auto=format&fit=crop"
+imagen: "https://live.staticflickr.com/65535/51142324493_bb041cdf22_b.jpg"
 desafio:
   pregunta: "¿Cuántas veces se usó el generador de selfies barbieselfie.ai?"
   opciones:

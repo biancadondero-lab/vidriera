@@ -16,7 +16,7 @@ lecturaBianca:
   palanca: "Pauta en el punto de venta digital: las marcas invierten donde la intención de compra ya existe, en lugar de generarla desde cero."
   pyme: "Si la PyME vende en Mercado Libre, probar los anuncios dentro de la plataforma con un presupuesto chico: se muestran justo a quien está buscando ese producto."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/0/06/Amazon_2024.svg"
+imagen: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMTYxMzIzLWltYWdlLWt3eXIxa3hmLmpwZw.jpg"
 desafio:
   pregunta: "¿Cuánto proyectaba eMarketer que ingresarían los ingresos de Amazon por retail media en 2025?"
   opciones:

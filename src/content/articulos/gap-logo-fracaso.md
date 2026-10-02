@@ -17,7 +17,7 @@ antesDespues:
 enNumeros:
   - etiqueta: "Días hasta revertir el nuevo logo"
     valor: "6"
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gap_logo.svg/1280px-Gap_logo.svg.png"
+imagen: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzUxMjQxLXdpa2ltZWRpYS1pbWFnZS1rb3diYzgwMi5qcGc.jpg"
 desafio:
   pregunta: "Gap cambia su logo histórico sin aviso y el rechazo en redes es inmediato. ¿Qué hace la marca?"
   opciones:

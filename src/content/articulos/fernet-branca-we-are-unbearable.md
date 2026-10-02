@@ -7,7 +7,7 @@ fuente: "Agenda Continua"
 citaDestacada: "Si ya son intensos, cada cuatro años se vuelven insoportables."
 pais: "argentina"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vaso_con_Fernet.jpg/1280px-Vaso_con_Fernet.jpg"
+imagen: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzQxNTUxLWltYWdlLWt3dncwbWE1LmpwZw.jpg"
 desafio:
   pregunta: "¿Cuál es la idea central de la campaña 'We Are Unbearable' de Fernet Branca?"
   opciones:

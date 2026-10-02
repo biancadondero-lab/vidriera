@@ -7,7 +7,7 @@ fuente: "MDZ Online"
 citaDestacada: "No vamos a ir a ganarla. Vamos a ir a defenderla."
 pais: "argentina"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg"
+imagen: "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZyYXJnZW50aW5lX2ZsYWdfZmxhZ19hcmdlbnRpbmEtaW1hZ2Uta3liYzdweTguanBn.jpg"
 desafio:
   pregunta: "¿Qué formato simula el comercial de Coca-Cola protagonizado por Lionel Scaloni?"
   opciones:
