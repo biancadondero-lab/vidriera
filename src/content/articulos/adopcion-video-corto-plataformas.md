@@ -18,7 +18,7 @@ lecturaBianca:
   palanca: "Ir a donde está la atención: el formato vertical de pocos segundos se volvió el lugar por defecto donde las marcas compiten por ser vistas."
   pyme: "Grabar con el celular videos cortos y simples (cómo se hace un producto, una pregunta frecuente respondida en 20 segundos) en vez de invertir en una sola pieza cara al año."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg"
+imagen: "https://cdn.stocksnap.io/img-thumbs/960w/2ZHFKWXCTQ.jpg"
 desafio:
   pregunta: "¿Qué porcentaje de adultos conectados ve TikToks o Reels cada semana, según el reporte Digital 2025 April Global Statshot?"
   opciones:

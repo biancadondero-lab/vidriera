@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Datos convertidos en contenido personal: el usuario recibe algo sobre él mismo y lo difunde gratis, haciendo que la marca aparezca en todas las redes."
   pyme: "Mandar a fin de año un resumen personal a cada cliente (\"este año compraste 12 veces, tu producto favorito fue...\") en un formato lindo para compartir."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/b/bd/2024_Spotify_Logo.svg"
+imagen: "https://cdn.stocksnap.io/img-thumbs/960w/8OTKBEWXCP.jpg"
 desafio:
   pregunta: "¿Cuánto aumentaron las descargas de la app de Spotify en la primera semana de diciembre de 2020, tras el lanzamiento de Wrapped?"
   opciones:

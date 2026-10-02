@@ -18,7 +18,7 @@ lecturaBianca:
   palanca: "Construir activos propios: las marcas dejaron de esperar una definición externa y empezaron a hacer crecer sus propias bases de datos."
   pyme: "Armar desde hoy una base propia: pedir el WhatsApp o el mail en cada venta, con un beneficio a cambio. Es el canal que nadie le puede sacar a la PyME."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+imagen: "https://cdn.stocksnap.io/img-thumbs/960w/8AAE528F08.jpg"
 desafio:
   pregunta: "¿Qué porcentaje de marcas, agencias y editores dijo estar haciendo crecer su first-party data en 2024, según IAB?"
   opciones:
