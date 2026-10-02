@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Automatización basada en comportamiento: el mensaje lo dispara una acción del cliente, por eso es más relevante y rinde mucho más por envío."
   pyme: "Empezar con dos automatizaciones básicas, bienvenida y carrito abandonado, antes que con newsletters mensuales. Son las que más rápido devuelven lo invertido."
 estado: publicado
-imagen: "https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?w=1200&q=80&auto=format&fit=crop"
+imagen: "https://cdn.stocksnap.io/img-thumbs/960w/LE1W2B7R93.jpg"
 desafio:
   pregunta: "¿Cuánto más ingreso genera, en promedio, un email automatizado frente a uno de una campaña manual programada, por cada envío?"
   opciones:

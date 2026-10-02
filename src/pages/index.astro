@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import VidrieraEntrada from '../components/VidrieraEntrada.astro';
+import Portada from '../components/Portada.astro';
 import { obtenerArticulosPublicados } from '../lib/contenido';
 import { filtrarPorCategoria, separarPrimeros } from '../lib/articles';
 import { claseBento, CLASES_GRID_BENTO } from '../lib/bento';
@@ -21,7 +21,7 @@ const ordenados = [...destacadosActuales, ...destacadosDatos, ...restoGrid];
   {entrada.length > 0 && (
     <Fragment slot="full-bleed">
       <h1 class="sr-only">Vidriera — noticias y campañas de marketing</h1>
-      <VidrieraEntrada articulos={entrada} />
+      <Portada articulos={entrada} />
     </Fragment>
   )}
   {ordenados.length > 0 ? (

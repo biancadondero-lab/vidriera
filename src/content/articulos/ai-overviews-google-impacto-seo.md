@@ -11,7 +11,7 @@ lecturaBianca:
   palanca: "Adaptarse al nuevo canal en lugar de pelear con él: el contenido que sobrevive es el que aporta algo que un resumen no puede dar (experiencia propia, datos originales, opinión)."
   pyme: "Dejar de escribir notas genéricas para el blog y publicar lo que solo la PyME sabe: precios reales, casos de clientes, preguntas frecuentes respondidas con su propia experiencia."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+imagen: "https://images.unsplash.com/photo-1709281847802-9aef10b6d4bf?w=1200&q=80&auto=format&fit=crop"
 desafio:
   pregunta: "¿En cuánto cayó el CTR orgánico de las búsquedas con AI Overviews, según el estudio de Seer Interactive?"
   opciones:
