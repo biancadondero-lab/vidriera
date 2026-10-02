@@ -1,0 +1,136 @@
+---
+import { nombreCategoria } from '../lib/categorias';
+import { formatearFecha } from '../lib/fechas';
+import { esLogo } from '../lib/imagenes';
+import type { Articulo } from '../lib/articles';
+
+interface Props {
+  articulos: Articulo[];
+}
+
+const { articulos } = Astro.props;
+const [principal, ...secundarios] = articulos;
+---
+<section class="portada">
+  <div class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-acento after:h-px after:w-10 after:bg-acento">
+      En vidriera ahora
+    </p>
+    <div class="grid gap-5 lg:grid-cols-5">
+      {principal && (
+        <a
+          href={`/articulo/${principal.id}`}
+          class="principal group relative flex min-h-[380px] overflow-hidden rounded-2xl border border-borde bg-tarjeta transition-colors hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento sm:min-h-[460px] lg:col-span-3"
+        >
+          {principal.imagen && !esLogo(principal.imagen) && (
+            <img
+              src={principal.imagen}
+              alt=""
+              loading="eager"
+              fetchpriority="high"
+              class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+            />
+          )}
+          {principal.imagen && esLogo(principal.imagen) && (
+            <div class="absolute inset-x-0 top-0 flex h-[55%] items-center justify-center">
+              <div class="insignia flex items-center justify-center rounded-xl bg-marfil px-8 py-6">
+                <img src={principal.imagen} alt="" loading="eager" class="h-20 w-auto max-w-[220px] object-contain" />
+              </div>
+            </div>
+          )}
+          <div class="velo absolute inset-0"></div>
+          <div class="relative mt-auto flex w-full flex-col p-6 sm:p-8">
+            <span class="mb-3 text-xs font-semibold uppercase tracking-wide text-acento">
+              {nombreCategoria(principal.categoria)}
+            </span>
+            <h2 class="font-display text-3xl font-bold leading-tight text-marfil sm:text-4xl">
+              {principal.titulo}
+            </h2>
+            <p class="mt-3 line-clamp-2 max-w-xl text-sm leading-relaxed text-marfil/75 sm:text-base">
+              {principal.resumen}
+            </p>
+            <time datetime={principal.fecha.toISOString()} class="mt-4 text-xs text-marfil/50">
+              {formatearFecha(principal.fecha)}
+            </time>
+          </div>
+        </a>
+      )}
+      {secundarios.length > 0 && (
+        <div class="flex flex-col gap-5 lg:col-span-2">
+          {secundarios.map((articulo) => (
+            <a
+              href={`/articulo/${articulo.id}`}
+              class="secundaria group flex flex-1 overflow-hidden rounded-2xl border border-borde bg-tarjeta transition-colors hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
+            >
+              <div class="relative w-2/5 shrink-0 overflow-hidden">
+                {articulo.imagen && !esLogo(articulo.imagen) && (
+                  <img
+                    src={articulo.imagen}
+                    alt=""
+                    loading="eager"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                  />
+                )}
+                {articulo.imagen && esLogo(articulo.imagen) && (
+                  <div class="flex h-full min-h-[150px] items-center justify-center p-4">
+                    <div class="insignia flex items-center justify-center rounded-lg bg-marfil px-4 py-3">
+                      <img src={articulo.imagen} alt="" loading="eager" class="h-10 w-auto max-w-[110px] object-contain" />
+                    </div>
+                  </div>
+                )}
+                {!articulo.imagen && <div class="grafico-abstracto absolute inset-0"></div>}
+              </div>
+              <div class="flex flex-col justify-center p-5">
+                <span class="mb-2 text-xs font-semibold uppercase tracking-wide text-acento">
+                  {nombreCategoria(articulo.categoria)}
+                </span>
+                <h3 class="font-display text-lg font-semibold leading-snug text-marfil transition-colors group-hover:text-acento">
+                  {articulo.titulo}
+                </h3>
+                <time datetime={articulo.fecha.toISOString()} class="mt-3 text-xs text-marfil/50">
+                  {formatearFecha(articulo.fecha)}
+                </time>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .velo {
+    background: linear-gradient(
+      to top,
+      var(--color-fondo) 0%,
+      color-mix(in srgb, var(--color-fondo) 94%, transparent) 30%,
+      color-mix(in srgb, var(--color-fondo) 70%, transparent) 55%,
+      color-mix(in srgb, var(--color-fondo) 25%, transparent) 80%,
+      color-mix(in srgb, var(--color-fondo) 10%, transparent) 100%
+    );
+  }
+
+  .principal h2,
+  .principal span {
+    text-shadow: 0 1px 12px color-mix(in srgb, var(--color-fondo) 80%, transparent);
+  }
+
+  .insignia {
+    box-shadow: 0 10px 24px color-mix(in srgb, var(--color-fondo) 55%, transparent);
+  }
+
+  .grafico-abstracto {
+    background:
+      radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--color-acento) 35%, transparent), transparent 60%),
+      radial-gradient(circle at 85% 80%, color-mix(in srgb, var(--color-acento) 20%, transparent), transparent 55%),
+      var(--color-fondo);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .principal img,
+    .secundaria img {
+      transition: none;
+    }
+  }
+</style>

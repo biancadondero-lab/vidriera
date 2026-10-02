@@ -14,7 +14,7 @@ enNumeros:
   - etiqueta: "Suba de intención de compra en EE. UU."
     valor: "+10%"
 estado: publicado
-imagen: "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjMzLWltYWdlLmpwZw.jpg"
+imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Person_holding_an_open_jar_of_natural_skincare_product_in_a_cozy_setting_during_daylight.jpg/1280px-Person_holding_an_open_jar_of_natural_skincare_product_in_a_cozy_setting_during_daylight.jpg"
 desafio:
   pregunta: "¿Qué hizo The Ordinary con la tabla periódica en 'The Periodic Fable'?"
   opciones:

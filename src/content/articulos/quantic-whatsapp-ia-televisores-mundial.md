@@ -6,7 +6,7 @@ resumen: "La marca de televisores de Cetrogar creó con Ogilvy Argentina a 'Q', 
 fuente: "Merca2.0"
 pais: "argentina"
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+imagen: "https://live.staticflickr.com/5528/9203580846_d0cc50142e_b.jpg"
 desafio:
   pregunta: "¿Qué tenía que mandar el usuario al bot 'Q' de Quantic por WhatsApp para obtener un descuento?"
   opciones:

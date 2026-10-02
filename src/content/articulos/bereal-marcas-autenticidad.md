@@ -13,7 +13,7 @@ lecturaBianca:
   palanca: "Autenticidad como estética: las marcas intentaron hablar el idioma de lo espontáneo, pero en un espacio que no las quería, el riesgo es parecer intrusas."
   pyme: "No hace falta estar en todas las redes nuevas. Antes de sumarse, preguntarse si el público de esa red quiere ver marcas y si la marca tiene algo genuino para mostrar ahí."
 estado: publicado
-imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Guy_taking_a_Selfie.jpg/1280px-Guy_taking_a_Selfie.jpg"
+imagen: "https://live.staticflickr.com/2853/33725913300_699e5c640e_b.jpg"
 desafio:
   pregunta: "¿Qué hizo Chipotle al abrir su cuenta en BeReal en abril de 2022?"
   opciones:
